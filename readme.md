@@ -1,4 +1,4 @@
-<h1>Pepe Gana</h1>
+<h1>Visión Digital Edumex</h1>
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
@@ -13,12 +13,12 @@
 
 Descargar el repositorio de github.
 ```s 
-$ git clone git@github.com:theclusteragency/pepegana.git
+$ git clone git@github.com:theclusteragency/visiondigital.git
 ```
 
 Entrar a la raiz del directorio
 ```s 
-$ cd pepegana
+$ cd visiondigital
 ```
 
 Instalar dependencias con Composer
