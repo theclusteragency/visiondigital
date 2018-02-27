@@ -193,8 +193,8 @@ $(document).ready(function(){
 // Regresa el listado de Eventos
 function getEvents(callback) {
   $.ajax({
-     url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/obtener_eventos',
-     headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+     url: dbinstance+'obtener_eventos',
+     headers:{"x-api-key":apikey},
      type: 'GET',
      data: {
         format: 'json'

@@ -6,7 +6,7 @@
 
     <div class="login-box">
         <div class="login-logo">
-            <img src="images/logo_rafa.png">
+            <img src="images/provitec/vision.png" alt="Visión Digital">
         </div>
         <div class="login-box-body">
             <p class="login-box-msg">Inicia Sesión</p>
@@ -33,7 +33,7 @@
                 </div>
             </form>
             <div class="credits margin-top-30 text-center">
-                <p>FOM 2018 | &copy; Derechos Reservados</p>
+                <p>Visión Digital {{date('Y')}} | &copy; Derechos Reservados</p>
             </div>
         </div>
     </div>

@@ -28,7 +28,7 @@
   .provitec-home .box-default {
     border-radius: 3px; }
   .provitec-home .selector {
-    background-color: #0e4f9e; }
+    background-color: #fff; }
 
 .login-page {
   background: #00a1e6;
@@ -42,7 +42,7 @@
   .login-page .login-logo {
     margin-bottom: 55px; }
     .login-page .login-logo img {
-      width: 190px; }
+      width: 350px; }
   .login-page .form-control-feedback {
     font-size: 20px; }
   .login-page .login-box-msg {

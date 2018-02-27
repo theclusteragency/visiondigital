@@ -370,8 +370,8 @@ function handleStatus(response) {
 // Regresa el listado de Estatus
 function getStatus(callback) {
   $.ajax({
-     url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/obtener_estatus',
-     headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+     url: dbinstance+'obtener_estatus',
+     headers:{"x-api-key":apikey},
      type: 'GET',
      data: {
         format: 'json'
@@ -392,8 +392,8 @@ function getStatus(callback) {
 // Regresa el listado de Eventos
 function getEvents(callback) {
   $.ajax({
-     url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/obtener_eventos',
-     headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+     url: dbinstance+'obtener_eventos',
+     headers:{"x-api-key":apikey},
      type: 'GET',
      data: {
         format: 'json'
@@ -486,8 +486,8 @@ function createEvent(callback) {
 
     
     $.ajax({
-        url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/agregar_evento',
-        headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+        url: dbinstance+'agregar_evento',
+        headers:{"x-api-key":apikey},
         dataType: 'json',
         type: 'post',
         contentType: 'application/json',

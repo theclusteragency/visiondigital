@@ -20,6 +20,8 @@ var weeklyTakenPics = [
 var users;
 var totalEvents = 0;
 var finishedEvents = 0;
+var apikey = "TKfZC1SXnKauJiYxkJMB98wyPONtFoA22IAc2qyq";
+var dbinstance = "https://1e4fm5yxil.execute-api.us-west-2.amazonaws.com/digital/";
 
 $(document).ready(function(){   
   getStates(fillStatesArray);
@@ -62,8 +64,8 @@ $(document).ready(function(){
 // Regresa el listado de estados
 function getStates(callback) {
   $.ajax({
-     url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/estados',
-     headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+     url: dbinstance+'estados',
+     headers:{"x-api-key":apikey},
      type: 'GET',
      data: {
         format: 'json'
@@ -84,8 +86,8 @@ function getStates(callback) {
 // Regresa el listado de eventos
 function getEvents(callback) {
   $.ajax({
-     url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/obtener_eventos',
-     headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+     url: dbinstance+'obtener_eventos',
+     headers:{"x-api-key":apikey},
      type: 'GET',
      data: {
         format: 'json'
@@ -107,8 +109,8 @@ function getEvents(callback) {
 // Regresa el listado de usuarios
 function getUsers(callback) {
   $.ajax({
-     url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/obtener_usuarios',
-     headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+     url: dbinstance+'obtener_usuarios',
+     headers:{"x-api-key":apikey},
      type: 'GET',
      data: {
         format: 'json'
@@ -129,8 +131,8 @@ function getUsers(callback) {
 // Regresa el listado de roles
 function getRoles(callback) {
   $.ajax({
-     url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/obtener_roles',
-     headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+     url: dbinstance+'obtener_roles',
+     headers:{"x-api-key":apikey},
      type: 'GET',
      data: {
         format: 'json'
@@ -151,8 +153,8 @@ function getRoles(callback) {
 // Regresa el listado de categorías
 function getCategories(callback) {
   $.ajax({
-     url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/obtener_categorias',
-     headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+     url: dbinstance+'obtener_categorias',
+     headers:{"x-api-key":apikey},
      type: 'GET',
      data: {
         format: 'json'
@@ -173,8 +175,8 @@ function getCategories(callback) {
 // Regresa el listado de actividades
 function getActivities(callback) {
   $.ajax({
-     url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/obtener_actividad',
-     headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+     url: dbinstance+'obtener_actividad',
+     headers:{"x-api-key":apikey},
      type: 'GET',
      data: {
         format: 'json'
@@ -195,8 +197,8 @@ function getActivities(callback) {
 // Regresa las estadísticas por día
 function dailyInfo(callback, date) {
   $.ajax({
-    url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/datos_generales_por_fecha',
-    headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+    url: dbinstance+'datos_generales_por_fecha',
+    headers:{"x-api-key":apikey},
     dataType: 'json',
     type: 'post',
     contentType: 'application/json',
@@ -331,8 +333,8 @@ function drawPicsChart() {
 // Regresa las estadísticas generales
 function generalInfo(callback) {
   $.ajax({
-     url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/datos_generales',
-     headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+     url: dbinstance+'datos_generales',
+     headers:{"x-api-key":apikey},
      type: 'GET',
      data: {
         format: 'json'
@@ -878,8 +880,8 @@ function updateUser() {
     return false;u
   }
   $.ajax({
-    url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/actualiza_usuario',
-    headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+    url: dbinstance+'actualiza_usuario',
+    headers:{"x-api-key":apikey},
     dataType: 'json',
     type: 'post',
     contentType: 'application/json',
@@ -930,8 +932,8 @@ function createUser() {
   }
   showLoader("Agregando usuario...");
   $.ajax({
-    url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/crear_usuario',
-    headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+    url: dbinstance+'crear_usuario',
+    headers:{"x-api-key":apikey},
     dataType: 'json',
     type: 'post',
     contentType: 'application/json',
@@ -971,8 +973,8 @@ function createCategory() {
   }
   showLoader("Agregando categoría...");
   $.ajax({
-    url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/agrega_categoria',
-    headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+    url: dbinstance+'agrega_categoria',
+    headers:{"x-api-key":apikey},
     dataType: 'json',
     type: 'post',
     contentType: 'application/json',
@@ -994,8 +996,8 @@ function createActivity() {
   }
   showLoader("Agregando actividad...");
   $.ajax({
-    url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/agregar_actividad',
-    headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+    url: dbinstance+'agregar_actividad',
+    headers:{"x-api-key":apikey},
     dataType: 'json',
     type: 'post',
     contentType: 'application/json',
@@ -1024,8 +1026,8 @@ function fillRolesCombo() {
 function deleteCategory(categoryId) {
   showLoader("Eliminando...");
   $.ajax({
-    url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/elimina_categoria',
-    headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+    url: dbinstance+'elimina_categoria',
+    headers:{"x-api-key":apikey},
     dataType: 'json',
     type: 'post',
     contentType: 'application/json',
@@ -1042,8 +1044,8 @@ function deleteCategory(categoryId) {
 function deleteActivity(activityId) {
   showLoader("Eliminando...");
   $.ajax({
-    url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/eliminar_actividad',
-    headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+    url: dbinstance+'eliminar_actividad',
+    headers:{"x-api-key":apikey},
     dataType: 'json',
     type: 'post',
     contentType: 'application/json',
@@ -1073,8 +1075,8 @@ function toggleSuspendUser(userId) {
     isActive = 1;
   }
   $.ajax({
-    url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/actualiza_usuario',
-    headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+    url: dbinstance+'actualiza_usuario',
+    headers:{"x-api-key":apikey},
     dataType: 'json',
     type: 'post',
     contentType: 'application/json',
@@ -1300,8 +1302,8 @@ var eventRecords = function(data) { // 51
 function getSingleEvent(eventId) {
 
   $.ajax({
-    url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/obtener_evento_general',
-    headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+    url: dbinstance+'obtener_evento_general',
+    headers:{"x-api-key":apikey},
     dataType: 'json',
     type: 'post',
     contentType: 'application/json',

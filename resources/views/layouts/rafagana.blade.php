@@ -64,9 +64,9 @@
             <!-- Logo -->
             <a href="{{ route('map') }}" class="logo">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
-                <span class="logo-mini">Pepe</span>
+                <span class="logo-mini">Visión Digital</span>
                 <!-- logo for regular state and mobile devices -->
-                <span class="logo-lg"><b>Pepe</b> Gana 2018</span>
+                <span class="logo-lg"><b>Visión Digital</b></span>
             </a>
             <!-- Header Navbar: style can be found in header.less -->
             <nav class="navbar navbar-static-top">

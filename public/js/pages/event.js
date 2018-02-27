@@ -347,8 +347,8 @@ function getEvent(callback) {
 
 
     $.ajax({
-        url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/obtener_evento_general',
-        headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+        url: dbinstance+'obtener_evento_general',
+        headers:{"x-api-key":apikey},
         dataType: 'json',
         type: 'POST',
         contentType: 'application/json',
@@ -384,8 +384,8 @@ function addComment(callback) {
 
 
     $.ajax({
-        url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/agrega_comentario',
-        headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+        url: dbinstance+'agrega_comentario',
+        headers:{"x-api-key":apikey},
         dataType: 'json',
         type: 'POST',
         contentType: 'application/json',
@@ -470,8 +470,8 @@ function addUser(usuarios, callback) {
 
 
     $.ajax({
-        url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/agregar_varios_usuarios_a_evento',
-        headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+        url: dbinstance+'agregar_varios_usuarios_a_evento',
+        headers:{"x-api-key":apikey},
         dataType: 'json',
         type: 'POST',
         contentType: 'application/json',
@@ -500,8 +500,8 @@ function deleteUser(evento, usuario, callback) {
 
 
     $.ajax({
-        url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/eliminar_usuario_evento',
-        headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+        url: dbinstance+'eliminar_usuario_evento',
+        headers:{"x-api-key":apikey},
         dataType: 'json',
         type: 'POST',
         contentType: 'application/json',

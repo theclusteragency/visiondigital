@@ -160,8 +160,8 @@ function getChat(usr1, usr2, callback) {
     }
 
     $.ajax({
-        url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/obtener_mensajes',
-        headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+        url: dbinstance+'obtener_mensajes',
+        headers:{"x-api-key":apikey},
         dataType: 'json',
         type: 'post',
         contentType: 'application/json',
@@ -190,8 +190,8 @@ function addChat(usr1, usr2, msg, callback) {
     }
 
     $.ajax({
-        url: 'https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/agregar_mensaje',
-        headers:{"x-api-key":"R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc"},
+        url: dbinstance+'agregar_mensaje',
+        headers:{"x-api-key":apikey},
         dataType: 'json',
         type: 'post',
         contentType: 'application/json',
