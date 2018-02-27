@@ -268,7 +268,6 @@ function handleEvents(response) {
 
 }
 
-var apikey = "R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc";
 var users = [];
 var operators = [];
 var analysts = [];
