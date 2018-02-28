@@ -31,16 +31,17 @@
     background-color: #fff; }
 
 .login-page {
-  background: #00a1e6;
-  background: -moz-linear-gradient(top, #00a1e6 0%, #0e4fa0 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, #00a1e6), color-stop(100%, #0e4fa0));
-  background: -webkit-linear-gradient(top, #00a1e6 0%, #0e4fa0 100%);
-  background: -o-linear-gradient(top, #00a1e6 0%, #0e4fa0 100%);
-  background: -ms-linear-gradient(top, #00a1e6 0%, #0e4fa0 100%);
-  background: linear-gradient(to bottom, #00a1e6 0%, #0e4fa0 100%);
+  background: #75c043;
+  background: -moz-linear-gradient(top, #75c043 0%, #75c043 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #75c043), color-stop(100%, #75c043));
+  background: -webkit-linear-gradient(top, #75c043 0%, #75c043 100%);
+  background: -o-linear-gradient(top, #75c043 0%, #75c043 100%);
+  background: -ms-linear-gradient(top, #75c043 0%, #75c043 100%);
+  background: linear-gradient(to bottom, #75c043 0%, #75c043 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a1e6', endColorstr='#0e4fa0', GradientType=0 ); }
   .login-page .login-logo {
-    margin-bottom: 55px; }
+    margin-bottom: 55px;
+    background-color: #fff; }
     .login-page .login-logo img {
       width: 350px; }
   .login-page .form-control-feedback {

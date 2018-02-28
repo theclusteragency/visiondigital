@@ -19,7 +19,7 @@
                           <div class="box shadow box-default selector">
                             <img class="card-img-top img-responsive" src="images/provitec/vision.png" alt="Visión Digital">
                             <div class="box-body center">              
-                              <a href="/log" class="btn btn-primary">Acceder</a>
+                              <a href="/log" class="btn" style="background-color: #75c043; color: #fff">Acceder</a>
                             </div>
                           </div>
                         </div>

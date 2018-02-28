@@ -32,17 +32,10 @@
     <!-- jvectormap -->
     <link href="{{ asset('assets/vendor_components/jvectormap/jquery-jvectormap.css', \App::environment() == 'production') }}" rel="stylesheet">
 
-    @if( Auth::user()->IDROL == 1)
-        <!-- Theme style -->
-        <link href="{{ asset('css/master_style.css', \App::environment() == 'production') }}" rel="stylesheet">
-        <!-- Maximum Admin Skins. Choose a skin from the css/skins folder instead of downloading all of them to reduce the load. -->
-        <link href="{{ asset('css/skins/skin-blue.css', \App::environment() == 'production') }}" rel="stylesheet">
-    @else
-        <!-- Theme style -->
-        <link href="{{ asset('css/master_style_analista.css', \App::environment() == 'production') }}" rel="stylesheet">
-        <!-- Maximum Admin Skins. Choose a skin from the css/skins folder instead of downloading all of them to reduce the load. -->
-        <link href="{{ asset('css/skins/skin-blue-analista.css', \App::environment() == 'production') }}" rel="stylesheet">
-    @endif
+    <!-- Theme style -->
+    <link href="{{ asset('css/master_style.css', \App::environment() == 'production') }}" rel="stylesheet">
+    <!-- Maximum Admin Skins. Choose a skin from the css/skins folder instead of downloading all of them to reduce the load. -->
+    <link href="{{ asset('css/skins/skin-green.css', \App::environment() == 'production') }}" rel="stylesheet">
     <!-- Custom style -->
     <link href="{{ asset('css/custom.css', \App::environment() == 'production') }}" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -54,11 +47,15 @@
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 
+    <style type="text/css">
+        .user-panel{background-image: url("/images/user-bg/user-bg-green.jpg")}
+    </style>
+
     @yield('page_css');
 
 </head>
 
-<body class="hold-transition skin-blue sidebar-mini fixed">
+<body class="hold-transition skin-green sidebar-mini fixed">
     <div class="wrapper">
         <header class="main-header">
             <!-- Logo -->
