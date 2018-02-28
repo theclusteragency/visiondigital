@@ -136,7 +136,7 @@ function handleEvent(response){
 
         if( item.encargado == 1 ){
             $('#leader').html(item.nombre);
-            $('#img-leader').prop('src', item.url_avatar);
+            $('#img-leader').prop('src', avatar);
         }
 
     });
