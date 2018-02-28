@@ -94,6 +94,9 @@
         </div>
         <!-- ./col -->
       </div>
+
+      
+
       <!-- /.row -->
       <div class="row">
         <div class="col-12 col-lg-6">
@@ -147,6 +150,67 @@
                     <h5><i class="fa fa-circle-o" style="color: #eb2121;"></i> Finalizados</h5>
                   </li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- /.row -->
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <!-- Donut chart -->
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <i class="fa fa-users"></i>
+              <h3 class="box-title">Total de Niños</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <div class="box-body">
+              <div id="totalChildrenChart" style="height: 300px;"></div>
+            </div>
+            <!-- /.box-body-->
+          </div>
+          <!-- /.box -->
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <!-- DONUT CHART -->
+          <div class="box box-danger">
+            <div class="box-header with-border">
+              <i class="fa fa-flag"></i>
+              <h3 class="box-title">Total de Escuelas con alumnos especiales</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <div class="row px-3">
+              <div class="col-12 col-lg-7">
+                <div class="box-body chart-responsive">
+                  <div class="chart" id="specialChildrenChart" style="height: 300px; position: relative;"></div>
+                </div>
+              </div>
+              <!-- /.box-body -->
+              <div class="col-12 col-lg-5">
+                <!-- ul class="chart-legend clearfix">
+                  <li>
+                    <h5><i class="fa fa-circle-o" style="color: #3bc45b;"></i> Programados</h5>
+                  </li>
+                  <li>
+                    <h5><i class="fa fa-circle-o" style="color: #0291d9;"></i> Iniciados</h5>
+                  </li>
+                  <li>
+                    <h5><i class="fa fa-circle-o" style="color: #eb2121;"></i> Finalizados</h5>
+                  </li>
+                </ul -->
               </div>
             </div>
           </div>
@@ -225,7 +289,23 @@
         showLoader("Generando estadísticas...");
       
         generalInfo(setReportTotals);
+
+        generalActivityInfo(setActivitiesReport);
       
+        drawPicsChart();
+
+        var donutTotalChildren = new Morris.Donut({
+          element: 'totalChildrenChart',
+          resize: true,
+          colors: ["#0291d9", "#3bc45b", "#eb2121"],
+          data: [
+            {label: "Iniciados", value: iniciados},
+            {label: "Programados", value: programados},
+            {label: "Finalizados", value: finalizados}
+          ],
+          hideHover: 'auto'
+        });
+
         drawPicsChart();
       
       });

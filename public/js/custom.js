@@ -352,6 +352,28 @@ function generalInfo(callback) {
   });
 }
 
+// Regresa las estadísticas generales
+function generalActivityInfo(callback) {
+  $.ajax({
+     url: dbinstance+'reportes_general',
+     headers:{"x-api-key":apikey},
+     type: 'GET',
+     data: {
+        format: 'json'
+     },
+     error: function() {
+       
+     },
+     dataType: 'json',
+     success: function(response) {
+    
+     },
+     complete: function(response){
+      callback(response.responseJSON.data);
+     }
+  });
+}
+
 // Llena el arreglo de estados
 var fillStatesArray = function (data) {
   $.each(data, function(index) {
@@ -361,7 +383,6 @@ var fillStatesArray = function (data) {
 }
 
 // LLena el arreglo de roles
-
 var fillRolesArray = function (data) {
   $.each(data, function(index) {
     roles[index] = [data[index].id_rol, data[index].descripcion];
@@ -648,6 +669,90 @@ var setReportTotals = function(data) {
   });
   closeLoader();
 }
+
+
+// Grafica total de niños
+var setActivitiesReport = function(data) {
+  
+  console.log('Reporte Actividades: ');
+  console.log(data);
+
+  /*var admins = data[0].ADMIN;
+  var analistas = data[0].ANALISTAS;
+  var operadores = data[0].OPERADORES;
+
+  var programados = data[0].EVENTOS_PROGRAMADOS;
+  var iniciados = data[0].EVENTOS_INICIADOS;
+  var finalizados = data[0].EVENTOS_FINALIZADOS;
+  var totalEventos = programados + iniciados + finalizados;
+
+  $("#totalAdmins").text(admins);
+  $("#totalOperadores").text(operadores);
+  $("#totalAnalistas").text(analistas);
+  $("#totalEventos").text(totalEventos);*/
+
+  var totalNinos = data.total_ninos;
+  var totalNinas = data.total_ninas;
+  var discapacidadSi = data.alumnos_con_discapacidad.si;
+  var discapacidadNo = data.alumnos_con_discapacidad.no;
+
+  var donutNinos = new Morris.Donut({
+    element: 'totalChildrenChart',
+    resize: true,
+    colors: ["#5DADE2", "#DD969C"],
+    data: [
+      {label: "Niños", value: totalNinos},
+      {label: "Niñas", value: totalNinas}
+    ],
+    hideHover: 'auto'
+  });
+
+  var donutDiscapacidad = new Morris.Donut({
+    element: 'specialChildrenChart',
+    resize: true,
+    colors: ["#58D68D", "#E81746"],
+    data: [
+      {label: "Si", value: discapacidadSi},
+      {label: "N0", value: discapacidadNo}
+    ],
+    hideHover: 'auto'
+  });
+
+
+  /*var donutData = [
+    { label: 'Administradores', data: 5, color: '#0e4f9e' },
+    { label: 'Operadores', data: operadores, color: '#009fe3' },
+    { label: 'Analistas', data: analistas, color: '#ff6b00' }
+  ];
+
+  $.plot('#registeredUsersChart', donutData, {
+    series: {
+      pie: {
+        show       : true,
+        radius     : 1,
+        innerRadius: 0.7,
+        label      : {
+        show       : true,
+        radius     : 1,
+        formatter  : usersLabelFormatter,
+        threshold  : 0.01,
+      background : {opacity: 0.5,color: '#000'}
+          }
+        }
+      },
+      legend: {
+        show: true
+      },
+  grid: {
+      hoverable: true,
+      clickable: true
+    }
+  });*/
+  closeLoader();
+}
+
+
+
 
 function usersLabelFormatter(label, series) {
   return '<div style="font-size:13px; text-align:center; padding:2px; color: #fff; font-weight: 600;">'
