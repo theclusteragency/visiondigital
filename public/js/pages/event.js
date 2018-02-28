@@ -173,6 +173,7 @@ function handleEvent(response){
           '<td><i class="' + clase + '" aria-hidden="true"> ' + stat + ' </td>'+
           '<td>' + item.nombre + ' ' + item.apellido_paterno + '</td>'+
           '<td>'+item.descripcion+'</td>'+
+          '<td>'+item.valor+'</td>'+
         '</tr>';
 
         $('#tb-activities').append(tr);

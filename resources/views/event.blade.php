@@ -121,6 +121,7 @@
                                     <th>Estatus</th>
                                     <th>Usuario</th>
                                     <th>Descripción</th>
+                                    <th>Resultado</th>
                                   </tr>
                                 </thead>
                                 <tbody id="tb-activities"></tbody>
