@@ -107,6 +107,6 @@
 
 @section('page_js')
     
-    <script src="{{ secure_asset('js/pages/chat.js') }}"></script>
+    <script src="{{ asset('js/pages/chat.js', \App::environment() == 'production') }}"></script>
 
 @endsection

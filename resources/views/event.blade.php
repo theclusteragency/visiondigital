@@ -2,10 +2,10 @@
 
 @section('page_css')
     <!-- Selectize style -->
-    <link rel="stylesheet" href="{{ secure_asset('css/selectize.default.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/selectize.default.css', \App::environment() == 'production') }}">
     <!-- fullCalendar -->
-    <link rel="stylesheet" href="{{ secure_asset('assets/vendor_components/fullcalendar/dist/fullcalendar.min.css') }}">
-    <link rel="stylesheet" href="{{ secure_asset('assets/vendor_components/fullcalendar/dist/fullcalendar.print.min.css') }}" media="print">
+    <link rel="stylesheet" href="{{ asset('assets/vendor_components/fullcalendar/dist/fullcalendar.min.css', \App::environment() == 'production') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor_components/fullcalendar/dist/fullcalendar.print.min.css', \App::environment() == 'production') }}" media="print">
 
     <style type="text/css">
         .fc-time{display: none}
@@ -269,14 +269,14 @@
 
 @section('page_js')
     <!-- jQuery UI 1.11.4 -->
-    <script src="{{ secure_asset('assets/vendor_components/jquery-ui/jquery-ui.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor_components/jquery-ui/jquery-ui.min.js', \App::environment() == 'production') }}"></script>
     <!-- fullCalendar -->
-    <script src="{{ secure_asset('assets/vendor_components/moment/moment.js') }}"></script>
-    <script src="{{ secure_asset('assets/vendor_components/fullcalendar/dist/fullcalendar.min.js') }}"></script>
+    <script src="{{ asset('assets/vendor_components/moment/moment.js', \App::environment() == 'production') }}"></script>
+    <script src="{{ asset('assets/vendor_components/fullcalendar/dist/fullcalendar.min.js', \App::environment() == 'production') }}"></script>
     <!-- Selectize -->
-    <script src="{{ secure_asset('js/selectize.js') }}"></script>
+    <script src="{{ asset('js/selectize.js', \App::environment() == 'production') }}"></script>
     <!-- maximum_admin for calendar -->
-    <script src="{{ secure_asset('js/pages/event.js') }}"></script>
+    <script src="{{ asset('js/pages/event.js', \App::environment() == 'production') }}"></script>
     <!-- google maps api -->
     <script src="https://maps.googleapis.com/maps/api/js?sensor=true&key=AIzaSyAEjp3kq9YA0EF8nGjKPcDPlYQbpeT5Ljk"></script>
 @endsection
