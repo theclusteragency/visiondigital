@@ -50,21 +50,21 @@
                         <div class="row">
                           <div class="col-md-6">
                             <div class="form-group">
-                              <label class="control-label">Descripción</label>
+                              <label class="control-label">Descripción:</label>
                               <input class="form-control" placeholder="Inserte nombre de Evento" type="text" name="title" id="title">
                             </div>
                           </div>
-                          <div class="col-md-6">
+                          <!-- div class="col-md-6">
                             <div class="form-group">
                               <label class="control-label">Categoria</label>
                               <select class="form-control" name="categories" id="categories"></select>
                             </div>
-                          </div>
+                          </div -->
                         </div>
                         <div class="row">
                           <div class="col-md-6">
                             <div class="form-group">
-                              <label class="control-label">Estatus</label>
+                              <label class="control-label">Estatus:</label>
                               <select class="form-control" name="status" id="status">
                                 <option value="1">Programado</option>
                                 <option value="2">Iniciado</option>
@@ -73,39 +73,44 @@
                             </div>
                           </div>
                           <div class="col-md-6">
+                            
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12">
                             <div class="form-group">
-                              <label class="control-label">Responsable</label>
-                              <select class="form-control" name="leader" id="leader"></select>
+                              <label class="control-label">Dirección:</label>
+                              <select class="form-control" name="directors[]" id="directors"></select>
                             </div>
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-md-12">
                             <div class="form-group">
-                              <label class="control-label">Operador</label>
-                              <select class="form-control" name="operator[]" id="operator" multiple></select>
+                              <label class="control-label">Distritos:</label>
+                              <select class="form-control" name="districts[]" id="districts" multiple></select>
                             </div>
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-md-12">
                             <div class="form-group">
-                              <label class="control-label">Analista</label>
-                              <select class="form-control" name="analyst[]" id="analyst" multiple></select>
+                              <label class="control-label">Supervisores:</label>
+                              <select class="form-control" name="supervisors[]" id="supervisors" multiple></select>
                             </div>
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-md-12">
                             <div class="form-group">
-                              <label class="control-label">Actividades</label>
+                              <label class="control-label">Estadísticas:</label>
                               <select class="form-control" name="activities" id="activities" multiple>
                                 
                               </select>
                             </div>
                           </div>
                         </div>
-                        <div class="row"><div class="col-md-12">
+                        <!-- div class="row"><div class="col-md-12">
                           <div class="form-group"><label class="control-label">Dirección</label><input class="form-control" placeholder="Dirección" type="text" name="address" id="address"></div></div>
                         </div>
                         <div style="display: block;">
@@ -128,7 +133,7 @@
                             <div class="col-md-12">
                                 <div id="map" style="height: 300px; width: 100%"></div>
                             </div>
-                        </div>
+                        </div -->
                       </form>
                     </div>
                     <div class="modal-footer">

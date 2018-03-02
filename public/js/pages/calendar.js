@@ -123,10 +123,10 @@ function handleEvents(response) {
 
             var form = jQuery("#frm-create");
 
-            initMap();
+            //initMap();
 
             $('#create-event').unbind().click(function () {
-
+                console.log('Crear Evento');
                 createEvent(handleCreateEvent);
 
                 function handleCreateEvent(response) {
@@ -272,6 +272,9 @@ var users = [];
 var operators = [];
 var analysts = [];
 var leaders = [];
+var districts = [];
+var supervisors = [];
+var directors = [];
 var categories;
 var status = [];
 var activities = [];
@@ -314,7 +317,7 @@ function handleUsers(response){
         options: operators,
         create: false
     });
-    control_operators = $select_operators[0].selectize;
+    //control_operators = $select_operators[0].selectize;
 
     $select_analysts = $('#analyst').selectize({
         maxItems: null,
@@ -324,8 +327,59 @@ function handleUsers(response){
         options: analysts,
         create: false
     });
-    control_analysts = $select_analysts[0].selectize;
+    //control_analysts = $select_analysts[0].selectize;
 
+}
+
+getDistricts(handleDistricts);
+
+function handleDistricts(response) {
+    
+    districts = response;
+
+    $select_districts = $('#districts').selectize({
+        maxItems: null,
+        valueField: 'id',
+        labelField: 'title',
+        searchField: 'title',
+        options: districts,
+        create: false
+    });
+    control_districts = $select_districts[0].selectize;
+}
+
+getSupervisors(handleSupervisors);
+
+function handleSupervisors(response) {
+
+    supervisors = response;
+
+    $select_supervisors = $('#supervisors').selectize({
+        maxItems: null,
+        valueField: 'id',
+        labelField: 'title',
+        searchField: 'title',
+        options: supervisors,
+        create: false
+    });
+    control_supervisors = $select_supervisors[0].selectize;
+}
+
+getDirector(handleDirector);
+
+function handleDirector(response) {
+
+    directors = response;
+
+    $select_directors = $('#directors').selectize({
+        maxItems: null,
+        valueField: 'id',
+        labelField: 'title',
+        searchField: 'title',
+        options: directors,
+        create: false
+    });
+    control_directors = $select_directors[0].selectize;
 }
 
 getCategories(handleCategories);
@@ -364,7 +418,6 @@ getStatus(handleStatus);
 function handleStatus(response) {
     status = response;
 }
-
 
 // Regresa el listado de Estatus
 function getStatus(callback) {
@@ -410,19 +463,85 @@ function getEvents(callback) {
   });
 }
 
+// Regresa el listado de Eventos
+function getDistricts(callback) {
+  $.ajax({
+     url: dbinstance+'obtener_distritos',
+     headers:{"x-api-key":apikey},
+     type: 'GET',
+     data: {
+        format: 'json'
+     },
+     error: function() {
+       
+     },
+     dataType: 'json',
+     success: function(response) {
+    
+     },
+     complete: function(response){
+      callback(response.responseJSON.data);
+     }
+  });
+}
+
+// Regresa el listado de Eventos
+function getSupervisors(callback) {
+  $.ajax({
+     url: dbinstance+'supervisores',
+     headers:{"x-api-key":apikey},
+     type: 'GET',
+     data: {
+        format: 'json'
+     },
+     error: function() {
+       
+     },
+     dataType: 'json',
+     success: function(response) {
+    
+     },
+     complete: function(response){
+      callback(response.responseJSON.data);
+     }
+  });
+}
+
+// Regresa el listado de Eventos
+function getDirector(callback) {
+  $.ajax({
+     url: dbinstance+'direccion_general',
+     headers:{"x-api-key":apikey},
+     type: 'GET',
+     data: {
+        format: 'json'
+     },
+     error: function() {
+       
+     },
+     dataType: 'json',
+     success: function(response) {
+    
+     },
+     complete: function(response){
+      callback(response.responseJSON.data);
+     }
+  });
+}
+
 // Crear Evento
 function createEvent(callback) {
     
     var date    =$("#event-date").val();
     
     var desc    = $("#title").val();
-    var address = $("#address").val();
-    var lat     = parseFloat( $("#lat").val() );
-    var lon     = parseFloat( $("#lon").val() );
-    var cat     = $("#categories").val();
+    var address = 'Ciudad de México'; //$("#address").val();
+    var lat     = 19.3928993; //parseFloat( $("#lat").val() );
+    var lon     = -99.0629697; //parseFloat( $("#lon").val() );
+    var cat     = 1; //$("#categories").val();
     var stat    = $("#status").val();
-    var ev_op   = $("#operator").val();
-    var ev_an   = $("#analyst").val();
+    var ev_op   = ["4", "6"]; //$("#operator").val();
+    var ev_an   = ["3", "5"]; //$("#analyst").val();
     var ev_act  = $("#activities").val();
 
     var operadores  = [];
@@ -437,7 +556,8 @@ function createEvent(callback) {
 
     var id_leader = jQuery("#leader").val();
 
-    ev_op.forEach(function(item,index){
+    // Operadores
+    /*ev_op.forEach(function(item,index){
         
         //si el lider esta repetido en la lista de operadores, lo omite
         if(item == id_leader){
@@ -452,15 +572,18 @@ function createEvent(callback) {
     });
 
     //Agrega el lider al array de operadores
-    operadores.push({id_operador: id_leader, encargado: 1});
+    operadores.push({id_operador: id_leader, encargado: 1});*/
+    operadores.push({id_operador: 4, encargado: 1});
 
-    ev_an.forEach(function(item,index){
+    // Analistas
+    /*ev_an.forEach(function(item,index){
         tmp = {
             id_analista : item,
             encargado: 0
         };
         analistas.push(tmp);
-    });
+    });*/
+    analistas.push({id_analista: 3, encargado: 0})
 
     ev_act.forEach(function(item,index){
         tmp = { id_actividad : item };
@@ -518,15 +641,19 @@ function clearAddForm(){
     $('#categories option[value="13"]').attr("selected", "selected");
     $('#status option[value="2"]').attr("selected", "selected");
     
+    control_districts.clear();
+    control_supervisors.clear();
+    control_directors.clear();
+
     control_activities.clear();
-    control_operators.clear();
-    control_analysts.clear();
+    //control_operators.clear();
+    //control_analysts.clear();
 }
 
 
 /*======================= Google Maps ================================*/
 
-var map;
+/*var map;
 var markers = [];
 
 function geocodificacion(address, callback){
@@ -609,7 +736,7 @@ function setMapOnAll(map) {
 function deleteMarkers() {
     setMapOnAll(null);
     markers = [];
-}
+}*/
 
 function showLoader(text) {
   $("#loaderText").text(text);
