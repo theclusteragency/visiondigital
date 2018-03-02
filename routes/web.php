@@ -50,5 +50,4 @@ Route::get('/estadisticas', 'RafaController@statistics')->name('statistics');
 Route::get('/operacion', 'RafaController@operation')->name('operation');
 Route::get('/eventos', 'RafaController@events')->name('events');
 
-
-Route::get('safetymartorders', 'SafetyMartController@orders');
+Route::get('/evaluaciones', 'RafaController@evaluations')->name('evaluations');

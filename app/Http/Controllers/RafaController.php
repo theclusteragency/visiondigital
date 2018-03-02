@@ -121,7 +121,7 @@ class RafaController extends Controller
         return view('chat');
     }
 
-     /**
+    /**
      * Listado de eventos.
      *
      * @return \Illuminate\Http\Response
@@ -129,6 +129,16 @@ class RafaController extends Controller
     public function events()
     {
         return view('events');
+    }
+
+    /**
+     * Listado de eventos.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function evaluations()
+    {
+        return view('evaluations');
     }
 
 }
