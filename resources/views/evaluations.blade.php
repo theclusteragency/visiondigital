@@ -8,9 +8,27 @@
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>EVALUACIONES</h1>
-    </section>
+    <style type="text/css">
+      #logo-sep{
+        width: 300px;
+        float: left;
+        margin-right: 12px;
+      }
+      @media screen and (max-width: 500px) {
+        #logo-sep{
+          width: 250px
+        }
+        h1{
+          font-size: 26px;
+          text-align: center;
+          line-height: 30px;
+        }
+        h2{
+          font-size: 20px;
+          text-align: center;
+        }
+      }
+    </style>
     <!-- Main content -->
     <section class="content">
       <!-- Info boxes -->
@@ -22,8 +40,11 @@
               <span id="totalCategories" class="info-box-number">-</span>
               <span class="info-box-text">Categorías</span>
             </div -->
-            <h1>Estadística de Educación Inicial</h1>
-            <h2>Inicio de Cursos, 2017-2018</h2>
+            <img src="/images/seplogo.png" id="logo-sep">
+            <div style="display: inline;">
+              <h1>Estadística de Educación Inicial</h1>
+              <h2>Inicio de Cursos, 2017-2018</h2>
+            </div>
           </div>
           <!-- /.info-box -->
         </div>
