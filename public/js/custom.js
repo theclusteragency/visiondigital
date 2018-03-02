@@ -639,9 +639,9 @@ var setReportTotals = function(data) {
 
 
   var donutData = [
-    { label: 'Administradores', data: admins, color: '#0e4f9e' },
-    { label: 'Operadores', data: operadores, color: '#009fe3' },
-    { label: 'Analistas', data: analistas, color: '#ff6b00' }
+    { label: 'Sin responder', data: admins, color: '#0e4f9e' },
+    { label: 'En proceso', data: operadores, color: '#009fe3' },
+    { label: 'Terminado', data: analistas, color: '#ff6b00' }
   ];
 
   $.plot('#registeredUsersChart', donutData, {

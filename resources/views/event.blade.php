@@ -44,7 +44,7 @@
                 <span class="info-box-icon bg-blue"><i class="ion ion-stats-bars"></i></span>
                 <div class="info-box-content">
                   <span class="info-box-number">Distritos:</small></span>
-                  <span class="info-box-text" id="distrito">Distrito 1</span>
+                  <span class="info-box-text" id="distrito">Distrito 1, Distrito 2, Distrito 3</span>
                 </div>
               </div>
             </div>

@@ -15,10 +15,8 @@
     </section>
     <!-- Main content -->
     <section class="content">
-      <!-- Small boxes (Stat box) -->
-      <div class="row">
+      <!-- div class="row">
         <div class="col-12">
-          <!-- Donut chart -->
           <div class="box box-primary">
             <div class="box-header with-border">
               <i class="fa fa-line-chart"></i>
@@ -32,7 +30,6 @@
             <div class="box-body">
               <div class="row">
                 <div class="col-6 col-xl-3">
-                  <!-- small box -->
                   <div class="small-box bg-admin">
                     <div class="inner">
                       <h3><span id="totalAdmins">-</span></h3>
@@ -44,9 +41,7 @@
                     <a href="{{ route('operation') }}" class="small-box-footer">Ir a listados <i class="fa fa-arrow-right"></i></a>
                   </div>
                 </div>
-                <!-- ./col -->
                 <div class="col-6 col-xl-3">
-                  <!-- small box -->
                   <div class="small-box bg-operador">
                     <div class="inner">
                       <h3><span id="totalOperadores">-</span></h3>
@@ -58,9 +53,7 @@
                     <a href="{{ route('operation') }}" class="small-box-footer">Ir a listados <i class="fa fa-arrow-right"></i></a>
                   </div>
                 </div>
-                <!-- ./col -->
                 <div class="col-6 col-xl-3">
-                  <!-- small box -->
                   <div class="small-box bg-analista">
                     <div class="inner">
                       <h3><span id="totalAnalistas">-</span></h3>
@@ -72,9 +65,7 @@
                     <a href="{{ route('operation') }}" class="small-box-footer">Ir a listados <i class="fa fa-arrow-right"></i></a>
                   </div>
                 </div>
-                <!-- ./col -->
                 <div class="col-6 col-xl-3">
-                  <!-- small box -->
                   <div class="small-box bg-blue2">
                     <div class="inner">
                       <h3><span id="totalEventos">-</span></h3>
@@ -88,14 +79,10 @@
                 </div>
               </div>
             </div>
-            <!-- /.box-body-->
           </div>
-          <!-- /.box -->
         </div>
-        <!-- ./col -->
-      </div>
+      </div -->
 
-      
 
       <!-- /.row -->
       <div class="row">
@@ -104,7 +91,7 @@
           <div class="box box-primary">
             <div class="box-header with-border">
               <i class="fa fa-users"></i>
-              <h3 class="box-title">Porcentaje de Usuarios por Rol</h3>
+              <h3 class="box-title">Porcentaje de Estadísticas</h3>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                 </button>
