@@ -75,7 +75,7 @@ $(document).ready(function(){
 
                 var marker = new google.maps.Marker({
                   //icon: 'http://maps.google.com/mapfiles/ms/icons/'+dot,
-                  icon: 'images/map-person-32x32.png',
+                  icon: 'images/map-school-32x32.png',
                   position: tmp,
                   map: map,
                   title: item.direccion

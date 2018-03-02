@@ -159,7 +159,7 @@
                                 <a href="{{ route('map') }}"><i class="fa fa-calendar"></i> Mapa Eventos</a>
                             </li>
                             <li class="<?php echo (strpos(Request::url(), 'mapa-usuarios')) ? 'active' : '' ?>">
-                                <a href="{{ route('usermap') }}"><i class="fa  fa-street-view"></i> Mapa Usuarios</a>
+                                <a href="{{ route('usermap') }}"><i class="fa  fa-home"></i> Mapa Escuelas</a>
                             </li>
                           </ul>
                         </li>
