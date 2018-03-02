@@ -2376,9 +2376,9 @@ input[type="color"] {
     margin-right: 5px;
 }
 .box-header>.box-tools {
-    position: absolute;
+    /*position: absolute;
     right: 10px;
-    top: 5px;
+    top: 5px;*/
 }
 .box-header>.box-tools [data-toggle=tooltip], .control {
     position: relative;
@@ -4336,6 +4336,7 @@ table.dataTable thead .sorting:after {
     border-bottom: 1px solid rgba(0, 0, 0, .2);
     padding: 10px;
     margin: 0;
+    overflow-x: hidden;
 }
 .contacts-list>li:after, .contacts-list>li:before {
     content: " ";

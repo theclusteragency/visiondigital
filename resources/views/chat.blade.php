@@ -24,11 +24,11 @@
                     
                     <div class="box-header with-border">
                         <h3 class="box-title">Contactos</h3>
-                        <div class="box-tools pull-right">
+                        <div class="box-tools">
                             <div class="form-group has-feedback">
                                 <div class="input-group">
                                     <span class="input-group-addon" style="height: 30px"><i class="fa fa-search" aria-hidden="true"></i></span>
-                                    <input class="form-control" type="text" name="filter-contacts" id="filter-contacts" onkeyup="searchContacts()" placeholder="Filtrar" style="width: 180px; height: 30px">
+                                    <input class="form-control" type="text" name="filter-contacts" id="filter-contacts" onkeyup="searchContacts()" placeholder="Filtrar" style="height: 30px">
                                 </div>
                                 
                             </div>
