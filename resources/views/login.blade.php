@@ -28,7 +28,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 text-center">
-                        <button type="submit" class="btn btn-info btn-block btn-flat margin-top-10" style="background-color: #E91D25; border-color: #E91D25">ENTRAR</button>
+                        <button type="submit" class="btn btn-info btn-block btn-flat margin-top-10" style="background-color: #75c043; border-color: #75c043">ENTRAR</button>
                     </div>
                 </div>
             </form>

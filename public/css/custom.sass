@@ -7,6 +7,7 @@ $orange: #ff6b00
 $yellow: #f1c30f
 $blue-light: #009fe3
 $white: #fff
+$green: #75c043
 
 $animationLength: 1.5s
 $animationRadius: 22px
@@ -46,13 +47,13 @@ $dotSize: 10px
     background-color: $white
 
 .login-page
-  background: rgba(117,192,67,1)
-  background: -moz-linear-gradient(top, rgba(117,192,67,1) 0%, rgba(117,192,67,1) 100%)
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(117,192,67,1)), color-stop(100%, rgba(117,192,67,1)))
-  background: -webkit-linear-gradient(top, rgba(117,192,67,1) 0%, rgba(117,192,67,1) 100%)
-  background: -o-linear-gradient(top, rgba(117,192,67,1) 0%, rgba(117,192,67,1) 100%)
-  background: -ms-linear-gradient(top, rgba(117,192,67,1) 0%, rgba(117,192,67,1) 100%)
-  background: linear-gradient(to bottom, rgba(117,192,67,1) 0%, rgba(117,192,67,1) 100%)
+  background: rgba(255,255,255,1)
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%)
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)))
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%)
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%)
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%)
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%)
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00a1e6', endColorstr='#0e4fa0', GradientType=0 )
   .login-logo 
     margin-bottom: 55px
@@ -100,29 +101,28 @@ button:disabled, input:disabled
   background-color: transparent
   box-shadow: none
   .login-box-msg
-    color: white
+    color: $green
   button 
     background-color: $orange
     border: 1px solid $orange
   .form-group 
     span.ion 
-      color: rgba(255, 255, 255, 0.9)
+      color: $green
     input[type="email"], input[type="password"], input[type="text"]
-      color: white 
+      color: $green 
       background: none
-      border-bottom: 1px solid white
+      border-bottom: 1px solid $green
       &::-webkit-input-placeholder  /* Chrome/Opera/Safari */
-        color: rgba(255, 255, 255, 0.5)
+        color: #green
       &::-moz-placeholder /* Firefox 19+ */
-        color: rgba(255, 255, 255, 0.5)
+        color: #green
       &:-ms-input-placeholder  /* IE 10+ */
-        color: rgba(255, 255, 255, 0.5)
+        color: #green
       &:-moz-placeholder  /* Firefox 18- */
-        color: rgba(255, 255, 255, 0.5)
+        color: #green
   .credits 
     p 
       color: #CCCCCC
-
 
 // Loader
 .loader-modal 
