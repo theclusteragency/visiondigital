@@ -184,4 +184,14 @@ class LoginController extends Controller
 
     }
 
+    /**
+     * Listado de eventos.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function evaluations()
+    {
+        return view('evaluations');
+    }
+
 }

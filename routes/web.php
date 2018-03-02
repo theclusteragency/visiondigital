@@ -13,6 +13,8 @@
 
 /*Index*/
 Route::get('/', 'LoginController@index')->name('index');
+Route::get('/evaluaciones', 'LoginController@evaluations')->name('evaluations');
+
 
 //Auth::routes();
 Route::get('/log', 'LoginController@login')->name('login');
@@ -49,5 +51,3 @@ Route::group(['middleware' => 'is-admin'], function(){
 Route::get('/estadisticas', 'RafaController@statistics')->name('statistics');
 Route::get('/operacion', 'RafaController@operation')->name('operation');
 Route::get('/eventos', 'RafaController@events')->name('events');
-
-Route::get('/evaluaciones', 'RafaController@evaluations')->name('evaluations');
