@@ -1,4 +1,4 @@
-@extends('layouts.rafagana')
+@extends('layouts.blank')
 
 @section('page_css')
     <!-- CSS de cada página -->
