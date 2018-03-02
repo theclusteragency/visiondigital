@@ -16,7 +16,7 @@
                     <div class="row">
                         <div class="col-md-3"></div>
                         <div class="col-md-6">
-                          <div class="box shadow box-default selector">
+                          <div class="box shadow box-default selector" style="background-color: transparent;">
                             <img class="card-img-top img-responsive" src="images/provitec/vision.png" alt="Visión Digital">
                             <div class="box-body center">              
                               <a href="/log" class="btn" style="background-color: #75c043; color: #fff">Acceder</a>
