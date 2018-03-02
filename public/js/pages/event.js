@@ -170,10 +170,10 @@ function handleEvent(response){
         }
 
         tr = '<tr>'+
-          '<td><i class="' + clase + '" aria-hidden="true"> ' + stat + ' </td>'+
-          '<td>' + item.nombre + ' ' + item.apellido_paterno + '</td>'+
+          //'<td><i class="' + clase + '" aria-hidden="true"> ' + stat + ' </td>'+
+          //'<td>' + item.nombre + ' ' + item.apellido_paterno + '</td>'+
           '<td>'+item.descripcion+'</td>'+
-          '<td>'+item.valor+'</td>'+
+          //'<td>'+item.valor+'</td>'+
         '</tr>';
 
         $('#tb-activities').append(tr);
@@ -237,7 +237,7 @@ function handleEvent(response){
 
 
     // --- Dirección ---
-    initMap();
+    /*initMap();
     function initMap() {
         var dir = {lat: latitud, lng: longitud};
         var map = new google.maps.Map(document.getElementById('map-address'), {
@@ -248,7 +248,7 @@ function handleEvent(response){
           position: dir,
           map: map
         });
-    }
+    }*/
 
 }
 

@@ -31,10 +31,11 @@
         <div class="row">
             <div class="col-xs-12 col-md-4">
               <div class="info-box">
-                <img class="info-box-icon" id="img-leader" src="images/no_user.png" alt="Encargado">
+                <!-- img class="info-box-icon" id="img-leader" src="images/no_user.png" alt="Encargado"-->
+                <span class="info-box-icon bg-blue"><i class="fa fa-user-o"></i></span>
                 <div class="info-box-content">
-                  <span class="info-box-number">Encargado:</small></span>
-                  <span class="info-box-text" id="leader"></span>
+                  <span class="info-box-number">Dirección:</small></span>
+                  <span class="info-box-text" id="direction">Director Nivel Educativo A</span>
                 </div>
               </div>
             </div>
@@ -42,8 +43,8 @@
               <div class="info-box">
                 <span class="info-box-icon bg-blue"><i class="ion ion-stats-bars"></i></span>
                 <div class="info-box-content">
-                  <span class="info-box-number">Categoría:</small></span>
-                  <span class="info-box-text" id="category"></span>
+                  <span class="info-box-number">Distritos:</small></span>
+                  <span class="info-box-text" id="distrito">Distrito 1</span>
                 </div>
               </div>
             </div>
@@ -66,7 +67,7 @@
                     <div class="col-md-12">
 
                         <!-- Operadores -->
-                        <div class="box box-danger">
+                        <!-- div class="box box-danger">
                             <div class="box-header with-border">
                                 <h3 class="box-title">Operadores</h3>
                                 <div class="box-tools pull-right">
@@ -80,11 +81,11 @@
                             <div class="box-footer text-center">
                               <a href="javascript:void(0)" class="uppercase add-user">Agregar Operador</a>
                             </div>
-                        </div>
+                        </div -->
                         <!--/.Operadores -->
 
                         <!-- Analistas -->
-                        <div class="box box-danger">
+                        <!-- div class="box box-danger">
                             <div class="box-header with-border">
                                 <h3 class="box-title">Analistas</h3>
                                 <div class="box-tools pull-right">
@@ -98,7 +99,7 @@
                             <div class="box-footer text-center">
                               <a href="javascript:void(0)" class="uppercase add-user">Agregar Analista</a>
                             </div>
-                        </div>
+                        </div -->
                         <!--/.Analistas -->
 
                     </div><!-- /.col -->
@@ -107,7 +108,7 @@
                 <!-- ACTIVIDADES -->
                 <div class="box box-info">
                     <div class="box-header with-border">
-                        <h3 class="box-title">Actividades</h3>
+                        <h3 class="box-title">Estadísticas</h3>
                         <div class="box-tools pull-right">
                             <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                             </button>
@@ -118,10 +119,7 @@
                             <table class="table table-responsive no-margin">
                                 <thead>
                                   <tr>
-                                    <th>Estatus</th>
-                                    <th>Usuario</th>
                                     <th>Descripción</th>
-                                    <th>Resultado</th>
                                   </tr>
                                 </thead>
                                 <tbody id="tb-activities"></tbody>
@@ -131,7 +129,7 @@
                 </div>
 
                 <!-- UBICACIÓN -->
-                <div class="box">
+                <!-- div class="box">
                     <div class="box-header with-border">
                       <h3 class="box-title">Dirección: <span id="street"></span></h3>
 
@@ -140,38 +138,29 @@
                         </button>
                       </div>
                     </div>
-                    <!-- /.box-header -->
                     <div class="box-body no-padding">
                       <div class="row">
                         <div class="col-md-12">
                           <div class="pad">
-                            <!-- Map will be created here -->
                             <div id="map-address" style="height: 325px;"></div>
                           </div>
                         </div>
                       </div>
-                      <!-- /.row -->
                     </div>
-                    <!-- /.box-body -->
-                </div>
+                </div -->
                 <!-- /.box -->
 
                 <!-- FOTOS -->
-                <div class="box">
+                <!-- div class="box">
                     <div class="box-header with-border">
                         <h3 class="box-title">Fotos del Evento</h3>
                     </div>
                     <div class="box-body">
                         <div id="carousel-example-generic-captions" class="carousel slide" data-ride="carousel">
-                            <!-- Indicators -->
                             <ol class="carousel-indicators" id="carousel-indicators">
-                                <!-- Indicadores -->
                             </ol>                      
-                            <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox" id="div-photos">
-                                <!-- Fotos -->
                             </div>
-                            <!-- Controls -->
                             <a class="carousel-control-prev" href="#carousel-example-generic-captions" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                 <span class="sr-only">Previous</span>
@@ -182,7 +171,7 @@
                             </a>
                         </div>
                     </div>
-                </div>
+                </div -->
                 <!-- /.box -->   
 
             </div>
