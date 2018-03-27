@@ -136,11 +136,11 @@ class LoginController extends Controller
 
             curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 
-            curl_setopt($ch, CURLOPT_URL,"https://i0mqxn71n1.execute-api.us-west-2.amazonaws.com/dev/login");
+            curl_setopt($ch, CURLOPT_URL,"https://1e4fm5yxil.execute-api.us-west-2.amazonaws.com/digital/login");
             curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST"); 
             curl_setopt($ch, CURLOPT_POSTFIELDS, $data_string);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-            curl_setopt($ch, CURLOPT_HTTPHEADER, array('x-api-key: R0m3FHbz7pMHbVJRDJ0N6YyxDKOCuWu8fQP2AaOc'));
+            curl_setopt($ch, CURLOPT_HTTPHEADER, array('x-api-key: TKfZC1SXnKauJiYxkJMB98wyPONtFoA22IAc2qyq'));
             
             $server_output = curl_exec ($ch);
 
