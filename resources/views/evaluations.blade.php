@@ -69,194 +69,183 @@
             <!-- /.box-header -->
             
               
+            
+            
+            <!-- form start -->
+            <form class="form-horizontal form-element">
+              <div class="box-body">
+                <div class="form-group row">
+                  <label for="cct" class="col-sm-2 control-label">Clave del Centro de Trabajo</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="cct" placeholder="CCT">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="turn" class="col-sm-2 control-label">Turno</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="turn" placeholder="Turno">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="schoolname" class="col-sm-2 control-label">Nombre de la Escuela</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="schoolname" placeholder="Nombre de la Escuela">
+                  </div>
+                </div>
 
+                <div class="form-group row">
+                  <label for="mainstreet" class="col-sm-2 control-label">Vialidad Principal</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="mainstreet" placeholder="Vialidad Principal">
+                  </div>
+                  <label for="backstreet" class="col-sm-2 control-label">Vialidad Posterior</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="backstreet" placeholder="Vialidad Posterior">
+                  </div>
+                </div>
 
-<!-- form start -->
-<form class="form-horizontal form-element">
-  <div class="box-body">
-    <div class="form-group row">
-      <label for="inputEmail3" class="col-sm-2 control-label">Nombre de la Escuela</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="schoolname" placeholder="Nombre de la Escuela">
-      </div>
-    </div>
+                <div class="form-group row">
+                  <label for="rightstreet" class="col-sm-2 control-label">Vialidad Derecha</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="rightstreet" placeholder="Vialidad Derecha">
+                  </div>
+                  <label for="leftstreet" class="col-sm-2 control-label">Vialidad Izquierda</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="leftstreet" placeholder="Vialidad Izquierda">
+                  </div>
+                </div>
 
-    <!-- div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Vialidad Principal</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="mainstreet" placeholder="Vialidad Principal">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Vialidad Posterior</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="backstreet" placeholder="Vialidad Posterior">
-      </div>
-    </div -->
+                <div class="form-group row">
+                    <label for="extnum" class="col-sm-2  control-label">Número Exterior</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="extnum" placeholder="Número Exterior">
+                  </div>
+                    <label for="intnum" class="col-sm-2 control-label">Número Interior</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="intnum" placeholder="Número Interior">
+                  </div>
+                </div>
 
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Vialidad Principal</label>
-      <div class="col-sm-4">
-        <input type="text" class="form-control" id="mainstreet" placeholder="Vialidad Principal">
-      </div>
-      <label for="inputPassword3" class="col-sm-2 control-label">Vialidad Posterior</label>
-      <div class="col-sm-4">
-        <input type="text" class="form-control" id="backstreet" placeholder="Vialidad Posterior">
-      </div>
-    </div>
+                <div class="form-group row">
+                    <label for="settlement" class="col-sm-2  control-label">Asentamiento Humano</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="settlement" placeholder="Asentamiento Humano">
+                  </div>
+                    <label for="postalcode" class="col-sm-2 control-label">Código Postal</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="postalcode" placeholder="Código Postal">
+                  </div>
+                </div>
 
-    <!-- div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Número Exterior</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="extnum" placeholder="Número Exterior">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Número Interior</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="intnum" placeholder="Número Interior">
-      </div>
-    </div -->
+                <div class="form-group row">
+                  <label for="state" class="col-sm-2 control-label">Entidad Federativa</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="state" placeholder="Entidad Federativa">
+                  </div>
+                  <label for="municipality" class="col-sm-2 control-label">Municipio o Delegación</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="municipality" placeholder="Municipio o Delegación">
+                  </div>
+                </div>
+                
+                <div class="form-group row">
+                  <label for="location" class="col-sm-2 control-label">Localidad</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="location" placeholder="Localidad">
+                  </div>
+                </div>
 
-    <div class="form-group row">
-        <label for="inputPassword3" class="col-sm-2  control-label">Número Exterior</label>
-      <div class="col-sm-4">
-        <input type="text" class="form-control" id="extnum" placeholder="Número Exterior">
-      </div>
-        <label for="inputPassword3" class="col-sm-2 control-label">Número Interior</label>
-      <div class="col-sm-4">
-        <input type="text" class="form-control" id="intnum" placeholder="Número Interior">
-      </div>
-    </div>
+                <div class="form-group row">
+                  <label for="phone" class="col-sm-2 control-label">Teléfono</label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control" id="phone" placeholder="Teléfono">
+                  </div>
+                  <label for="extension" class="col-sm-2 control-label">Extensión</label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control" id="extension" placeholder="Extensión">
+                  </div>
+                  <label for="mobile-phone" class="col-sm-2 control-label">Celular</label>
+                  <div class="col-sm-2">
+                    <input type="text" class="form-control" id="mobile-phone" placeholder="Celular">
+                  </div>
+                </div>
+                
+                <div class="form-group row">
+                  <label for="sustenance" class="col-sm-2 control-label">Sostenimiento</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="sustenance" placeholder="Sostenimiento">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="level" class="col-sm-2 control-label">Tipo / Nivel / Subnivel</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="level" placeholder="Tipo / Nivel / Subnivel">
+                  </div>
+                </div>
 
-    <!-- div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Entidad Federativa</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="state" placeholder="Entidad Federativa">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Municipio o Delegación</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="municipality" placeholder="Municipio o Delegación">
-      </div>
-    </div -->
+                <div class="form-group row">
+                  <label for="characteristic" class="col-sm-2 control-label">Característica</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="characteristic" placeholder="Característica">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="dependence" class="col-sm-2 control-label">Dependencia Normativa</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="dependence" placeholder="Dependencia Normativa">
+                  </div>
+                </div>
 
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Entidad Federativa</label>
-      <div class="col-sm-4">
-        <input type="text" class="form-control" id="state" placeholder="Entidad Federativa">
-      </div>
-      <label for="inputPassword3" class="col-sm-2 control-label">Municipio o Delegación</label>
-      <div class="col-sm-4">
-        <input type="text" class="form-control" id="municipality" placeholder="Municipio o Delegación">
-      </div>
-    </div>
+                <div class="form-group row">
+                  <label for="email" class="col-sm-2 control-label">Correo Institucional</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" placeholder="Correo Institucional">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="principal" class="col-sm-2 control-label">Nombre del Director</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="principal" placeholder="Nombre del Director">
+                  </div>
+                </div>
 
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Sostenimiento</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="sustenance" placeholder="Sostenimiento">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Tipo / Nivel / Subnivel</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="level" placeholder="Tipo / Nivel / Subnivel">
-      </div>
-    </div>
+                <div class="form-group row">
+                  <label for="curp" class="col-sm-2 control-label">CURP</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="curp" placeholder="CURP">
+                  </div>
+                  <label for="rfc" class="col-sm-2 control-label">RFC</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="rfc" placeholder="RFC">
+                  </div>
+                </div>
 
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Característica</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="characteristic" placeholder="Característica">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Dependencia Normativa</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="dependence" placeholder="Dependencia Normativa">
-      </div>
-    </div>
+                <div class="form-group row">
+                  <label for="headquarters" class="col-sm-2 control-label">Jefatura de Sector</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="headquarters" placeholder="Jefatura de Sector">
+                  </div>
+                  <label for="schoolzone" class="col-sm-2 control-label">Zona Escolar</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="schoolzone" placeholder="Zona Escolar">
+                  </div>
+                </div>
 
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Correo Institucional</label>
-      <div class="col-sm-10">
-        <input type="email" class="form-control" id="email" placeholder="Correo Institucional">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Nombre del Director</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="principal" placeholder="Nombre del Director">
-      </div>
-    </div>
+                <div class="form-group row">
+                  <label for="regional-service" class="col-sm-2 control-label">Servicio Regional</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="regional-service" placeholder="Serviicio Regional">
+                  </div>
+                </div>
 
-    <!-- div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">CURP</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="curp" placeholder="CURP">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">RFC</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="rfc" placeholder="RFC">
-      </div>
-    </div -->
-
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">CURP</label>
-      <div class="col-sm-4">
-        <input type="text" class="form-control" id="curp" placeholder="CURP">
-      </div>
-      <label for="inputPassword3" class="col-sm-2 control-label">RFC</label>
-      <div class="col-sm-4">
-        <input type="text" class="form-control" id="rfc" placeholder="RFC">
-      </div>
-    </div>
-
-    <!-- div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Jefatura de Sector</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="headquarters" placeholder="Jefatura de Sector">
-      </div>
-    </div>
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Zona Escolar</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="schoolzone" placeholder="Zona Escolar">
-      </div>
-    </div -->
-
-    <div class="form-group row">
-      <label for="inputPassword3" class="col-sm-2 control-label">Jefatura de Sector</label>
-      <div class="col-sm-4">
-        <input type="text" class="form-control" id="headquarters" placeholder="Jefatura de Sector">
-      </div>
-      <label for="inputPassword3" class="col-sm-2 control-label">Zona Escolar</label>
-      <div class="col-sm-4">
-        <input type="text" class="form-control" id="schoolzone" placeholder="Zona Escolar">
-      </div>
-    </div>
-
-    <!-- div class="form-group row">
-      <div class="ml-auto col-sm-10">
-        <div class="checkbox">
-          <input type="checkbox" id="Remember">
-          <label for="Remember">Remember me</label> 
-        </div>
-      </div>
-    </div -->
-
-  </div>
-  <!-- /.box-body -->
-  <div class="box-footer">
-    <button type="submit" class="btn btn-default">Cancelar</button>
-    <button type="submit" class="btn btn-info pull-right">Guardar</button>
-  </div>
-  <!-- /.box-footer -->
-</form>
+              </div>
+              <!-- /.box-body -->
+              <div class="box-footer">
+                <button type="submit" class="btn btn-default">Cancelar</button>
+                <button type="submit" class="btn btn-info pull-right">Guardar</button>
+              </div>
+              <!-- /.box-footer -->
+            </form>
 
 
 
