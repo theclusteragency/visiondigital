@@ -86,17 +86,47 @@
                         </div>
                         <div class="row">
                           <div class="col-md-12">
-                            <div class="form-group">
+                            <div class="form-group" style="display: none">
                               <label class="control-label">Distritos:</label>
                               <select class="form-control" name="districts[]" id="districts" multiple></select>
+                            </div>
+                            <div class="form-group">
+                              <label class="control-label">Regiones:</label>
+                              <select class="form-control" name="regions[]" id="regions">
+                                <option disabled="disabled" selected="selected">Selecciona</option>
+                              </select>
                             </div>
                           </div>
                         </div>
                         <div class="row">
                           <div class="col-md-12">
                             <div class="form-group">
-                              <label class="control-label">Supervisores:</label>
+                              <label class="control-label">Municipios:</label>
+                              <select class="form-control" name="municipios[]" id="municipios"></select>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="form-group" style="display: none">
+                              <label class="control-label">Supervisiores:</label>
                               <select class="form-control" name="supervisors[]" id="supervisors" multiple></select>
+                            </div>
+
+                            <div class="form-group">
+                              <label class="control-label">Roles:</label>
+                              <!-- select class="form-control" name="supervisors[]" id="supervisors" multiple></select -->
+                              <select class="form-control" name="roles[]" id="roles">
+                                <option>Secretario</option>
+                                <option>Subsecretario</option>
+                                <option>Organismos</option>
+                                <option>Directores Generales</option>
+                                <option>Dirctores de Área</option>
+                                <option>Directores Centrales</option>
+                                <option>Directores Regionales</option>
+                                <option>Supervisores</option>
+                                <option>Escuela</option>
+                              </select>
                             </div>
                           </div>
                         </div>

@@ -36,6 +36,25 @@ jQuery(document).ready(function(){
         clearAddForm();
     });
 
+    // Regiones
+    Object.keys(regions).forEach(function(key) {
+        console.log(key, regions[key]);
+        jQuery('#regions').append('<option>'+key+'</option>');
+    });
+
+    // Municipios
+    jQuery('#regions').on('change', function() {
+        
+        jQuery('#municipios').empty();
+        val = jQuery(this).val()
+        mpios = regions[val];
+
+        mpios.forEach(function(item, index){
+            jQuery('#municipios').append('<option>'+item.name+'</option>');
+        });
+
+    });
+
 });
 
 
@@ -352,6 +371,7 @@ getSupervisors(handleSupervisors);
 
 function handleSupervisors(response) {
 
+    console.log(response);
     supervisors = response;
 
     $select_supervisors = $('#supervisors').selectize({
@@ -649,6 +669,113 @@ function clearAddForm(){
     //control_operators.clear();
     //control_analysts.clear();
 }
+
+regions = {
+    'amecameca': [
+        {
+            id: '9',
+            name: 'amecameca'
+        },
+        {
+            id: '15',
+            name: 'atlautla'
+        },
+        {
+            id: '17',
+            name: 'ayapango'
+        },
+        {
+            id: '22',
+            name: 'cocotitlan'
+        },
+        {
+            id: '25',
+            name: 'chalco'
+        },
+        {
+            id: '34',
+            name: 'ecatzingo'
+        },
+        {
+            id: '50',
+            name: 'juchitepec'
+        },
+        {
+            id: '68',
+            name: 'ozumba'
+        },
+        {
+            id: '83',
+            name: 'temamatla'
+        },
+        {
+            id: '89',
+            name: 'tenango del aire'
+        },
+        {
+            id: '94',
+            name: 'tepetlixpa'
+        },
+        {
+            id: '103',
+            name: 'tlalmanalco'
+        },
+        {
+            id: '122',
+            name: 'valle de chalco solidarid'
+        }
+
+    ],'atlacomulco': [
+        {
+            id: '1',
+            name: 'acambay'
+        },
+        {
+            id: '14',
+            name: 'atlacomulco'
+        },
+        {
+            id: '42',
+            name: 'ixtlahuaca'
+        },
+        {
+            id: '47',
+            name: 'jiquipilco'
+        },
+        {
+            id: '48',
+            name: 'jocotitlan'
+        },
+        {
+            id: '64',
+            name: 'el oro'
+        },
+        {
+            id: '74',
+            name: 'san felipe del progreso'
+        },
+        {
+            id: '85',
+            name: 'temascalcingo'
+        },
+        {
+            id: '124',
+            name: 'san jose del rincon'
+        }
+
+    ],
+    'zumpango': [
+        {
+            id: '10',
+            name: 'apaxco'
+        },
+        {
+            id: '16',
+            name: 'axapusco'
+        },
+    ]
+}
+
 
 
 /*======================= Google Maps ================================*/

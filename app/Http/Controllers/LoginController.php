@@ -168,7 +168,7 @@ class LoginController extends Controller
 
                 }else{
 
-                    return redirect('/log')->with('message', 'Acceso no autorisado');
+                    return redirect('/log')->with('message', 'Acceso no autorizado');
 
                 }
 
