@@ -192,5 +192,6 @@
     <!-- google maps api -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEjp3kq9YA0EF8nGjKPcDPlYQbpeT5Ljk&libraries=places"></script>
     <!-- maximum_admin for calendar -->
+    <script src="{{ asset('js/regions.js', \App::environment() == 'production') }}"></script>
     <script src="{{ asset('js/pages/calendar.js', \App::environment() == 'production') }}"></script>
 @endsection

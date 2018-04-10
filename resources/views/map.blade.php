@@ -48,6 +48,7 @@
 @section('page_js')
     <!-- google maps api -->
     <script src="https://maps.googleapis.com/maps/api/js?sensor=true&key=AIzaSyAEjp3kq9YA0EF8nGjKPcDPlYQbpeT5Ljk"></script>
+    <script src="{{ asset('js/regions.js', \App::environment() == 'production')}}"></script>
     <script src="{{ asset('js/pages/maps.js', \App::environment() == 'production')}}"></script>
     <!-- script src="assets/vendor_components/gmaps/jquery.gmaps.js"></script -->
     <!-- DataTables -->

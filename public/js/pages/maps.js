@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    initMap(7, 19.430721, -99.181362);
+    initMap(8, 19.3268448, -100.1654253);
 
     function initMap(zoom, lati, longi, idmap = 'overlayermap') {
         var uluru = {lat: lati, lng: longi};
@@ -79,17 +79,22 @@ $(document).ready(function(){
       
     }
 
-    states.forEach(function(item, index){
+    /*states.forEach(function(item, index){
         $('#filter-state').append('<option value="'+index+'">'+item.edo+'</option>')
-    })
+    })*/
+    // Regiones
+    Object.keys(regions).forEach(function(key) {
+        $('#filter-state').append('<option value="'+key+'">'+key+'</option>');
+
+    });
 
     $('#filter-state').on('change', function(){
 
-        var id_edo = $(this).val();
+        var reg = $(this).val();
 
-        var zoom = states[id_edo].zoom;
-        var lat = states[id_edo].lat;
-        var lon = states[id_edo].lon;
+        var zoom = regions[reg].zoom;
+        var lat = regions[reg].lat;
+        var lon = regions[reg].lon;
 
         initMap(zoom, lat, lon);
 
