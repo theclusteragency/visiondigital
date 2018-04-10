@@ -18,7 +18,7 @@
                     <div class="pull-left">
                         <form class="form-inline">
                             <div class="form-group">
-                                <label for="filter-state" style="margin-right: 15px;">Filtar por estado</label>
+                                <label for="filter-state" style="margin-right: 15px;">Filtar por regiones</label>
                                 <select class="form-control" name="filter-state" id="filter-state" style="width: 400px "></select>
                             </div>
                         </form>

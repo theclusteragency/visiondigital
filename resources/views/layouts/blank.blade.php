@@ -53,5 +53,7 @@
     <!-- Custom functions -->
     <script src="js/index.js"></script>
 
+    @yield('page_js')
+
 </body>
 </html>

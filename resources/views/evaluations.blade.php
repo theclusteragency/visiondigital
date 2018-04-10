@@ -83,97 +83,97 @@
                 <div class="form-group row">
                   <label for="turn" class="col-sm-2 control-label">Turno</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="turn" placeholder="Turno">
+                    <input type="text" class="form-control" id="turn">
                   </div>
                 </div>
                 <div class="form-group row">
                   <label for="schoolname" class="col-sm-2 control-label">Nombre de la Escuela</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="schoolname" placeholder="Nombre de la Escuela">
+                    <input type="text" class="form-control" id="schoolname">
                   </div>
                 </div>
 
                 <div class="form-group row">
                   <label for="mainstreet" class="col-sm-2 control-label">Vialidad Principal</label>
                   <div class="col-sm-4">
-                    <input type="text" class="form-control" id="mainstreet" placeholder="Vialidad Principal">
+                    <input type="text" class="form-control" id="mainstreet">
                   </div>
                   <label for="backstreet" class="col-sm-2 control-label">Vialidad Posterior</label>
                   <div class="col-sm-4">
-                    <input type="text" class="form-control" id="backstreet" placeholder="Vialidad Posterior">
+                    <input type="text" class="form-control" id="backstreet">
                   </div>
                 </div>
 
                 <div class="form-group row">
                   <label for="rightstreet" class="col-sm-2 control-label">Vialidad Derecha</label>
                   <div class="col-sm-4">
-                    <input type="text" class="form-control" id="rightstreet" placeholder="Vialidad Derecha">
+                    <input type="text" class="form-control" id="rightstreet">
                   </div>
                   <label for="leftstreet" class="col-sm-2 control-label">Vialidad Izquierda</label>
                   <div class="col-sm-4">
-                    <input type="text" class="form-control" id="leftstreet" placeholder="Vialidad Izquierda">
+                    <input type="text" class="form-control" id="leftstreet">
                   </div>
                 </div>
 
                 <div class="form-group row">
                     <label for="extnum" class="col-sm-2  control-label">Número Exterior</label>
                   <div class="col-sm-4">
-                    <input type="text" class="form-control" id="extnum" placeholder="Número Exterior">
+                    <input type="text" class="form-control" id="extnum">
                   </div>
                     <label for="intnum" class="col-sm-2 control-label">Número Interior</label>
                   <div class="col-sm-4">
-                    <input type="text" class="form-control" id="intnum" placeholder="Número Interior">
+                    <input type="text" class="form-control" id="intnum">
                   </div>
                 </div>
 
                 <div class="form-group row">
                     <label for="settlement" class="col-sm-2  control-label">Asentamiento Humano</label>
                   <div class="col-sm-4">
-                    <input type="text" class="form-control" id="settlement" placeholder="Asentamiento Humano">
+                    <input type="text" class="form-control" id="settlement">
                   </div>
                     <label for="postalcode" class="col-sm-2 control-label">Código Postal</label>
                   <div class="col-sm-4">
-                    <input type="text" class="form-control" id="postalcode" placeholder="Código Postal">
+                    <input type="text" class="form-control" id="postalcode">
                   </div>
                 </div>
 
                 <div class="form-group row">
                   <label for="state" class="col-sm-2 control-label">Entidad Federativa</label>
                   <div class="col-sm-4">
-                    <input type="text" class="form-control" id="state" placeholder="Entidad Federativa">
+                    <input type="text" class="form-control" id="state">
                   </div>
                   <label for="municipality" class="col-sm-2 control-label">Municipio o Delegación</label>
                   <div class="col-sm-4">
-                    <input type="text" class="form-control" id="municipality" placeholder="Municipio o Delegación">
+                    <input type="text" class="form-control" id="municipality">
                   </div>
                 </div>
                 
                 <div class="form-group row">
                   <label for="location" class="col-sm-2 control-label">Localidad</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="location" placeholder="Localidad">
+                    <input type="text" class="form-control" id="location">
                   </div>
                 </div>
 
                 <div class="form-group row">
                   <label for="phone" class="col-sm-2 control-label">Teléfono</label>
                   <div class="col-sm-2">
-                    <input type="text" class="form-control" id="phone" placeholder="Teléfono">
+                    <input type="text" class="form-control" id="phone">
                   </div>
                   <label for="extension" class="col-sm-2 control-label">Extensión</label>
                   <div class="col-sm-2">
-                    <input type="text" class="form-control" id="extension" placeholder="Extensión">
+                    <input type="text" class="form-control" id="extension">
                   </div>
                   <label for="mobile-phone" class="col-sm-2 control-label">Celular</label>
                   <div class="col-sm-2">
-                    <input type="text" class="form-control" id="mobile-phone" placeholder="Celular">
+                    <input type="text" class="form-control" id="mobile-phone">
                   </div>
                 </div>
                 
                 <div class="form-group row">
                   <label for="sustenance" class="col-sm-2 control-label">Sostenimiento</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="sustenance" placeholder="Sostenimiento">
+                    <input type="text" class="form-control" id="sustenance">
                   </div>
                 </div>
                 <div class="form-group row">
@@ -286,17 +286,7 @@
 @endsection
 
 @section('page_js')
-    <!-- ChartJS -->
-    <script src="{{ asset('assets/vendor_components/chart-js/chart.js') }}"></script>
-    <!-- Maximum_admin dashboard demo (This is only for demo purposes) -->
-    <script src="{{ asset('js/pages/dashboard2.js') }}"></script>
-    <!-- This is data table -->
-    <script src="assets/vendor_plugins/DataTables-1.10.15/media/js/jquery.dataTables.min.js"></script>
+    
+    <script src="{{ asset('js/pages/evaluations.js', \App::environment() == 'production') }}"></script>
 
-    <script>
-      $(document).ready(function(){
-        showLoader("Cargando registros...");
-        getCategories(printCategoriesList);
-      });
-    </script>
 @endsection
