@@ -53,6 +53,24 @@ jQuery(document).ready(function(){
 
     });
 
+    $( "#existencia-promovidos-1" ).accordion({
+      collapsible: true,
+      heightStyle: "content"
+    });
+    $( "#existencia-promovidos-2" ).accordion({
+      collapsible: true,
+      heightStyle: "content"
+    });
+    $( "#migracion" ).accordion({
+      collapsible: true,
+      heightStyle: "content"
+    });
+    $( "#migracion-other-country" ).accordion({
+      collapsible: true,
+      heightStyle: "content"
+    });
+    
+
 });
 
 let cct15;
