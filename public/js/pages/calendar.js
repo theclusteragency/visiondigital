@@ -36,24 +36,53 @@ jQuery(document).ready(function(){
         clearAddForm();
     });
 
-    // Regiones
+    // -------- Regiones
     Object.keys(regions).forEach(function(key) {
-        console.log(key, regions[key]);
-        jQuery('#regions').append('<option>'+key+'</option>');
+        //console.log(key, regions[key]);
+        tmp = {id:regions[key].region, title:regions[key].region};
+        regionsoptions.push(tmp);
     });
+    $select_regions = $('#regions').selectize({
+        maxItems: null,
+        valueField: 'id',
+        labelField: 'title',
+        searchField: 'title',
+        options: regionsoptions,
+        create: false
+    });
+    control_regions = $select_regions[0].selectize;
 
-    // Municipios
+    // -------- Municipios
     jQuery('#regions').on('change', function() {
-        
-        jQuery('#municipios').empty();
-        val = jQuery(this).val()
-        mpios = regions[val].mpios;
+        val = jQuery(this).val();
+        var last_element = val[val.length - 1]
+        mpios = regions[last_element].mpios;
 
         mpios.forEach(function(item, index){
             jQuery('#municipios').append('<option>'+item.name+'</option>');
+            control_municipios.addOption({id: item.id, title: item.name});
         });
-
     });
+    $select_municipios = $('#municipios').selectize({
+        maxItems: null,
+        valueField: 'id',
+        labelField: 'title',
+        searchField: 'title',
+        options: mpiosoptions,
+        create: false
+    });
+    control_municipios = $select_municipios[0].selectize;
+
+    // -------- Roles
+    $select_roles = $('#roles').selectize({
+        maxItems: null,
+        valueField: 'id',
+        labelField: 'title',
+        searchField: 'title',
+        options: mpiosoptions,
+        create: false
+    });
+    control_roles = $select_roles[0].selectize;
 
 });
 
@@ -298,6 +327,8 @@ var categories;
 var status = [];
 var activities = [];
 var events = [];
+var regionsoptions = [];
+var mpiosoptions = [];
 
 var $select_activities;
 var $select_operators;
@@ -305,6 +336,9 @@ var $select_analysts;
 var control_activities;
 var control_operators;
 var control_analysts;
+var control_regions;
+var control_municipios;
+var control_roles;
 
 getUsers(handleUsers);
 
@@ -371,7 +405,7 @@ getSupervisors(handleSupervisors);
 
 function handleSupervisors(response) {
 
-    console.log(response);
+    //console.log(response);
     supervisors = response;
 
     $select_supervisors = $('#supervisors').selectize({

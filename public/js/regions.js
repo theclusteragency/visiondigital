@@ -1,5 +1,6 @@
 regions = {
   "amecameca": {
+    "id":1,
     "region":"amecameca",
     "lat":19.1200565,
     "lon":-98.7568019,
@@ -21,6 +22,7 @@ regions = {
     ]
   },
   "atlacomulco": {
+    "id":2,
     "region":"atlacomulco",
     "lat":19.798036,
     "lon":-99.8844151,
@@ -38,6 +40,7 @@ regions = {
     ]
   },
   "cuautitlan izcalli": {
+    "id":3,
     "region":"cuautitlan izcalli",
     "lat":19.657778,
     "lon":-99.260791,
@@ -55,6 +58,7 @@ regions = {
     ]
   },
   "ecatepec": {
+    "id":4,
     "region":"ecatepec",
     "lat":19.5720072,
     "lon":-99.1077449,
@@ -66,6 +70,7 @@ regions = {
     ]
   },
   "ixtapan de la sal":{
+    "id":5,
     "region":"ixtapan de la sal",
     "lat":18.8436188,
     "lon":-99.6962907,
@@ -87,6 +92,7 @@ regions = {
     ]
   },
   "jilotepec": {
+    "id":6,
     "region":"jilotepec",
     "lat":19.9517145,
     "lon":-99.5439167,
@@ -103,6 +109,7 @@ regions = {
     ]
   },
   "metepec": {
+    "id":7,
     "region":"metepec",
     "lat":19.2621831,
     "lon":-99.6164831,
@@ -128,6 +135,7 @@ regions = {
     ]
   },
   "naucalpan": {
+    "id":8,
     "region":"naucalpan",
     "lat":19.4698395,
     "lon":-99.2899189,
@@ -142,6 +150,7 @@ regions = {
     ]
   },
   "nezahualcoyotl": {
+    "id":9,
     "region":"nezahualcoyotl",
     "lat":19.432572,
     "lon":-99.0519522,
@@ -153,6 +162,7 @@ regions = {
     ]
   },
   "tejupilco": {
+    "id":10,
     "region":"tejupilco",
     "lat":18.8910706,
     "lon":-100.4049292,
@@ -167,6 +177,7 @@ regions = {
     ]
   },
   "texcoco": {
+    "id":11,
     "region":"texcoco",
     "lat":19.476044,
     "lon":-98.9018281,
@@ -184,6 +195,7 @@ regions = {
     ]
   },
   "toluca": {
+    "id":12,
     "region":"toluca",
     "lat":19.2845816,
     "lon":-99.795589,
@@ -198,6 +210,7 @@ regions = {
     ]
   },
   "valle de bravo": {
+    "id":13,
     "region":"valle de bravo",
     "lat":19.1821382,
     "lon":-100.1458927,
@@ -215,6 +228,7 @@ regions = {
     ]
   },
   "zumpango": {
+    "id":14,
     "region":"zumpango",
     "lat":19.7998618,
     "lon":-99.1070929,

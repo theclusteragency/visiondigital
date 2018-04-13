@@ -92,9 +92,7 @@
                             </div>
                             <div class="form-group">
                               <label class="control-label">Regiones:</label>
-                              <select class="form-control" name="regions[]" id="regions">
-                                <option disabled="disabled" selected="selected">Selecciona</option>
-                              </select>
+                              <select class="form-control" name="regions[]" id="regions" multiple></select>
                             </div>
                           </div>
                         </div>
@@ -116,7 +114,7 @@
                             <div class="form-group">
                               <label class="control-label">Roles:</label>
                               <!-- select class="form-control" name="supervisors[]" id="supervisors" multiple></select -->
-                              <select class="form-control" name="roles[]" id="roles">
+                              <select class="form-control" name="roles[]" id="roles" multiple>
                                 <option>Secretario</option>
                                 <option>Subsecretario</option>
                                 <option>Organismos</option>
