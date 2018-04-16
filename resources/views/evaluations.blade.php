@@ -944,6 +944,693 @@
         </div>
       </div>
 
+      <!-- III. CALENDARIO ESCOLAR -->
+      <div class="row">
+        <div class="col-12">
+          <div class="box">
+            <div class="box-header">
+              <h2 class="box-title">III. CALENDARIO ESCOLAR</h2>
+            </div>
+            <form class="form-horizontal form-element">
+              <div class="box-body">
+                <p>1. Indique qué calendario eligió para el ciclo escolar 2016-2017</p>
+                <p>Emitido por la SEP (Federal)</p>
+                <div class="form-group">
+                  <div class="checkbox">
+                    <input type="checkbox" id="Checkbox_4">
+                    <label for="Checkbox_4">185 días</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="checkbox">
+                    <input type="checkbox" id="Checkbox_5">
+                    <label for="Checkbox_5">200 días</label>
+                  </div>
+                </div>
+                <p>Ajustado preautorizado por la autoridad local (Estatal)</p>
+                <div class="form-group">
+                  <div class="checkbox">
+                    <input type="checkbox" id="Checkbox_6">
+                    <label for="Checkbox_6">185 días</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="checkbox">
+                    <input type="checkbox" id="Checkbox_7">
+                    <label for="Checkbox_7">200 días</label>
+                  </div>
+                </div>
+                <p>Ajustado por la autoridad escolar</p>
+                <div class="form-group">
+                  <div class="checkbox">
+                    <input type="checkbox" id="Checkbox_8">
+                    <label for="Checkbox_8">185 días</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="checkbox">
+                    <input type="checkbox" id="Checkbox_9">
+                    <label for="Checkbox_9">200 días</label>
+                  </div>
+                </div>
+              </div>
+              <div class="box-footer">
+                <button type="submit" class="btn btn-default">Cancelar</button>
+                <button type="submit" class="btn btn-info pull-right">Guardar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- IV. CONSEJOS ESCOLARES DE PARTICIPACIÓN SOCIAL (ACUERDO 535) -->
+      <div class="row">
+        <div class="col-12">
+          <div class="box">
+            <div class="box-header">
+              <h2 class="box-title">IV. CONSEJOS ESCOLARES DE PARTICIPACIÓN SOCIAL (ACUERDO 535)</h2>
+            </div>
+            <form class="form-horizontal form-element">
+              <div class="box-body">
+                <p>
+                  1. Indique si el Consejo de Participación Social se instaló durante el ciclo escolar 2016-2017
+                </p>
+                <div class="form-group">
+                  <div class="radio">
+                    <input name="group1" type="radio" id="Option_1" checked="">
+                    <label for="Option_1">SÌ</label>
+                  </div> 
+                  <div class="radio">
+                    <input name="group1" type="radio" id="Option_2" checked="">
+                    <label for="Option_2">NO</label>
+                  </div>
+                </div>
+                <p>
+                  2. Indique si el Consejo de Participación Social sesionó durante el ciclo escolar 2016-2017
+                </p>
+                <div class="form-group">
+                  <div class="radio">
+                    <input name="group2" type="radio" id="Option_3" checked="">
+                    <label for="Option_3">SÌ</label>
+                  </div> 
+                  <div class="radio">
+                    <input name="group2" type="radio" id="Option_4" checked="">
+                    <label for="Option_4">NO</label>
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="migrant-men-usa" class="col-sm-2 control-label">¿Cuántas veces?</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="migrant-men-usa">
+                  </div>
+                </div>
+              </div>
+              <div class="box-footer">
+                <button type="submit" class="btn btn-default">Cancelar</button>
+                <button type="submit" class="btn btn-info pull-right">Guardar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+          
+      <!-- V.INFORMACION GENERAL -->
+      <div class="row">
+        <div class="col-12">
+          <div class="box">
+            <div class="box-header">
+              <h2 class="box-title">V. INFORMACIÓN GENERAL</h2>
+            </div>
+              
+            <form class="form-horizontal form-element">
+
+              <div class="box-body">
+                
+                <p>
+                  1. Seleccione las secciones que atiende el CENDI.
+                </p>
+                
+                <div class="form-group">
+                  <div class="checkbox">
+                    <input type="checkbox" id="Checkbox_1">
+                    <label for="Checkbox_1">Lactantes</label>
+                  </div>
+
+                  <div class="checkbox">
+                    <input type="checkbox" id="Checkbox_2">
+                    <label for="Checkbox_2">Maternales</label>
+                  </div>
+
+                  <div class="checkbox">
+                    <input type="checkbox" id="Checkbox_3">
+                    <label for="Checkbox_3">Preescolares</label>                      
+                  </div>
+                </div>
+
+                <p>
+                  2. Escriba la cantidad de solicitudes de inscripción pendientes.
+                </p>
+                <input type="text" class="form-control" id="migrant-men-oce">
+
+                <p>
+                  3. Escriba el número de los alumnos atendidos por la Unidad de Servicion de Apoyo a la Educacion Regular (USAER), desglosándolos por sexo.
+                </p>
+
+                <div>
+                  Niños <input type="text" class="form-control" id="migrant-men-oce">
+                  Niñas <input type="text" class="form-control" id="migrant-men-oce">
+                </div>
+
+                  4. Escriba la cantidad de alumnos con discapacidades, dificultades, transtornos, aptitudes sobresalientes y otras condiciones (diversidad social, cultural, o lingüística) desglosándolos por grado y sexo.
+                </p>
+
+                <div id="info-general">
+                  <h3>PRIMERO</h3>
+                  <div>
+                    <h4>Ceguera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Baja Visión</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
+                      </div>
+                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
+                      </div>
+                    </div>
+                    <h4>Sordera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
+                      </div>
+                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
+                      </div>
+                    </div>
+                     <h4>Hipoacusia</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Sordoceguera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                     <h4>Discapacidad motriz</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Discapacidad intelectual</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Discapacidad psicosocial</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Transtorno del espectro autista</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Discapacidad múltiple</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Dificultad severa de conducta</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Dificultad severa de comunicación</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Dificultad severa de aprendizaje</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Transtorno por déficit de atención e hiperactividad</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Aptitudes sobresalientes</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                     <h4>Otras condiciones</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                  </div>
+                  <h3>SEGUNDO</h3>
+                  <div>
+                    <h4>Ceguera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Baja Visión</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
+                      </div>
+                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
+                      </div>
+                    </div>
+                    <h4>Sordera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
+                      </div>
+                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
+                      </div>
+                    </div>
+                     <h4>Hipoacusia</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Sordoceguera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                     <h4>Discapacidad motriz</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Discapacidad intelectual</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Discapacidad psicosocial</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Transtorno del espectro autista</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Discapacidad múltiple</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Dificultad severa de conducta</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Dificultad severa de comunicación</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Dificultad severa de aprendizaje</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Transtorno por déficit de atención e hiperactividad</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Aptitudes sobresalientes</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                     <h4>Otras condiciones</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                  </div>
+                  <h3>TERCERO</h3>
+                  <div>
+                    <h4>Ceguera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Baja Visión</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
+                      </div>
+                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
+                      </div>
+                    </div>
+                    <h4>Sordera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
+                      </div>
+                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
+                      </div>
+                    </div>
+                     <h4>Hipoacusia</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Sordoceguera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                     <h4>Discapacidad motriz</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Discapacidad intelectual</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Discapacidad psicosocial</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Transtorno del espectro autista</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Discapacidad múltiple</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Dificultad severa de conducta</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Dificultad severa de comunicación</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Dificultad severa de aprendizaje</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Transtorno por déficit de atención e hiperactividad</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Aptitudes sobresalientes</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                     <h4>Otras condiciones</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+                
+                <br><br>
+                
+
+              </div>
+              
+              <div class="box-footer">
+                <button type="submit" class="btn btn-default">Cancelar</button>
+                <button type="submit" class="btn btn-info pull-right">Guardar</button>
+              </div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+
     </section>
     <!-- /.content -->
     <div class="modal modal-warning fade" id="modalEmptyFields">

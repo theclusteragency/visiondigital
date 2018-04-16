@@ -1,12 +1,7 @@
 jQuery(document).ready(function(){
-
-    
-
     jQuery.getJSON("/js/cct15.json", function(json) {
         //console.log(json); // this will show the info it in firebug console
         cct15 = json;
-
-
     });
 
     //console.log(cct15);
@@ -69,6 +64,12 @@ jQuery(document).ready(function(){
       collapsible: true,
       heightStyle: "content"
     });
+
+    $( "#info-general" ).accordion({
+      collapsible: true,
+      heightStyle: "content"
+    });
+
     
 
 });
