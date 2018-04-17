@@ -43,7 +43,7 @@
             </div -->
             <img src="/images/seplogo.png" id="logo-sep">
             <div style="display: inline;">
-              <h1>Estadística de Educación Inicial</h1>
+              <h1>Estadística de Educación Primaria</h1>
               <h2>Inicio de Cursos, 2017-2018</h2>
             </div>
           </div>
