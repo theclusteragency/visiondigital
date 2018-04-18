@@ -258,11 +258,14 @@
               <div class="box-body">
                 
                 <p>
-                  1. Escriba el número de alumnos existentes de lactante y maternal al final del ciclo 2016-2017, (al último día del ciclo) desglosándolos por estrato de edad y sexo, escriba el total de grupos por estrato de edad e indique cuántos de ellos son hablantes de alguna lengua indígena, cuántos son nacidos fuera de México, cuántos tienen alguna Discapacidad, Dificultad Severa de Conducta (DSC), Dificultad Severa de Comunicación (DSCom), Dificultad Severa de Aprendizaje (DSA), Trastorno por Déficit de Atención e Hiperactividad (TDAH), Aptitudes sobresalientes u Otras condiciones.
+                  1. Escriba el número de alumnos existentes al final del ciclo 2016-2017, (al último día del ciclo) desglosándolos por grado y sexo, escriba el total de grupos por
+                  grado e indique cuántos de ellos son hablantes de alguna lengua indígena, cuántos son nacidos fuera de México, cuántos tienen alguna Discapacidad, Dificultad
+                  Severa de Conducta (DSC), Dificultad Severa de Comunicación (DSCom), Dificultad Severa de Aprendizaje (DSA), Trastorno por Déficit de Atención e
+                  Hiperactividad (TDAH), Aptitudes sobresalientes u Otras condiciones.
                 </p>
 
                 <div id="existencia-promovidos-1">
-                  <h3>Estrato de Edad 1</h3>
+                  <h3>Grado 1o</h3>
                   <div>
                     <div class="form-group row">
                       <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
@@ -331,7 +334,7 @@
                     </div>
 
                   </div>
-                  <h3>Estrato de Edad 2</h3>
+                  <h3>Grado 2o</h3>
                   <div>
                     <div class="form-group row">
                       <label for="men-age-2" class="col-sm-2 control-label">Hombres</label>
@@ -400,7 +403,7 @@
                     </div>
 
                   </div>
-                  <h3>Estrato de Edad 3</h3>
+                  <h3>Grado 3o</h3>
                   <div>
                     <div class="form-group row">
                       <label for="men-age-3" class="col-sm-2 control-label">Hombres</label>
@@ -465,6 +468,213 @@
                       <!-- label for="women-age-3" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
                       <div class="col-sm-4">
                         <input type="text" class="form-control" id="women-age-3">
+                      </div -->
+                    </div>
+
+                  </div>
+                  <h3>Grado 4o</h3>
+                  <div>
+                    <div class="form-group row">
+                      <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="men-age-1">
+                      </div>
+                      <label for="women-age-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="women-age-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="language-speakers-1" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="language-speakers-1">
+                      </div>
+                      <label for="foreigner-1" class="col-sm-2 control-label">Nacidos fuera México</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="foreigner-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="disability-1" class="col-sm-2 control-label">Con discapacidad</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="disability-1">
+                      </div>
+                      <label for="dsc-1" class="col-sm-2 control-label">DCS</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsc-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="dscom-1" class="col-sm-2 control-label">DSCom</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dscom-1">
+                      </div>
+                      <label for="dsa-1" class="col-sm-2 control-label">DSA</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsa-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="tdah-1" class="col-sm-2 control-label">TDAH</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tdah-1">
+                      </div>
+                      <label for="extraordinary-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="extraordinary-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="other-conditions-1" class="col-sm-2 control-label">Otras condiciones</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="other-conditions-1">
+                      </div>
+                      <!-- label for="women-age-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="women-age-1">
+                      </div -->
+                    </div>
+
+                  </div>
+                  <h3>Grado 5o</h3>
+                  <div>
+                    <div class="form-group row">
+                      <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="men-age-1">
+                      </div>
+                      <label for="women-age-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="women-age-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="language-speakers-1" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="language-speakers-1">
+                      </div>
+                      <label for="foreigner-1" class="col-sm-2 control-label">Nacidos fuera México</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="foreigner-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="disability-1" class="col-sm-2 control-label">Con discapacidad</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="disability-1">
+                      </div>
+                      <label for="dsc-1" class="col-sm-2 control-label">DCS</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsc-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="dscom-1" class="col-sm-2 control-label">DSCom</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dscom-1">
+                      </div>
+                      <label for="dsa-1" class="col-sm-2 control-label">DSA</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsa-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="tdah-1" class="col-sm-2 control-label">TDAH</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tdah-1">
+                      </div>
+                      <label for="extraordinary-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="extraordinary-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="other-conditions-1" class="col-sm-2 control-label">Otras condiciones</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="other-conditions-1">
+                      </div>
+                      <!-- label for="women-age-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="women-age-1">
+                      </div -->
+                    </div>
+
+                  </div>
+                  <h3>Grado 6o</h3>
+                  <div>
+                    <div class="form-group row">
+                      <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="men-age-1">
+                      </div>
+                      <label for="women-age-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="women-age-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="language-speakers-1" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="language-speakers-1">
+                      </div>
+                      <label for="foreigner-1" class="col-sm-2 control-label">Nacidos fuera México</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="foreigner-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="disability-1" class="col-sm-2 control-label">Con discapacidad</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="disability-1">
+                      </div>
+                      <label for="dsc-1" class="col-sm-2 control-label">DCS</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsc-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="dscom-1" class="col-sm-2 control-label">DSCom</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dscom-1">
+                      </div>
+                      <label for="dsa-1" class="col-sm-2 control-label">DSA</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsa-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="tdah-1" class="col-sm-2 control-label">TDAH</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tdah-1">
+                      </div>
+                      <label for="extraordinary-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="extraordinary-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="other-conditions-1" class="col-sm-2 control-label">Otras condiciones</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="other-conditions-1">
+                      </div>
+                      <!-- label for="women-age-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="women-age-1">
                       </div -->
                     </div>
 
@@ -473,11 +683,13 @@
                 
                 <br><br>
                 <p>
-                  2. Escriba el número de alumnos existentes de preescolar al final del ciclo 2016-2017, (al último día del ciclo) desglosándolos por grado y sexo, escriba el total de grupos por grado e indique cuántos de ellos son hablantes de alguna lengua indígena, cuántos son nacidos fuera de México, cuántos tienen alguna Discapacidad, Dificultad Severa de Conducta (DSC), Dificultad Severa de Comunicación (DSCom), Dificultad Severa de Aprendizaje (DSA), Trastorno por Déficit de Atención e Hiperactividad (TDAH), Aptitudes sobresalientes u Otras condiciones.
+                  2. Escriba el número de alumnos promovidos del ciclo 2016-2017 desglosándolos por grado y sexo, e indique cuántos de ellos son hablantes de alguna lengua
+                  indígena, cuántos son nacidos fuera de México, cuántos tienen alguna Discapacidad, Dificultad Severa de Conducta (DSC), Dificultad Severa de Comunicación
+                  (DSCom), Dificultad Severa de Aprendizaje (DSA), Trastorno por Déficit de Atención e Hiperactividad (TDAH), Aptitudes sobresalientes u Otras condiciones.
                 </p>
 
                 <div id="existencia-promovidos-2">
-                  <h3>Estrato de Edad 1</h3>
+                  <h3>Grado 1o</h3>
                   <div>
                     <div class="form-group row">
                       <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
@@ -489,6 +701,7 @@
                         <input type="text" class="form-control" id="women-age-1">
                       </div>
                     </div>
+
                     <div class="form-group row">
                       <label for="language-speakers-1" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
                       <div class="col-sm-4">
@@ -499,6 +712,7 @@
                         <input type="text" class="form-control" id="foreigner-1">
                       </div>
                     </div>
+
                     <div class="form-group row">
                       <label for="disability-1" class="col-sm-2 control-label">Con discapacidad</label>
                       <div class="col-sm-4">
@@ -509,6 +723,7 @@
                         <input type="text" class="form-control" id="dsc-1">
                       </div>
                     </div>
+
                     <div class="form-group row">
                       <label for="dscom-1" class="col-sm-2 control-label">DSCom</label>
                       <div class="col-sm-4">
@@ -519,6 +734,7 @@
                         <input type="text" class="form-control" id="dsa-1">
                       </div>
                     </div>
+
                     <div class="form-group row">
                       <label for="tdah-1" class="col-sm-2 control-label">TDAH</label>
                       <div class="col-sm-4">
@@ -529,6 +745,7 @@
                         <input type="text" class="form-control" id="extraordinary-1">
                       </div>
                     </div>
+
                     <div class="form-group row">
                       <label for="other-conditions-1" class="col-sm-2 control-label">Otras condiciones</label>
                       <div class="col-sm-4">
@@ -541,7 +758,7 @@
                     </div>
 
                   </div>
-                  <h3>Estrato de Edad 2</h3>
+                  <h3>Grado 2o</h3>
                   <div>
                     <div class="form-group row">
                       <label for="men-age-2" class="col-sm-2 control-label">Hombres</label>
@@ -610,7 +827,7 @@
                     </div>
 
                   </div>
-                  <h3>Estrato de Edad 3</h3>
+                  <h3>Grado 3o</h3>
                   <div>
                     <div class="form-group row">
                       <label for="men-age-3" class="col-sm-2 control-label">Hombres</label>
@@ -679,7 +896,214 @@
                     </div>
 
                   </div>
-                </div> 
+                  <h3>Grado 4o</h3>
+                  <div>
+                    <div class="form-group row">
+                      <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="men-age-1">
+                      </div>
+                      <label for="women-age-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="women-age-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="language-speakers-1" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="language-speakers-1">
+                      </div>
+                      <label for="foreigner-1" class="col-sm-2 control-label">Nacidos fuera México</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="foreigner-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="disability-1" class="col-sm-2 control-label">Con discapacidad</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="disability-1">
+                      </div>
+                      <label for="dsc-1" class="col-sm-2 control-label">DCS</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsc-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="dscom-1" class="col-sm-2 control-label">DSCom</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dscom-1">
+                      </div>
+                      <label for="dsa-1" class="col-sm-2 control-label">DSA</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsa-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="tdah-1" class="col-sm-2 control-label">TDAH</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tdah-1">
+                      </div>
+                      <label for="extraordinary-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="extraordinary-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="other-conditions-1" class="col-sm-2 control-label">Otras condiciones</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="other-conditions-1">
+                      </div>
+                      <!-- label for="women-age-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="women-age-1">
+                      </div -->
+                    </div>
+
+                  </div>
+                  <h3>Grado 5o</h3>
+                  <div>
+                    <div class="form-group row">
+                      <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="men-age-1">
+                      </div>
+                      <label for="women-age-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="women-age-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="language-speakers-1" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="language-speakers-1">
+                      </div>
+                      <label for="foreigner-1" class="col-sm-2 control-label">Nacidos fuera México</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="foreigner-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="disability-1" class="col-sm-2 control-label">Con discapacidad</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="disability-1">
+                      </div>
+                      <label for="dsc-1" class="col-sm-2 control-label">DCS</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsc-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="dscom-1" class="col-sm-2 control-label">DSCom</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dscom-1">
+                      </div>
+                      <label for="dsa-1" class="col-sm-2 control-label">DSA</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsa-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="tdah-1" class="col-sm-2 control-label">TDAH</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tdah-1">
+                      </div>
+                      <label for="extraordinary-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="extraordinary-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="other-conditions-1" class="col-sm-2 control-label">Otras condiciones</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="other-conditions-1">
+                      </div>
+                      <!-- label for="women-age-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="women-age-1">
+                      </div -->
+                    </div>
+
+                  </div>
+                  <h3>Grado 6o</h3>
+                  <div>
+                    <div class="form-group row">
+                      <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="men-age-1">
+                      </div>
+                      <label for="women-age-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="women-age-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="language-speakers-1" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="language-speakers-1">
+                      </div>
+                      <label for="foreigner-1" class="col-sm-2 control-label">Nacidos fuera México</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="foreigner-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="disability-1" class="col-sm-2 control-label">Con discapacidad</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="disability-1">
+                      </div>
+                      <label for="dsc-1" class="col-sm-2 control-label">DCS</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsc-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="dscom-1" class="col-sm-2 control-label">DSCom</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dscom-1">
+                      </div>
+                      <label for="dsa-1" class="col-sm-2 control-label">DSA</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsa-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="tdah-1" class="col-sm-2 control-label">TDAH</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tdah-1">
+                      </div>
+                      <label for="extraordinary-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="extraordinary-1">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="other-conditions-1" class="col-sm-2 control-label">Otras condiciones</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="other-conditions-1">
+                      </div>
+                      <!-- label for="women-age-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="women-age-1">
+                      </div -->
+                    </div>
+
+                  </div>
+                </div>
               
               </div>
               
@@ -746,6 +1170,7 @@
                       </div>
                     </div>
                   </div>
+
                   <h3>Grado 2o</h3>
                   <div>
                     <h4>Misma entidad federativa</h4>
@@ -782,6 +1207,7 @@
                       </div>
                     </div>
                   </div>
+
                   <h3>Grado 3o</h3>
                   <div>
                     <h4>Misma entidad federativa</h4>
@@ -815,6 +1241,117 @@
                       <label for="migrant-women-othercountry-grade-3" class="col-sm-2 control-label">Mujeres</label>
                       <div class="col-sm-4">
                         <input type="text" class="form-control" id="migrant-women-othercountry-grade-3">
+                      </div>
+                    </div>
+                  </div>
+
+                  <h3>Grado 4o</h3>
+                  <div>
+                    <h4>Misma entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-2" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-2">
+                      </div>
+                      <label for="migrant-women-sameef-grade-2" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-2">
+                      </div>
+                    </div>
+                    <h4>Otra entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-otheref-grade-2" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-otheref-grade-2">
+                      </div>
+                      <label for="migrant-women-otheref-grade-2" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-otheref-grade-2">
+                      </div>
+                    </div>
+                    <h4>Otro país</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-othercountry-grade-2" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-2">
+                      </div>
+                      <label for="migrant-women-othercountry-grade-2" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-2">
+                      </div>
+                    </div>
+                  </div>
+
+                  <h3>Grado 5o</h3>
+                  <div>
+                    <h4>Misma entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-2" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-2">
+                      </div>
+                      <label for="migrant-women-sameef-grade-2" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-2">
+                      </div>
+                    </div>
+                    <h4>Otra entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-otheref-grade-2" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-otheref-grade-2">
+                      </div>
+                      <label for="migrant-women-otheref-grade-2" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-otheref-grade-2">
+                      </div>
+                    </div>
+                    <h4>Otro país</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-othercountry-grade-2" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-2">
+                      </div>
+                      <label for="migrant-women-othercountry-grade-2" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-2">
+                      </div>
+                    </div>
+                  </div>
+
+                  <h3>Grado 6o</h3>
+                  <div>
+                    <h4>Misma entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-2" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-2">
+                      </div>
+                      <label for="migrant-women-sameef-grade-2" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-2">
+                      </div>
+                    </div>
+                    <h4>Otra entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-otheref-grade-2" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-otheref-grade-2">
+                      </div>
+                      <label for="migrant-women-otheref-grade-2" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-otheref-grade-2">
+                      </div>
+                    </div>
+                    <h4>Otro país</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-othercountry-grade-2" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-2">
+                      </div>
+                      <label for="migrant-women-othercountry-grade-2" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-2">
                       </div>
                     </div>
                   </div>
@@ -1054,12 +1591,12 @@
         </div>
       </div>
           
-      <!-- V.INFORMACION GENERAL -->
+      <!-- V.ALUMNOS Y GRUPOS -->
       <div class="row">
         <div class="col-12">
           <div class="box">
             <div class="box-header">
-              <h2 class="box-title">V. INFORMACIÓN GENERAL</h2>
+              <h2 class="box-title">V. ALUMNOS Y GRUPOS</h2>
             </div>
               
             <form class="form-horizontal form-element">
@@ -1067,25 +1604,232 @@
               <div class="box-body">
                 
                 <p>
-                  1. Seleccione las secciones que atiende el CENDI.
+                  1. En esta página y la siguiente, se requiere anotar el total de alumnos inscritos a partir de la fecha de inicio de cursos, sumando las altas y restando las bajas hasta el 30 de septiembre, desglosándolos por grado, sexo, nuevo  ingreso, repetidores y edad. Verifique que la suma de los subtotales de alumnos por edad sea igual al total.
                 </p>
                 
-                <div class="form-group">
-                  <div class="checkbox">
-                    <input type="checkbox" id="Checkbox_1">
-                    <label for="Checkbox_1">Lactantes</label>
+                <h3>Grado 1o</h3>
+                  <div>
+                    <h4>Misma entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Otra entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
+                      </div>
+                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
+                      </div>
+                    </div>
+                    <h4>Otro país</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
+                      </div>
+                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
+                      </div>
+                    </div>
                   </div>
 
-                  <div class="checkbox">
-                    <input type="checkbox" id="Checkbox_2">
-                    <label for="Checkbox_2">Maternales</label>
+                <h3>Grado 2o</h3>
+                  <div>
+                    <h4>Misma entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Otra entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
+                      </div>
+                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
+                      </div>
+                    </div>
+                    <h4>Otro país</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
+                      </div>
+                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
+                      </div>
+                    </div>
                   </div>
 
-                  <div class="checkbox">
-                    <input type="checkbox" id="Checkbox_3">
-                    <label for="Checkbox_3">Preescolares</label>                      
+                <h3>Grado 3o</h3>
+                  <div>
+                    <h4>Misma entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Otra entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
+                      </div>
+                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
+                      </div>
+                    </div>
+                    <h4>Otro país</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
+                      </div>
+                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
+                      </div>
+                    </div>
                   </div>
-                </div>
+
+                <h3>Grado 4o</h3>
+                  <div>
+                    <h4>Misma entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Otra entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
+                      </div>
+                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
+                      </div>
+                    </div>
+                    <h4>Otro país</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
+                      </div>
+                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
+                      </div>
+                    </div>
+                  </div>
+
+                <h3>Grado 5o</h3>
+                  <div>
+                    <h4>Misma entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Otra entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
+                      </div>
+                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
+                      </div>
+                    </div>
+                    <h4>Otro país</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
+                      </div>
+                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
+                      </div>
+                    </div>
+                  </div>
+
+                <h3>Grado 6o</h3>
+                  <div>
+                    <h4>Misma entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Otra entidad federativa</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
+                      </div>
+                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
+                      </div>
+                    </div>
+                    <h4>Otro país</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
+                      </div>
+                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
+                      </div>
+                    </div>
+                  </div>
+
+
 
                 <p>
                   2. Escriba la cantidad de solicitudes de inscripción pendientes.
