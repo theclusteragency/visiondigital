@@ -185,13 +185,23 @@ class LoginController extends Controller
     }
 
     /**
-     * Listado de eventos.
+     * Evaluaciones Educacion Inicial.
      *
      * @return \Illuminate\Http\Response
      */
     public function evaluations()
     {
         return view('evaluations');
+    }
+
+    /**
+     * Evaluaciones Educacion Basica.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function evaluation_basic()
+    {
+        return view('evaluations-basic');
     }
 
 }
