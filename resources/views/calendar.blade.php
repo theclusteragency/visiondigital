@@ -45,6 +45,7 @@
                       <h4 class="modal-title"><strong>Agregar Evento</strong></h4>
                     </div>
                     <div class="modal-body">
+                      <h4 id="title-event-date">Fecha de Evento: 2018-04-30</h4>
                       <form>
                         <input type="hidden" name="event-date" id="event-date" value="">
                         <div class="row">
@@ -54,6 +55,16 @@
                               <input class="form-control" placeholder="Inserte nombre de Evento" type="text" name="title" id="title">
                             </div>
                           </div>
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <label class="control-label">Estatus:</label>
+                              <select class="form-control" name="status" id="status">
+                                <option value="1">Programado</option>
+                                <option value="2">Iniciado</option>
+                                <option value="3">Finalizado</option>
+                              </select>
+                            </div>
+                          </div>
                           <!-- div class="col-md-6">
                             <div class="form-group">
                               <label class="control-label">Categoria</label>
@@ -61,7 +72,7 @@
                             </div>
                           </div -->
                         </div>
-                        <div class="row">
+                        <!--div class="row">
                           <div class="col-md-6">
                             <div class="form-group">
                               <label class="control-label">Estatus:</label>
@@ -75,15 +86,15 @@
                           <div class="col-md-6">
                             
                           </div>
-                        </div>
-                        <div class="row">
+                        </div -->
+                        <!-- div class="row">
                           <div class="col-md-12">
                             <div class="form-group">
                               <label class="control-label">Dirección:</label>
                               <select class="form-control" name="directors[]" id="directors"></select>
                             </div>
                           </div>
-                        </div>
+                        </div -->
                         <div class="row">
                           <div class="col-md-12">
                             <div class="form-group" style="display: none">
@@ -106,6 +117,14 @@
                         </div>
                         <div class="row">
                           <div class="col-md-12">
+                            <div class="form-group">
+                              <label class="control-label">CCT:</label>
+                              <select class="form-control" name="cct[]" id="cct"></select>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- div class="row">
+                          <div class="col-md-12">
                             <div class="form-group" style="display: none">
                               <label class="control-label">Supervisiores:</label>
                               <select class="form-control" name="supervisors[]" id="supervisors" multiple></select>
@@ -113,7 +132,7 @@
 
                             <div class="form-group">
                               <label class="control-label">Roles:</label>
-                              <!-- select class="form-control" name="supervisors[]" id="supervisors" multiple></select -->
+                              <select class="form-control" name="supervisors[]" id="supervisors" multiple></select>
                               <select class="form-control" name="roles[]" id="roles" multiple>
                                 <option>Secretario</option>
                                 <option>Subsecretario</option>
@@ -127,8 +146,8 @@
                               </select>
                             </div>
                           </div>
-                        </div>
-                        <div class="row">
+                        </div -->
+                        <!-- div class="row">
                           <div class="col-md-12">
                             <div class="form-group">
                               <label class="control-label">Estadísticas:</label>
@@ -137,11 +156,11 @@
                               </select>
                             </div>
                           </div>
-                        </div>
+                        </div -->
                         <!-- div class="row"><div class="col-md-12">
                           <div class="form-group"><label class="control-label">Dirección</label><input class="form-control" placeholder="Dirección" type="text" name="address" id="address"></div></div>
                         </div>
-                        <div style="display: block;">
+                        <div style="display: none;">
                             <div class="row row5">
                               <div class="col-md-6">
                                 <div class="form-group">
@@ -156,12 +175,12 @@
                                 </div>
                               </div>
                             </div>
-                        </div>
+                        </div -->
                         <div class="row">
                             <div class="col-md-12">
                                 <div id="map" style="height: 300px; width: 100%"></div>
                             </div>
-                        </div -->
+                        </div>
                       </form>
                     </div>
                     <div class="modal-footer">

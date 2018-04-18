@@ -32,6 +32,25 @@ jQuery(document).ready(function(){
 
     });
 
+    jQuery.getJSON("/js/cct15.json", function(json) {
+      //console.log(json);
+      cct15 = json;
+      cct15.forEach(function(item,index){
+        //console.log(item.clavecct);
+        tmp = {id:item.clavecct, title:item.clavecct};
+        cctoptions.push(tmp);
+      });
+      $select_cct = $('#cct').selectize({
+          maxItems: null,
+          valueField: 'id',
+          labelField: 'title',
+          searchField: 'title',
+          options: cctoptions,
+          create: false
+      });
+      control_cct = $select_cct[0].selectize;
+    });
+
     jQuery('#btn-cancel-event').on('click', function(){
         clearAddForm();
     });
@@ -74,7 +93,7 @@ jQuery(document).ready(function(){
     control_municipios = $select_municipios[0].selectize;
 
     // -------- Roles
-    $select_roles = $('#roles').selectize({
+    /*$select_roles = $('#roles').selectize({
         maxItems: null,
         valueField: 'id',
         labelField: 'title',
@@ -82,7 +101,7 @@ jQuery(document).ready(function(){
         options: mpiosoptions,
         create: false
     });
-    control_roles = $select_roles[0].selectize;
+    control_roles = $select_roles[0].selectize;*/
 
 });
 
@@ -166,12 +185,14 @@ function handleEvents(response) {
             });
             
             var clickDate = start.format("YYYY-MM-DD");
+            
+            $('#title-event-date').html('Fecha del Evento: ' + clickDate);
 
             $("#event-date").val(clickDate);
 
             var form = jQuery("#frm-create");
 
-            //initMap();
+            initMap();
 
             $('#create-event').unbind().click(function () {
                 console.log('Crear Evento');
@@ -329,16 +350,21 @@ var activities = [];
 var events = [];
 var regionsoptions = [];
 var mpiosoptions = [];
+var cctoptions = [];
 
 var $select_activities;
 var $select_operators;
 var $select_analysts;
+
 var control_activities;
 var control_operators;
 var control_analysts;
 var control_regions;
 var control_municipios;
 var control_roles;
+var control_cct;
+
+var cct15;
 
 getUsers(handleUsers);
 
@@ -416,7 +442,7 @@ function handleSupervisors(response) {
         options: supervisors,
         create: false
     });
-    control_supervisors = $select_supervisors[0].selectize;
+    //control_supervisors = $select_supervisors[0].selectize;
 }
 
 getDirector(handleDirector);
@@ -433,7 +459,7 @@ function handleDirector(response) {
         options: directors,
         create: false
     });
-    control_directors = $select_directors[0].selectize;
+    //control_directors = $select_directors[0].selectize;
 }
 
 getCategories(handleCategories);
@@ -463,7 +489,7 @@ function handleActivities(response) {
         create: false
     });
 
-    control_activities = $select_activities[0].selectize;
+    //control_activities = $select_activities[0].selectize;
 
 }
 
@@ -706,7 +732,7 @@ function clearAddForm(){
 
 /*======================= Google Maps ================================*/
 
-/*var map;
+var map;
 var markers = [];
 
 function geocodificacion(address, callback){
@@ -744,11 +770,11 @@ function geocodificacion(address, callback){
 
 function initMap() {
     
-    var myLatLng = {lat: 21.645941, lng: -101.447754};
+    var myLatLng = {lat: 19.337491, lng: -100.0173549};
 
     map = new google.maps.Map(document.getElementById('map'), {
         center: myLatLng,
-        zoom: 4
+        zoom: 8
     });
 
     // This event listener calls addMarker() when the map is clicked.
@@ -789,7 +815,7 @@ function setMapOnAll(map) {
 function deleteMarkers() {
     setMapOnAll(null);
     markers = [];
-}*/
+}
 
 function showLoader(text) {
   $("#loaderText").text(text);
