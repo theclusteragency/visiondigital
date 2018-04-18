@@ -3,14 +3,84 @@ $(document).ready(function(){
     initMap();
 
     function initMap() {
-        var uluru = {lat: 19.430721, lng: -99.181362};
+        var myLatLng = {lat: 19.3275467, lng: -99.6083953};
         var map = new google.maps.Map(document.getElementById('overlayermap'), {
-          zoom: 7,
-          center: uluru
+          zoom: 9,
+          center: myLatLng
         });
 
-        showLoader("Cargando usuarios...")
-        getUsers(handleUsers);
+        showLoader("Cargando Escuelas...")
+
+        var locations = [];
+        var markers = [];
+
+
+        jQuery.getJSON("/js/cct15.json", function(json) {
+          //console.log(json);
+          var itemsProcessed = 0;
+
+          cct15 = json;
+          cct15.forEach(function(item,index){
+            //console.log(item.clavecct);
+
+            var dot = 'red-dot.png';
+
+            lt = parseFloat(item.latitud);
+            lg = parseFloat(item.longitud);
+
+            tmp = { lat:lt,  lng:lg };
+
+            locations.push(tmp);
+
+            var contentString = 
+              '<div id="content">'+
+                '<div>'+
+                  '<h2 id="firstHeading" class="firstHeading">Nombre:' + item.nombrecct + '</h2>'+
+                  '<h3 class="firstHeading">CCT: ' + item.clavecct + '</h3>'+
+                  '<div id="bodyContent">'+
+                      '<p><b>Domicilio:  </b>' + item.domicilio + '</p>'+
+                      '<p><b>Turno:  </b>' + item.nturno + '</p>'+
+                      '<p><b>Nivel:  </b>' + item.nnivel + '</p>'+
+                  '</div>'+
+                '</div>'+
+              '</div>';
+
+            var infowindow = new google.maps.InfoWindow({
+              content: contentString
+            });
+
+            var marker = new google.maps.Marker({
+              icon: 'http://maps.google.com/mapfiles/ms/icons/'+dot,
+              //icon: 'images/map-school-32x32.png',
+              position: tmp,
+              map: map,
+              title: item.nombrecct
+            });
+
+            marker.addListener('click', function() {
+              infowindow.open(map, marker);
+            });
+
+
+            markers.push(marker);
+
+            itemsProcessed++;
+            if(itemsProcessed === cct15.length) {
+              callback();
+            }
+            
+          });
+          
+        });
+
+        function callback () { 
+          // Add a marker clusterer to manage the markers.
+          var markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+        }
+
+
+        //getUsers(handleUsers);
 
         function handleUsers(response){
 
