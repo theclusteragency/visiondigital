@@ -48,24 +48,34 @@ jQuery(document).ready(function(){
 
     });
 
-    $( "#existencia-promovidos-1" ).accordion({
+    $('#existencia-promovidos-1').accordion({
       collapsible: true,
       heightStyle: "content"
     });
-    $( "#existencia-promovidos-2" ).accordion({
+    $('#existencia-promovidos-2').accordion({
       collapsible: true,
       heightStyle: "content"
     });
-    $( "#migracion" ).accordion({
+    $('#migracion').accordion({
       collapsible: true,
       heightStyle: "content"
     });
-    $( "#migracion-other-country" ).accordion({
+    $('#migracion-other-country').accordion({
       collapsible: true,
       heightStyle: "content"
     });
 
-    $( "#info-general" ).accordion({
+    $('#info-general').accordion({
+      collapsible: true,
+      heightStyle: "content"
+    });
+
+    $('#total-alumnos').accordion({
+      collapsible: true,
+      heightStyle: "content"
+    });
+
+    $('#total-foreign').accordion({
       collapsible: true,
       heightStyle: "content"
     });

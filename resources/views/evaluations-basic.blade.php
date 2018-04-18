@@ -1124,15 +1124,11 @@
             <div class="box-header">
               <h2 class="box-title">II. MIGRACIÓN (ALUMNOS QUE PROVIENEN DE OTRA ESCUELA)</h2>
             </div>
-              
             <form class="form-horizontal form-element">
-
               <div class="box-body">
-                
                 <p>
                   1. Escriba por sexo y grado el número de alumnos que provienen de otra escuela, desglosándolos según el lugar donde se encontraba la escuela (en la misma entidad federativa, otra entidad federativa o incluso en otro país).
                 </p>
-
                 <div id="migracion">
                   <h3>Grado 1o</h3>
                   <div>
@@ -1170,7 +1166,6 @@
                       </div>
                     </div>
                   </div>
-
                   <h3>Grado 2o</h3>
                   <div>
                     <h4>Misma entidad federativa</h4>
@@ -1207,7 +1202,6 @@
                       </div>
                     </div>
                   </div>
-
                   <h3>Grado 3o</h3>
                   <div>
                     <h4>Misma entidad federativa</h4>
@@ -1244,7 +1238,6 @@
                       </div>
                     </div>
                   </div>
-
                   <h3>Grado 4o</h3>
                   <div>
                     <h4>Misma entidad federativa</h4>
@@ -1281,7 +1274,6 @@
                       </div>
                     </div>
                   </div>
-
                   <h3>Grado 5o</h3>
                   <div>
                     <h4>Misma entidad federativa</h4>
@@ -1318,7 +1310,6 @@
                       </div>
                     </div>
                   </div>
-
                   <h3>Grado 6o</h3>
                   <div>
                     <h4>Misma entidad federativa</h4>
@@ -1356,12 +1347,10 @@
                     </div>
                   </div>
                 </div> 
-                
                 <br><br>
                 <p>
                   2. De los alumnos provenientes de escuela de otro país reportados en la pregunta anterior, desglóselos según el país o lugar.
                 </p>
-
                 <div id="migracion-other-country">
                   <h3>Hombres</h3>
                   <div>
@@ -1465,18 +1454,14 @@
                         <input type="text" class="form-control" id="migrant-women-oce">
                       </div>
                     </div>
-                    
                   </div>
                 </div> 
-
               </div>
-              
               <div class="box-footer">
                 <button type="submit" class="btn btn-default">Cancelar</button>
                 <button type="submit" class="btn btn-info pull-right">Guardar</button>
               </div>
             </form>
-
           </div>
         </div>
       </div>
@@ -1598,253 +1583,317 @@
             <div class="box-header">
               <h2 class="box-title">V. ALUMNOS Y GRUPOS</h2>
             </div>
-              
             <form class="form-horizontal form-element">
-
               <div class="box-body">
-                
                 <p>
                   1. En esta página y la siguiente, se requiere anotar el total de alumnos inscritos a partir de la fecha de inicio de cursos, sumando las altas y restando las bajas hasta el 30 de septiembre, desglosándolos por grado, sexo, nuevo  ingreso, repetidores y edad. Verifique que la suma de los subtotales de alumnos por edad sea igual al total.
                 </p>
-                
-                <h3>Grado 1o</h3>
+                <div id="total-alumnos">
+                  <h3>Grado 1o</h3>
                   <div>
-                    <h4>Misma entidad federativa</h4>
+                    <h4>Menos de 6 años</h4>
                     <div class="form-group row">
-                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <label for="minus6-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                        <input type="text" class="form-control" id="minus6-men-new-grade-1">
                       </div>
-                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <label for="minus6-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                        <input type="text" class="form-control" id="minus6-men-repeater-grade-1">
+                      </div>
+                      <label for="minus6-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-women-new-grade-1">
+                      </div>
+                      <label for="minus6-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-women-repeater-grade-1">
                       </div>
                     </div>
-                    <h4>Otra entidad federativa</h4>
+                    <h4>6 años</h4>
                     <div class="form-group row">
-                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <label for="six-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
+                        <input type="text" class="form-control" id="six-men-new-grade-1">
                       </div>
-                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <label for="six-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
+                        <input type="text" class="form-control" id="six-men-repeater-grade-1">
+                      </div>
+                      <label for="six-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-women-new-grade-1">
+                      </div>
+                      <label for="six-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-women-repeater-grade-1">
                       </div>
                     </div>
-                    <h4>Otro país</h4>
+                    <h4>7 años</h4>
                     <div class="form-group row">
-                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
                       </div>
-                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
                       </div>
                     </div>
                   </div>
 
-                <h3>Grado 2o</h3>
+                  <h3>Grado 2o</h3>
                   <div>
-                    <h4>Misma entidad federativa</h4>
-                    <div class="form-group row">
-                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
-                      </div>
-                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
-                      </div>
-                    </div>
-                    <h4>Otra entidad federativa</h4>
-                    <div class="form-group row">
-                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
-                      </div>
-                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
-                      </div>
-                    </div>
-                    <h4>Otro país</h4>
-                    <div class="form-group row">
-                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
-                      </div>
-                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
-                      </div>
-                    </div>
+                    
                   </div>
 
-                <h3>Grado 3o</h3>
+                  <h3>Grado 3o</h3>
                   <div>
-                    <h4>Misma entidad federativa</h4>
-                    <div class="form-group row">
-                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
-                      </div>
-                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
-                      </div>
-                    </div>
-                    <h4>Otra entidad federativa</h4>
-                    <div class="form-group row">
-                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
-                      </div>
-                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
-                      </div>
-                    </div>
-                    <h4>Otro país</h4>
-                    <div class="form-group row">
-                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
-                      </div>
-                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
-                      </div>
-                    </div>
+                    
                   </div>
 
-                <h3>Grado 4o</h3>
+                  <h3>Grado 4o</h3>
                   <div>
-                    <h4>Misma entidad federativa</h4>
-                    <div class="form-group row">
-                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
-                      </div>
-                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
-                      </div>
-                    </div>
-                    <h4>Otra entidad federativa</h4>
-                    <div class="form-group row">
-                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
-                      </div>
-                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
-                      </div>
-                    </div>
-                    <h4>Otro país</h4>
-                    <div class="form-group row">
-                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
-                      </div>
-                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
-                      </div>
-                    </div>
+                    
                   </div>
 
-                <h3>Grado 5o</h3>
+                  <h3>Grado 5o</h3>
                   <div>
-                    <h4>Misma entidad federativa</h4>
-                    <div class="form-group row">
-                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
-                      </div>
-                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
-                      </div>
-                    </div>
-                    <h4>Otra entidad federativa</h4>
-                    <div class="form-group row">
-                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
-                      </div>
-                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
-                      </div>
-                    </div>
-                    <h4>Otro país</h4>
-                    <div class="form-group row">
-                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
-                      </div>
-                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
-                      </div>
-                    </div>
+                    
                   </div>
 
-                <h3>Grado 6o</h3>
+                  <h3>Grado 6o</h3>
                   <div>
-                    <h4>Misma entidad federativa</h4>
-                    <div class="form-group row">
-                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
-                      </div>
-                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
-                      </div>
-                    </div>
-                    <h4>Otra entidad federativa</h4>
-                    <div class="form-group row">
-                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
-                      </div>
-                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
-                      </div>
-                    </div>
-                    <h4>Otro país</h4>
-                    <div class="form-group row">
-                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
-                      </div>
-                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
-                      </div>
-                    </div>
+                    
                   </div>
 
-
-
-                <p>
-                  2. Escriba la cantidad de solicitudes de inscripción pendientes.
-                </p>
-                <input type="text" class="form-control" id="migrant-men-oce">
-
-                <p>
-                  3. Escriba el número de los alumnos atendidos por la Unidad de Servicion de Apoyo a la Educacion Regular (USAER), desglosándolos por sexo.
-                </p>
-                <div>
-                  Niños <input type="text" class="form-control" id="migrant-men-oce">
-                  Niñas <input type="text" class="form-control" id="migrant-men-oce">
                 </div>
+                
+                <br><br>
                 <p>
-                  4. Escriba la cantidad de alumnos con discapacidades, dificultades, transtornos, aptitudes sobresalientes y otras condiciones (diversidad social, cultural, o lingüística) desglosándolos por grado y sexo.
+                  2. Escriba el número total de grupos por grado.
+                  Nota: Si en un grupo se atiende más de un grado, anótelo en el apartado MÁS DE UN GRADO.
+                </p>
+                <div class="form-group row">
+                  <label for="total-groups-grade-1" class="col-sm-2 control-label">Primero</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="total-groups-grade-1">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="total-groups-grade-2" class="col-sm-2 control-label">Segundo</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="total-groups-grade-2">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="total-groups-grade-3" class="col-sm-2 control-label">Tercero</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="total-groups-grade-3">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="total-groups-grade-4" class="col-sm-2 control-label">Cuarto</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="total-groups-grade-4">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="total-groups-grade-5" class="col-sm-2 control-label">Quinto</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="total-groups-grade-5">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="total-groups-grade-6" class="col-sm-2 control-label">Sexto</label>
+                  <div class="col-sm-10">
+                    <input type="text" class="form-control" id="total-groups-grade-6">
+                  </div>
+                </div>
+                
+                <br><br>
+                <p>
+                  3. Del total de alumnos reportados en primer grado, registre la cantidad de los que cursaron 
+                  educación preescolar, según los años cursados y tipo de ingreso, desglosándolos por sexo y 
+                  cuántos de ellos tienen alguna discapacidad.
+                </p>
+
+                <br><br>
+                <p>
+                  4. Escriba el número de niños indígenas o hablantes de alguna lengua indígena, desglosándolo por sexo.
+                </p>
+                <div class="form-group row">
+                  <label for="total-man-native" class="col-sm-2 control-label">Hombres</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="total-man-native">
+                  </div>
+                  <label for="total-woman-native" class="col-sm-2 control-label">Mujeres</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="total-woman-native">
+                  </div>
+                </div>
+
+                <br><br>
+                <p>
+                  5. Escriba el número de alumnos de nacionalidad extranjera, desglosándolo por sexo.
+                </p>
+                <div id="total-foreign">
+                  <h3>Hombres</h3>
+                  <div>
+                    <div class="form-group row">
+                      <label for="total-foreign-men-usa" class="col-sm-2 control-label">Estados Unidos</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="total-foreign-men-usa">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="total-foreign-men-can" class="col-sm-2 control-label">Canada</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="total-foreign-men-can">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="total-foreign-men-cam" class="col-sm-2 control-label">Centroamérica y el Caribe</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="total-foreign-men-cam">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="total-foreign-men-sam" class="col-sm-2 control-label">Sudamérica</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="total-foreign-men-sam">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="total-foreign-men-afr" class="col-sm-2 control-label">África</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="schoolname">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="total-foreign-men-asia" class="col-sm-2 control-label">Asia</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="total-foreign-men-asia">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="total-foreign-men-eur" class="col-sm-2 control-label">Europa</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="total-foreign-men-eur">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="total-foreign-men-oce" class="col-sm-2 control-label">Oceanía</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="total-foreign-men-oce">
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <h3>Mujeres</h3>
+                  <div>
+                    <div class="form-group row">
+                      <label for="foreign-women-usa" class="col-sm-2 control-label">Estados Unidos</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="foreign-women-usa">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="foreign-women-can" class="col-sm-2 control-label">Canada</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="foreign-women-can">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="foreign-women-cam" class="col-sm-2 control-label">Centroamérica y el Caribe</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="foreign-women-cam">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="foreign-women-sam" class="col-sm-2 control-label">Sudamérica</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="foreign-women-sam">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="foreign-women-afr" class="col-sm-2 control-label">África</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="schoolname">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="foreign-women-asia" class="col-sm-2 control-label">Asia</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="foreign-women-asia">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="foreign-women-eur" class="col-sm-2 control-label">Europa</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="foreign-women-eur">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="foreign-women-oce" class="col-sm-2 control-label">Oceanía</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="foreign-women-oce">
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div> 
+
+                <br><br>
+                <p>
+                  6. Escriba el número total de alumnos atendidos por la Unidad de Servicios de Apoyo a la 
+                  Educación Regular (USAER), desglosándolos por sexo.
+                </p>
+                <div class="form-group row">
+                  <label for="total-man-usaer" class="col-sm-2 control-label">Hombres</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="total-man-usaer">
+                  </div>
+                  <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="total-woman-usaer">
+                  </div>
+                </div>
+
+                <br><br>
+                <p>
+                  7. De la matrícula total, escriba el número de alumnos que proceden de escuela preescolar 
+                  general, indígena y/o comunitaria desglosándolo por grado y sexo.
+                </p>
+
+                <br><br>
+                <p>
+                  8. Escriba el nombre de la lengua materna que hablan los alumnos procedentes de escuela preescolar indígena.
+                </p>
+                <div class="form-group row">
+                  <label for="total-native-language-id" class="col-sm-2 control-label">Clave</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="total-native-language-id">
+                  </div>
+                  <label for="total-native-language" class="col-sm-2 control-label">Lengua Materna</label>
+                  <div class="col-sm-4">
+                    <input type="text" class="form-control" id="total-native-language">
+                  </div>
+                </div>
+                
+
+                <br><br>
+                <p>
+                  9. Escriba la cantidad de alumnos con discapacidades, dificultades, trastornos, aptitudes sobresalientes 
+                  y otras condiciones (diversidad social, cultural o lingüística), desglosándolos por grado y sexo..
                 </p>
 
                 <div id="info-general">
