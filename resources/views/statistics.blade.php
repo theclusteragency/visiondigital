@@ -91,6 +91,54 @@
           <div class="box box-primary">
             <div class="box-header with-border">
               <i class="fa fa-users"></i>
+              <h3 class="box-title">Existencias totales de hombres y mujeres</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <div class="box-body">
+              <div id="existence-gender" style="height: 300px;"></div>
+            </div>
+            <!-- /.box-body-->
+          </div>
+          <!-- /.box -->
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <!-- DONUT CHART -->
+          <div class="box box-danger">
+            <div class="box-header with-border">
+              <i class="fa fa-flag"></i>
+              <h3 class="box-title">Grupos totales por grado</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <div class="row px-3">
+              <div class="col-12 col-lg-7">
+                <div class="box-body chart-responsive">
+                  <div class="chart" id="existence-total-group" style="height: 300px; position: relative;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- /.row -->
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <!-- Donut chart -->
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <i class="fa fa-users"></i>
               <h3 class="box-title">Porcentaje de Estadísticas</h3>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -142,6 +190,8 @@
           </div>
         </div>
       </div>
+
+
 
 
 
@@ -269,6 +319,8 @@
 
     <!-- This is data table -->
     <script src="assets/vendor_plugins/DataTables-1.10.15/media/js/jquery.dataTables.min.js"></script>
+
+    <script src="js/pages/statistics.js"></script>
 
     <script>
       $(document).ready(function(){
