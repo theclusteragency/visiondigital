@@ -15,83 +15,22 @@
     </section>
     <!-- Main content -->
     <section class="content">
-      <!-- div class="row">
+      <div class="row">
         <div class="col-12">
           <div class="box box-primary">
             <div class="box-header with-border">
-              <i class="fa fa-line-chart"></i>
-              <h3 class="box-title">Generales</h3>
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-            </div>
-            <div class="box-body">
-              <div class="row">
-                <div class="col-6 col-xl-3">
-                  <div class="small-box bg-admin">
-                    <div class="inner">
-                      <h3><span id="totalAdmins">-</span></h3>
-                      <p>Administradores</p>
-                    </div>
-                    <div class="icon">
-                      <i class="fa fa-user"></i>
-                    </div>
-                    <a href="{{ route('operation') }}" class="small-box-footer">Ir a listados <i class="fa fa-arrow-right"></i></a>
-                  </div>
-                </div>
-                <div class="col-6 col-xl-3">
-                  <div class="small-box bg-operador">
-                    <div class="inner">
-                      <h3><span id="totalOperadores">-</span></h3>
-                      <p>Operadores</p>
-                    </div>
-                    <div class="icon">
-                      <i class="fa fa-mobile"></i>
-                    </div>
-                    <a href="{{ route('operation') }}" class="small-box-footer">Ir a listados <i class="fa fa-arrow-right"></i></a>
-                  </div>
-                </div>
-                <div class="col-6 col-xl-3">
-                  <div class="small-box bg-analista">
-                    <div class="inner">
-                      <h3><span id="totalAnalistas">-</span></h3>
-                      <p>Analistas</p>
-                    </div>
-                    <div class="icon">
-                      <i class="fa fa-bar-chart"></i>
-                    </div>
-                    <a href="{{ route('operation') }}" class="small-box-footer">Ir a listados <i class="fa fa-arrow-right"></i></a>
-                  </div>
-                </div>
-                <div class="col-6 col-xl-3">
-                  <div class="small-box bg-blue2">
-                    <div class="inner">
-                      <h3><span id="totalEventos">-</span></h3>
-                      <p>Eventos registrados</p>
-                    </div>
-                    <div class="icon">
-                      <i class="fa fa-calendar-check-o"></i>
-                    </div>
-                    <a href="{{ route('operation') }}" class="small-box-footer">Ir a listados <i class="fa fa-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
+              <h3>EXISTENCIA Y PROMOVIDOS</h3>
             </div>
           </div>
         </div>
-      </div -->
-
-
-      <!-- /.row -->
+      </div>
+      
       <div class="row">
         <div class="col-12 col-lg-6">
-          <!-- Donut chart -->
           <div class="box box-primary">
             <div class="box-header with-border">
               <i class="fa fa-users"></i>
-              <h3 class="box-title">Existencias totales de hombres y mujeres</h3>
+              <h3 class="box-title">Existencias totales de niños y niñas</h3>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                 </button>
@@ -99,15 +38,12 @@
               </div>
             </div>
             <div class="box-body">
-              <div id="existence-gender" style="height: 300px;"></div>
+              <canvas id="myChart" style="height: 300px; width: 100%"></canvas>
             </div>
-            <!-- /.box-body-->
           </div>
-          <!-- /.box -->
         </div>
 
         <div class="col-12 col-lg-6">
-          <!-- DONUT CHART -->
           <div class="box box-danger">
             <div class="box-header with-border">
               <i class="fa fa-flag"></i>
@@ -119,72 +55,10 @@
               </div>
             </div>
             <div class="row px-3">
-              <div class="col-12 col-lg-7">
+              <div class="col-12 col-lg-8">
                 <div class="box-body chart-responsive">
-                  <div class="chart" id="existence-total-group" style="height: 300px; position: relative;"></div>
+                  <canvas id="myChart2" style="height: 300px; width: 100%"></canvas>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-
-      <!-- /.row -->
-      <div class="row">
-        <div class="col-12 col-lg-6">
-          <!-- Donut chart -->
-          <div class="box box-primary">
-            <div class="box-header with-border">
-              <i class="fa fa-users"></i>
-              <h3 class="box-title">Porcentaje de Estadísticas</h3>
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-            </div>
-            <div class="box-body">
-              <div id="registeredUsersChart" style="height: 300px;"></div>
-            </div>
-            <!-- /.box-body-->
-          </div>
-          <!-- /.box -->
-        </div>
-
-        <div class="col-12 col-lg-6">
-          <!-- DONUT CHART -->
-          <div class="box box-danger">
-            <div class="box-header with-border">
-              <i class="fa fa-flag"></i>
-              <h3 class="box-title">Status de eventos</h3>
-              <div class="box-tools pull-right">
-                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                </button>
-                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
-              </div>
-            </div>
-            <div class="row px-3">
-              <div class="col-12 col-lg-7">
-                <div class="box-body chart-responsive">
-                  <div class="chart" id="eventsStatusChart" style="height: 300px; position: relative;"></div>
-                </div>
-              </div>
-              <!-- /.box-body -->
-              <div class="col-12 col-lg-5">
-                <ul class="chart-legend clearfix">
-                  <li>
-                    <h5><i class="fa fa-circle-o" style="color: #3bc45b;"></i> Programados</h5>
-                  </li>
-                  <li>
-                    <h5><i class="fa fa-circle-o" style="color: #0291d9;"></i> Iniciados</h5>
-                  </li>
-                  <li>
-                    <h5><i class="fa fa-circle-o" style="color: #eb2121;"></i> Finalizados</h5>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
@@ -202,7 +76,7 @@
           <div class="box box-primary">
             <div class="box-header with-border">
               <i class="fa fa-users"></i>
-              <h3 class="box-title">Total de Niños</h3>
+              <h3 class="box-title">Existencias totales de niños y niñas</h3>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                 </button>
@@ -210,7 +84,7 @@
               </div>
             </div>
             <div class="box-body">
-              <div id="totalChildrenChart" style="height: 300px;"></div>
+              <canvas id="special-kids" style="height: 300px; width: 100%"></canvas>
             </div>
             <!-- /.box-body-->
           </div>
@@ -222,7 +96,7 @@
           <div class="box box-danger">
             <div class="box-header with-border">
               <i class="fa fa-flag"></i>
-              <h3 class="box-title">Total de Escuelas con alumnos especiales</h3>
+              <h3 class="box-title">Total de niños por género</h3>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                 </button>
@@ -230,41 +104,76 @@
               </div>
             </div>
             <div class="row px-3">
-              <div class="col-12 col-lg-7">
+              <div class="col-12 col-lg-8">
                 <div class="box-body chart-responsive">
-                  <div class="chart" id="specialChildrenChart" style="height: 300px; position: relative;"></div>
+                  <canvas id="total-gender" style="height: 300px; width: 100%"></canvas>
                 </div>
-              </div>
-              <!-- /.box-body -->
-              <div class="col-12 col-lg-5">
-                <!-- ul class="chart-legend clearfix">
-                  <li>
-                    <h5><i class="fa fa-circle-o" style="color: #3bc45b;"></i> Programados</h5>
-                  </li>
-                  <li>
-                    <h5><i class="fa fa-circle-o" style="color: #0291d9;"></i> Iniciados</h5>
-                  </li>
-                  <li>
-                    <h5><i class="fa fa-circle-o" style="color: #eb2121;"></i> Finalizados</h5>
-                  </li>
-                </ul -->
               </div>
             </div>
           </div>
-          <!-- /.box -->
+        </div>
+      </div>
+
+      
+
+      <!-- /.row -->
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <i class="fa fa-users"></i>
+              <h3 class="box-title">Existencias VS Promovidos (Niños)</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <div class="box-body">
+              <canvas id="man-existence-promoted" style="height: 500px; width: 100%"></canvas>
+            </div>
+          </div>
         </div>
 
-
-        
-        <!-- /.col -->
+        <div class="col-12 col-lg-6">
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <i class="fa fa-flag"></i>
+              <h3 class="box-title">Existencias VS Promovidos (Niñas)</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <div class="box-body">
+              <canvas id="woman-existence-promoted" style="height: 500px; width: 100%"></canvas>
+            </div>
+          </div>
+        </div>
       </div>
+
+
+
       <div class="row">
         <div class="col-12">
-          <!-- Bar chart -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <i class="fa fa-camera"></i>
-              <h3 class="box-title">Imágenes Capturadas</h3>
+              <h3>MIGRACIÓN (ALUMNOS QUE PROVIENEN DE OTRA ESCUELA)</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- /.row -->
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <i class="fa fa-users"></i>
+              <h3 class="box-title">Migración de alumnos</h3>
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
                 </button>
@@ -272,16 +181,85 @@
               </div>
             </div>
             <div class="box-body">
-              <div id="takenPicsChart" style="height: 300px;"></div>
+              <canvas id="total-migration" style="height: 300px; width: 100%"></canvas>
             </div>
-            <!-- /.box-body-->
           </div>
-          <!-- /.box -->
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <i class="fa fa-flag"></i>
+              <h3 class="box-title">Total de migración por país</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <div class="box-body">
+              <canvas id="total-migration-country" style="height: 300px; width: 100%"></canvas>
+            </div>
+          </div>
         </div>
       </div>
+
+
+
+
+      
+      
+
       <div class="row">
+        <div class="col-12">
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3>ALUMNOS Y GRUPOS</h3>
+            </div>
+          </div>
+        </div>
       </div>
+
+
+      
       <!-- /.row -->
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <i class="fa fa-users"></i>
+              <h3 class="box-title">Niños grado y edad</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <div class="box-body">
+              <canvas id="man-age-group" style="height: 500px; width: 100%"></canvas>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6">
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <i class="fa fa-flag"></i>
+              <h3 class="box-title">Niñas por grado y edad</h3>
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                </button>
+                <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+              </div>
+            </div>
+            <div class="box-body">
+              <canvas id="woman-age-group" style="height: 500px; width: 100%"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
     </section>
     <!-- /.content -->
  
@@ -319,7 +297,9 @@
 
     <!-- This is data table -->
     <script src="assets/vendor_plugins/DataTables-1.10.15/media/js/jquery.dataTables.min.js"></script>
-
+    
+    <!-- Graficas -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
     <script src="js/pages/statistics.js"></script>
 
     <script>
