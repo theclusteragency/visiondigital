@@ -6,7 +6,7 @@
 //Primary use:   Used only for the event calendar
 
 jQuery(document).ready(function(){
-    
+
     showLoader("Cargando Eventos...")
     getEvents(handleEvents);
 
