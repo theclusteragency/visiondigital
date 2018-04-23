@@ -41,12 +41,12 @@ jQuery(document).ready(function(){
       cctoptions.push(tmp);
     });
     $select_cct = $('#cct').selectize({
-        maxItems: null,
-        valueField: 'id',
-        labelField: 'title',
-        searchField: 'title',
-        options: cctoptions,
-        create: false
+      maxItems: null,
+      valueField: 'id',
+      labelField: 'title',
+      searchField: 'title',
+      options: cctoptions,
+      create: false
     });
     control_cct = $select_cct[0].selectize;
   });
@@ -60,9 +60,23 @@ jQuery(document).ready(function(){
     //console.log(key, regions[key]);
     tmp = {id:regions[key].region, title:regions[key].region};
     regionsoptions.push(tmp);
+
+
+    /*mpios = regions[key].mpios;
+    mpios.forEach(function(item, index){
+      jQuery('#municipios').append('<option>'+item.name+'</option>');
+      control_municipios.addOption({id: item.id, title: item.name});
+    });*/
+
+
   });
+
+
+  //setTimeout(function(){
+
+
   $select_regions = $('#regions').selectize({
-    maxItems: null,
+    maxItems: 1,
     valueField: 'id',
     labelField: 'title',
     searchField: 'title',
@@ -71,16 +85,45 @@ jQuery(document).ready(function(){
   });
   control_regions = $select_regions[0].selectize;
 
+
+  //}, 5000);
+
+
+  
+
   // -------- Municipios
   jQuery('#regions').on('change', function() {
     val = jQuery(this).val();
+    console.log(val);
     var last_element = val[val.length - 1]
     mpios = regions[last_element].mpios;
 
     mpios.forEach(function(item, index){
       jQuery('#municipios').append('<option>'+item.name+'</option>');
-      control_municipios.addOption({id: item.id, title: item.name});
+      control_municipios.addOption({id: item.name, title: item.name});
     });
+
+
+    // Map
+    var addr = jQuery(this).val();
+
+    $("#address").val(addr[0]+', Estado de México');
+
+    geocodificacion(addr[0]+', Estado de México', function(resp){
+
+      console.log("Respuesta Callback:");
+      console.log(resp);
+
+      jQuery('#lat').val(resp.lat);
+      jQuery('#lon').val(resp.lng);
+
+      addMarker({lat: resp.lat, lng: resp.lng}, map);
+
+      var pt = new google.maps.LatLng(resp.lat, resp.lng);
+      map.setCenter(pt);
+      map.setZoom(15);
+
+    }); // --Map
   });
   $select_municipios = $('#municipios').selectize({
     maxItems: null,
@@ -102,6 +145,31 @@ jQuery(document).ready(function(){
         create: false
     });
     control_roles = $select_roles[0].selectize;*/
+
+  jQuery('#municipios').on('change', function() {
+
+    // Map
+    var addr = jQuery(this).val();
+
+    $("#address").val(addr[addr.length-1]+', Estado de México');
+
+    geocodificacion(addr[addr.length-1]+', Estado de México', function(resp){
+
+      console.log("Respuesta Callback:");
+      console.log(resp);
+
+      jQuery('#lat').val(resp.lat);
+      jQuery('#lon').val(resp.lng);
+
+      addMarker({lat: resp.lat, lng: resp.lng}, map);
+
+      var pt = new google.maps.LatLng(resp.lat, resp.lng);
+      map.setCenter(pt);
+      map.setZoom(15);
+
+    }); // --Map
+
+  });
 
 });
 
@@ -614,14 +682,14 @@ function createEvent(callback) {
   var date    =$("#event-date").val();
   
   var desc    = $("#title").val();
-  var address = 'Ciudad de México'; //$("#address").val();
-  var lat     = 19.3928993; //parseFloat( $("#lat").val() );
-  var lon     = -99.0629697; //parseFloat( $("#lon").val() );
+  var address = $("#address").val(); //'Ciudad de México';
+  var lat     = parseFloat( $("#lat").val() ); //19.3928993;
+  var lon     = parseFloat( $("#lon").val() ); //-99.0629697;
   var cat     = 1; //$("#categories").val();
   var stat    = $("#status").val();
   var ev_op   = ["4", "6"]; //$("#operator").val();
   var ev_an   = ["3", "5"]; //$("#analyst").val();
-  var ev_act  = $("#activities").val();
+  var ev_act  = ["1"];//$("#activities").val();
 
   var operadores  = [];
   var analistas   = [];

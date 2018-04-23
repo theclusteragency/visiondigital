@@ -63,7 +63,7 @@ $(document).ready(function(){
                 });
 
                 var marker = new google.maps.Marker({
-                  icon: 'https://s3.amazonaws.com/rafaganaimage/32/'+dot,
+                  //icon: 'https://s3.amazonaws.com/rafaganaimage/32/'+dot,
                   position: tmp,
                   map: map,
                   title: item.direccion

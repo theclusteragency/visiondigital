@@ -157,10 +157,10 @@
                   </div>
                 </div>
               </div -->
-              <!-- div class="row"><div class="col-md-12">
+              <div class="row"><div class="col-md-12">
                 <div class="form-group"><label class="control-label">Dirección</label><input class="form-control" placeholder="Dirección" type="text" name="address" id="address"></div></div>
               </div>
-              <div style="display: none;">
+              <div style="display: block;">
                   <div class="row row5">
                     <div class="col-md-6">
                       <div class="form-group">
@@ -175,7 +175,7 @@
                       </div>
                     </div>
                   </div>
-              </div -->
+              </div>
               <div class="row">
                 <div class="col-md-12">
                   <div id="map" style="height: 300px; width: 100%"></div>
