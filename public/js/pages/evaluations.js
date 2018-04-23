@@ -80,6 +80,11 @@ jQuery(document).ready(function(){
       heightStyle: "content"
     });
 
+    $('#preescolar-prosedencia').accordion({
+      collapsible: true,
+      heightStyle: "content"
+    });
+
     
 
 });

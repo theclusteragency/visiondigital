@@ -1648,33 +1648,1224 @@
                         <input type="text" class="form-control" id="seven-women-repeater-grade-1">
                       </div>
                     </div>
+                    <h4>8 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>9 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>10 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>11 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>12 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>13 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>14 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>15 años y más<s></s></h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
                   </div>
 
                   <h3>Grado 2o</h3>
                   <div>
-                    
-                  </div>
+                    <h4>Menos de 6 años</h4>
+                    <div class="form-group row">
+                      <label for="minus6-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-men-new-grade-1">
+                      </div>
+                      <label for="minus6-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-men-repeater-grade-1">
+                      </div>
+                      <label for="minus6-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-women-new-grade-1">
+                      </div>
+                      <label for="minus6-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>6 años</h4>
+                    <div class="form-group row">
+                      <label for="six-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-men-new-grade-1">
+                      </div>
+                      <label for="six-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-men-repeater-grade-1">
+                      </div>
+                      <label for="six-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-women-new-grade-1">
+                      </div>
+                      <label for="six-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>7 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>8 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>9 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>10 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>11 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>12 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>13 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>14 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>15 años y más<s></s></h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                  </div>  
 
                   <h3>Grado 3o</h3>
                   <div>
-                    
+                    <h4>Menos de 6 años</h4>
+                    <div class="form-group row">
+                      <label for="minus6-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-men-new-grade-1">
+                      </div>
+                      <label for="minus6-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-men-repeater-grade-1">
+                      </div>
+                      <label for="minus6-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-women-new-grade-1">
+                      </div>
+                      <label for="minus6-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>6 años</h4>
+                    <div class="form-group row">
+                      <label for="six-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-men-new-grade-1">
+                      </div>
+                      <label for="six-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-men-repeater-grade-1">
+                      </div>
+                      <label for="six-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-women-new-grade-1">
+                      </div>
+                      <label for="six-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>7 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>8 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>9 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>10 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>11 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>12 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>13 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>14 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>15 años y más<s></s></h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
                   </div>
 
                   <h3>Grado 4o</h3>
                   <div>
-                    
+                    <h4>Menos de 6 años</h4>
+                    <div class="form-group row">
+                      <label for="minus6-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-men-new-grade-1">
+                      </div>
+                      <label for="minus6-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-men-repeater-grade-1">
+                      </div>
+                      <label for="minus6-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-women-new-grade-1">
+                      </div>
+                      <label for="minus6-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>6 años</h4>
+                    <div class="form-group row">
+                      <label for="six-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-men-new-grade-1">
+                      </div>
+                      <label for="six-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-men-repeater-grade-1">
+                      </div>
+                      <label for="six-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-women-new-grade-1">
+                      </div>
+                      <label for="six-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>7 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>8 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>9 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>10 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>11 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>12 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>13 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>14 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>15 años y más<s></s></h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
                   </div>
 
                   <h3>Grado 5o</h3>
                   <div>
-                    
+                    <h4>Menos de 6 años</h4>
+                    <div class="form-group row">
+                      <label for="minus6-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-men-new-grade-1">
+                      </div>
+                      <label for="minus6-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-men-repeater-grade-1">
+                      </div>
+                      <label for="minus6-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-women-new-grade-1">
+                      </div>
+                      <label for="minus6-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>6 años</h4>
+                    <div class="form-group row">
+                      <label for="six-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-men-new-grade-1">
+                      </div>
+                      <label for="six-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-men-repeater-grade-1">
+                      </div>
+                      <label for="six-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-women-new-grade-1">
+                      </div>
+                      <label for="six-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>7 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>8 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>9 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>10 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>11 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>12 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>13 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>14 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>15 años y más<s></s></h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
                   </div>
 
                   <h3>Grado 6o</h3>
                   <div>
-                    
+                    <h4>Menos de 6 años</h4>
+                    <div class="form-group row">
+                      <label for="minus6-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-men-new-grade-1">
+                      </div>
+                      <label for="minus6-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-men-repeater-grade-1">
+                      </div>
+                      <label for="minus6-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-women-new-grade-1">
+                      </div>
+                      <label for="minus6-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="minus6-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>6 años</h4>
+                    <div class="form-group row">
+                      <label for="six-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-men-new-grade-1">
+                      </div>
+                      <label for="six-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-men-repeater-grade-1">
+                      </div>
+                      <label for="six-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-women-new-grade-1">
+                      </div>
+                      <label for="six-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="six-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>7 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>8 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>9 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>10 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>11 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>12 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>13 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>14 años</h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
+                    <h4>15 años y más<s></s></h4>
+                    <div class="form-group row">
+                      <label for="seven-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-new-grade-1">
+                      </div>
+                      <label for="seven-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-men-repeater-grade-1">
+                      </div>
+                      <label for="seven-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-new-grade-1">
+                      </div>
+                      <label for="seven-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="seven-women-repeater-grade-1">
+                      </div>
+                    </div>
                   </div>
-
                 </div>
                 
                 <br><br>
@@ -1682,50 +2873,110 @@
                   2. Escriba el número total de grupos por grado.
                   Nota: Si en un grupo se atiende más de un grado, anótelo en el apartado MÁS DE UN GRADO.
                 </p>
-                <div class="form-group row">
-                  <label for="total-groups-grade-1" class="col-sm-2 control-label">Primero</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="total-groups-grade-1">
+                <div>
+                  <div class="form-group row">
+                    <label for="total-groups-grade-1" class="col-sm-2 control-label">Primero</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="total-groups-grade-1">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="total-groups-grade-2" class="col-sm-2 control-label">Segundo</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="total-groups-grade-2">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="total-groups-grade-3" class="col-sm-2 control-label">Tercero</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="total-groups-grade-3">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="total-groups-grade-4" class="col-sm-2 control-label">Cuarto</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="total-groups-grade-4">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="total-groups-grade-5" class="col-sm-2 control-label">Quinto</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="total-groups-grade-5">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="total-groups-grade-6" class="col-sm-2 control-label">Sexto</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" id="total-groups-grade-6">
+                    </div>
                   </div>
                 </div>
-                <div class="form-group row">
-                  <label for="total-groups-grade-2" class="col-sm-2 control-label">Segundo</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="total-groups-grade-2">
-                  </div>
-                </div>
-                <div class="form-group row">
-                  <label for="total-groups-grade-3" class="col-sm-2 control-label">Tercero</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="total-groups-grade-3">
-                  </div>
-                </div>
-                <div class="form-group row">
-                  <label for="total-groups-grade-4" class="col-sm-2 control-label">Cuarto</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="total-groups-grade-4">
-                  </div>
-                </div>
-                <div class="form-group row">
-                  <label for="total-groups-grade-5" class="col-sm-2 control-label">Quinto</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="total-groups-grade-5">
-                  </div>
-                </div>
-                <div class="form-group row">
-                  <label for="total-groups-grade-6" class="col-sm-2 control-label">Sexto</label>
-                  <div class="col-sm-10">
-                    <input type="text" class="form-control" id="total-groups-grade-6">
-                  </div>
-                </div>
-                
+                  
                 <br><br>
                 <p>
                   3. Del total de alumnos reportados en primer grado, registre la cantidad de los que cursaron 
                   educación preescolar, según los años cursados y tipo de ingreso, desglosándolos por sexo y 
                   cuántos de ellos tienen alguna discapacidad.
                 </p>
-
+                <div>
+                  <h4>Un año cursado</h4>
+                  <div class="form-group row">
+                    <label for="minus6-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="minus6-men-new-grade-1">
+                    </div>
+                    <label for="minus6-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="minus6-men-repeater-grade-1">
+                    </div>
+                    <label for="minus6-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="minus6-women-new-grade-1">
+                    </div>
+                    <label for="minus6-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="minus6-women-repeater-grade-1">
+                    </div>
+                  </div>  
+                  <h4>Dos años cursados</h4>
+                  <div class="form-group row">
+                    <label for="minus6-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="minus6-men-new-grade-1">
+                    </div>
+                    <label for="minus6-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="minus6-men-repeater-grade-1">
+                    </div>
+                    <label for="minus6-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="minus6-women-new-grade-1">
+                    </div>
+                    <label for="minus6-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="minus6-women-repeater-grade-1">
+                    </div>
+                  </div>
+                  <h4>Tres años cursados</h4>
+                  <div class="form-group row">
+                    <label for="minus6-men-new-grade-1" class="col-sm-2 control-label">Hombres (Nuevo Ingreso)</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="minus6-men-new-grade-1">
+                    </div>
+                    <label for="minus6-men-repeater-grade-1" class="col-sm-2 control-label">Hombres (Repetidores)</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="minus6-men-repeater-grade-1">
+                    </div>
+                    <label for="minus6-women-new-grade-1" class="col-sm-2 control-label">Mujeres (Nuevo Ingreso</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="minus6-women-new-grade-1">
+                    </div>
+                    <label for="minus6-women-repeater-grade-1" class="col-sm-2 control-label">Mujeres (Repetidores</label>
+                    <div class="col-sm-4">
+                      <input type="text" class="form-control" id="minus6-women-repeater-grade-1">
+                    </div>
+                  </div>
+                </div>
                 <br><br>
                 <p>
                   4. Escriba el número de niños indígenas o hablantes de alguna lengua indígena, desglosándolo por sexo.
@@ -1796,7 +3047,6 @@
                         <input type="text" class="form-control" id="total-foreign-men-oce">
                       </div>
                     </div>
-                    
                   </div>
                   <h3>Mujeres</h3>
                   <div>
@@ -1873,6 +3123,360 @@
                   7. De la matrícula total, escriba el número de alumnos que proceden de escuela preescolar 
                   general, indígena y/o comunitaria desglosándolo por grado y sexo.
                 </p>
+                
+                <div id="preescolar-prosedencia">
+                  <h3>Preescolar General</h3>
+                  <div>  
+                    <h4>Primero</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                    <h4>Segundo</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                    <h4>Tercero</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                    <h4>Cuarto</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                    <h4>Quinto</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                    <h4>Sexto</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                  </div>  
+                  <h3>Preescolar Indígena</h3>
+                  <div>  
+                    <h4>Primero</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                    <h4>Segundo</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                    <h4>Tercero</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                    <h4>Cuarto</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                    <h4>Quinto</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                    <h4>Sexto</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                  </div>
+                  <h3>Preescolar Comunitaria</h3>
+                  <div>  
+                    <h4>Primero</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                    <h4>Segundo</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                    <h4>Tercero</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                    <h4>Cuarto</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                    <h4>Quinto</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                    <h4>Sexto</h4>
+                    <div class="form-group row">
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Hombres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                      <label for="total-woman-usaer" class="col-sm-2 control-label">Mujeres (Nuevo ingreso)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-woman-usaer">
+                      </div>
+                      <label for="total-man-usaer" class="col-sm-2 control-label">Mujeres (Repetidor)</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="total-man-usaer">
+                      </div>
+                    </div>
+                  </div>  
+                </div>
 
                 <br><br>
                 <p>
@@ -2402,6 +4006,540 @@
                       </div>
                     </div>
                      <h4>Otras condiciones</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                  </div>
+                  <h3>CUARTO</h3>
+                  <div>
+                    <h4>Ceguera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Baja Visión</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
+                      </div>
+                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
+                      </div>
+                    </div>
+                    <h4>Sordera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
+                      </div>
+                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
+                      </div>
+                    </div>
+                    <h4>Hipoacusia</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Sordoceguera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Discapacidad motriz</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Discapacidad intelectual</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Discapacidad psicosocial</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Transtorno del espectro autista</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Discapacidad múltiple</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Dificultad severa de conducta</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Dificultad severa de comunicación</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Dificultad severa de aprendizaje</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Transtorno por déficit de atención e hiperactividad</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Aptitudes sobresalientes</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Otras condiciones</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                  </div>
+                  <h3>QUINTO</h3>
+                  <div>
+                    <h4>Ceguera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Baja Visión</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
+                      </div>
+                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
+                      </div>
+                    </div>
+                    <h4>Sordera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
+                      </div>
+                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
+                      </div>
+                    </div>
+                    <h4>Hipoacusia</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Sordoceguera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Discapacidad motriz</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Discapacidad intelectual</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Discapacidad psicosocial</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Transtorno del espectro autista</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Discapacidad múltiple</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Dificultad severa de conducta</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Dificultad severa de comunicación</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Dificultad severa de aprendizaje</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Transtorno por déficit de atención e hiperactividad</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Aptitudes sobresalientes</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Otras condiciones</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                  </div>
+                  <h3>SEXTO</h3>
+                  <div>
+                    <h4>Ceguera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Baja Visión</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-otheref-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-otheref-grade-1">
+                      </div>
+                      <label for="migrant-women-otheref-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-otheref-grade-1">
+                      </div>
+                    </div>
+                    <h4>Sordera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-othercountry-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-othercountry-grade-1">
+                      </div>
+                      <label for="migrant-women-othercountry-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-othercountry-grade-1">
+                      </div>
+                    </div>
+                    <h4>Hipoacusia</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> <h4>Sordoceguera</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Discapacidad motriz</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Discapacidad intelectual</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Discapacidad psicosocial</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Transtorno del espectro autista</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Discapacidad múltiple</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Dificultad severa de conducta</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Dificultad severa de comunicación</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Dificultad severa de aprendizaje</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Transtorno por déficit de atención e hiperactividad</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div> 
+                    <h4>Aptitudes sobresalientes</h4>
+                    <div class="form-group row">
+                      <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-men-sameef-grade-1">
+                      </div>
+                      <label for="migrant-women-sameef-grade-1" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="migrant-women-sameef-grade-1">
+                      </div>
+                    </div>
+                    <h4>Otras condiciones</h4>
                     <div class="form-group row">
                       <label for="migrant-men-sameef-grade-1" class="col-sm-2 control-label">Hombres</label>
                       <div class="col-sm-4">
