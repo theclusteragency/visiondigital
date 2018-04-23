@@ -157,10 +157,15 @@
                   </div>
                 </div>
               </div -->
-              <div class="row"><div class="col-md-12">
-                <div class="form-group"><label class="control-label">Dirección</label><input class="form-control" placeholder="Dirección" type="text" name="address" id="address"></div></div>
+              <div class="row" style="display: none;">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <label class="control-label">Dirección</label>
+                    <input class="form-control" placeholder="Dirección" type="text" name="address" id="address">
+                  </div>
+                </div>
               </div>
-              <div style="display: block;">
+              <div style="display: none;">
                   <div class="row row5">
                     <div class="col-md-6">
                       <div class="form-group">
