@@ -33,7 +33,8 @@ class LoginController extends Controller
 
             }else{
 
-                return redirect()->route('statistics');
+                //return redirect()->route('statistics', ['cct' => '15EPR1602X']);
+                return redirect('graficas/15EPR1602X');
 
             }
         }
@@ -58,7 +59,8 @@ class LoginController extends Controller
 
             }else{
 
-                return redirect()->route('statistics');
+                //return redirect()->route('statistics', ['cct' => '15EPR1602X']);
+                return redirect('graficas/15EPR1602X');
 
             }
         }
@@ -162,7 +164,8 @@ class LoginController extends Controller
 
                     }else{
 
-                        return redirect()->route('statistics');
+                        //return redirect()->route('statistics');
+                        return redirect('estadisticas?cct=15EPR1602X');
 
                     }
 

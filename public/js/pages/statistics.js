@@ -40,24 +40,48 @@ jQuery(document).ready(function(){
 
   showLoader("Generando estadísticas...");
 
-  jQuery.getJSON("/js/cct15.json", function(json) {
-    //console.log(json);
-    cct15 = json;
-    cct15.forEach(function(item,index){
-      //console.log(item.clavecct);
-      tmp = {id:item.clavecct, title:item.clavecct};
-      cctoptions.push(tmp);
-    });
+  var cct = getParameterByName('cct');
+  console.log(cct);
+
+  if(cct == '15EPR1602X'){
+
+    cctoptions.push({id:'15EPR1602X', title:'15EPR1602X'});
+
     $select_cct = $('#select-cct').selectize({
-        maxItems: 1,
-        valueField: 'id',
-        labelField: 'title',
-        searchField: 'title',
-        options: cctoptions,
-        create: false
+      maxItems: 1,
+      valueField: 'id',
+      labelField: 'title',
+      searchField: 'title',
+      options: cctoptions,
+      create: false
     });
     control_cct = $select_cct[0].selectize;
-  });
+
+  } else {
+
+    jQuery.getJSON("/js/cct15.json", function(json) {
+      //console.log(json);
+      cct15 = json;
+      cct15.forEach(function(item,index){
+        //console.log(item.clavecct);
+        tmp = {id:item.clavecct, title:item.clavecct};
+        cctoptions.push(tmp);
+      });
+      $select_cct = $('#select-cct').selectize({
+          maxItems: 1,
+          valueField: 'id',
+          labelField: 'title',
+          searchField: 'title',
+          options: cctoptions,
+          create: false
+      });
+      control_cct = $select_cct[0].selectize;
+    });
+
+
+  }
+
+    
 
   jQuery('#select-cct').on('change', function(){
     
@@ -77,6 +101,16 @@ jQuery(document).ready(function(){
   });
 
 });
+
+function getParameterByName(name, url) {
+  if (!url) url = window.location.href;
+  name = name.replace(/[\[\]]/g, "\\$&");
+  var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+      results = regex.exec(url);
+  if (!results) return null;
+  if (!results[2]) return '';
+  return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
 
 /* =============================================================
 ============== I. EXISTENCIA Y PROMOVIDOS ======================

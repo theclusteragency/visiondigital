@@ -198,9 +198,17 @@
                       </span>
                       </a>
                       <ul class="treeview-menu" style="display: <?php if( strpos(Request::url(), 'estadisticas') || strpos(Request::url(), 'operacion') || strpos(Request::url(), 'eventos') )  {echo "block";} else {echo "none";}?>">
-                        <li class="<?php echo (strpos(Request::url(), 'estadisticas')) ? 'active' : '' ?>"><a href="{{ route('statistics') }}"><i class="fa fa-line-chart"></i> Estadísticas</a></li>
-                        <li class="<?php echo (strpos(Request::url(), 'operacion')) ? 'active' : '' ?>"><a href="{{ route('operation') }}"><i class="fa fa-users"></i> Operación</a></li>
-                        <li class="<?php echo (strpos(Request::url(), 'eventos')) ? 'active' : '' ?>"><a href="{{ route('events') }}"><i class="fa fa-calendar"></i> Eventos</a></li>
+                        <li class="<?php echo (strpos(Request::url(), 'estadisticas')) ? 'active' : '' ?>">
+                          <a href="{{ route('statistics') }}"><i class="fa fa-line-chart"></i> Estadísticas</a>
+                        </li>
+                        @if( Auth::user()->IDROL == 1)
+                        <li class="<?php echo (strpos(Request::url(), 'operacion')) ? 'active' : '' ?>">
+                          <a href="{{ route('operation') }}"><i class="fa fa-users"></i> Operación</a>
+                        </li>
+                        <li class="<?php echo (strpos(Request::url(), 'eventos')) ? 'active' : '' ?>">
+                          <a href="{{ route('events') }}"><i class="fa fa-calendar"></i> Eventos</a>
+                        </li>
+                        @endif
                       </ul>
                     </li>
                     <li>
