@@ -783,18 +783,26 @@ function fillSelect(select, items){
 function clearAddForm(){
   $("#title").val("");
   $("#address").val("");
-  $("#lat").val("19.432608");
-  $("#lon").val("-99.133208");
+  $("#lat").val("19.337491");
+  $("#lon").val("-100.0173549");
   $('#categories option[value="13"]').attr("selected", "selected");
-  $('#status option[value="2"]').attr("selected", "selected");
+  $('#status option[value="1"]').attr("selected", "selected");
   
   control_districts.clear();
-  control_supervisors.clear();
-  control_directors.clear();
+  //control_supervisors.clear();
+  //control_directors.clear();
 
-  control_activities.clear();
+  //control_activities.clear();
   //control_operators.clear();
   //control_analysts.clear();
+
+  //control_roles.clear();
+  
+  control_cct.clear();
+  control_municipios.clear();
+  control_regions.clear();
+
+  console.log('limpiando');
 }
 
 /*======================= Google Maps ================================*/
