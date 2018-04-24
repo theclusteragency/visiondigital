@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    initMap(8, 19.3268448, -100.1654253);
+    initMap(9, 19.3275467, -99.6083953);
 
     function initMap(zoom, lati, longi, idmap = 'overlayermap') {
         var uluru = {lat: lati, lng: longi};
