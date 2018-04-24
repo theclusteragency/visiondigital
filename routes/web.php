@@ -13,7 +13,8 @@
 
 /*Index*/
 Route::get('/', 'LoginController@index')->name('index');
-Route::get('/evaluaciones', 'LoginController@evaluations')->name('evaluations');
+//Route::get('/evaluaciones', 'LoginController@evaluations')->name('evaluations');
+Route::get('/evaluaciones', 'LoginController@evaluation_basic')->name('evaluations');
 Route::get('/evaluacion-basica', 'LoginController@evaluation_basic')->name('evaluation-basic');
 
 
