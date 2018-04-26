@@ -720,7 +720,7 @@ function createEvent(callback) {
 
   //Agrega el lider al array de operadores
   operadores.push({id_operador: id_leader, encargado: 1});*/
-  operadores.push({id_operador: 4, encargado: 1});
+  operadores.push({id_operador: 6, encargado: 1});
 
   // Analistas
   /*ev_an.forEach(function(item,index){
@@ -730,7 +730,7 @@ function createEvent(callback) {
       };
       analistas.push(tmp);
   });*/
-  analistas.push({id_analista: 3, encargado: 0})
+  analistas.push({id_analista: 5, encargado: 0})
 
   ev_act.forEach(function(item,index){
       tmp = { id_actividad : item };
