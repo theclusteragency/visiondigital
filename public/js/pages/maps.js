@@ -14,7 +14,7 @@ $(document).ready(function(){
 
         function handleEvents(response){
 
-            //console.log(response);
+            jQuery('#total-events').html(response.length.toLocaleString('en'));
 
             response.forEach(function(item,index){
 

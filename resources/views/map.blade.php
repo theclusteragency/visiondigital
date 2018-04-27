@@ -14,6 +14,7 @@
         <div class="row">
             <div class="col-12">
               <div class="box box-default">
+                <h3>Total de Eventos: <span id="total-events"></span></h3>
                 <div class="box-header with-border">
                     <div class="pull-left">
                         <form class="form-inline">
