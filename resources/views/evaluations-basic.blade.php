@@ -15,6 +15,12 @@
         float: left;
         margin-right: 12px;
       }
+      input[type="text"]:disabled {
+        background: #f4f4f4;
+      }
+      label{
+        margin: 14px 0 0 0;
+      }
       @media screen and (max-width: 500px) {
         #logo-sep{
           width: 250px
@@ -269,15 +275,19 @@
                   <div>
                     <div class="form-group row">
                       <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="men-age-1">
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="men-age-1">
                       </div>
                       <label for="women-age-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="women-age-1">
+                      </div>
+                      <label for="total-age-1" class="col-sm-2 control-label">Total</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="total-age-1" disabled="disabled" value="0">
                       </div>
                     </div>
-
+  
                     <div class="form-group row">
                       <label for="language-speakers-1" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
                       <div class="col-sm-4">
@@ -327,23 +337,23 @@
                       <div class="col-sm-4">
                         <input type="text" class="form-control" id="other-conditions-1">
                       </div>
-                      <!-- label for="women-age-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
-                      </div -->
                     </div>
-
                   </div>
+
                   <h3>Grado 2o</h3>
                   <div>
                     <div class="form-group row">
                       <label for="men-age-2" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="men-age-2">
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="men-age-2">
                       </div>
                       <label for="women-age-2" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-2">
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="women-age-2">
+                      </div>
+                      <label for="total-age-2" class="col-sm-2 control-label">Total</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="total-age-2" disabled="disabled" value="0">
                       </div>
                     </div>
 
@@ -396,23 +406,23 @@
                       <div class="col-sm-4">
                         <input type="text" class="form-control" id="other-conditions-2">
                       </div>
-                      <!-- label for="women-age-2" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-2">
-                      </div -->
                     </div>
-
                   </div>
+
                   <h3>Grado 3o</h3>
                   <div>
                     <div class="form-group row">
                       <label for="men-age-3" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="men-age-3">
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="men-age-3">
                       </div>
                       <label for="women-age-3" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-3">
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="women-age-3">
+                      </div>
+                      <label for="total-age-3" class="col-sm-2 control-label">Total</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="total-age-3" disabled="disabled" value="0">
                       </div>
                     </div>
 
@@ -465,220 +475,285 @@
                       <div class="col-sm-4">
                         <input type="text" class="form-control" id="other-conditions-3">
                       </div>
-                      <!-- label for="women-age-3" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-3">
-                      </div -->
                     </div>
-
                   </div>
+
                   <h3>Grado 4o</h3>
                   <div>
                     <div class="form-group row">
-                      <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="men-age-1">
+                      <label for="men-age-4" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="men-age-4">
                       </div>
-                      <label for="women-age-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
+                      <label for="women-age-4" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="women-age-4">
                       </div>
-                    </div>
-
-                    <div class="form-group row">
-                      <label for="language-speakers-1" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="language-speakers-1">
-                      </div>
-                      <label for="foreigner-1" class="col-sm-2 control-label">Nacidos fuera México</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="foreigner-1">
+                      <label for="total-age-4" class="col-sm-2 control-label">Total</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="total-age-4" disabled="disabled" value="0">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="disability-1" class="col-sm-2 control-label">Con discapacidad</label>
+                      <label for="language-speakers-4" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="disability-1">
+                        <input type="text" class="form-control" id="language-speakers-4">
                       </div>
-                      <label for="dsc-1" class="col-sm-2 control-label">DCS</label>
+                      <label for="foreigner-4" class="col-sm-2 control-label">Nacidos fuera México</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dsc-1">
-                      </div>
-                    </div>
-
-                    <div class="form-group row">
-                      <label for="dscom-1" class="col-sm-2 control-label">DSCom</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dscom-1">
-                      </div>
-                      <label for="dsa-1" class="col-sm-2 control-label">DSA</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dsa-1">
+                        <input type="text" class="form-control" id="foreigner-4">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="tdah-1" class="col-sm-2 control-label">TDAH</label>
+                      <label for="disability-4" class="col-sm-2 control-label">Con discapacidad</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="tdah-1">
+                        <input type="text" class="form-control" id="disability-4">
                       </div>
-                      <label for="extraordinary-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <label for="dsc-4" class="col-sm-2 control-label">DCS</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="extraordinary-1">
+                        <input type="text" class="form-control" id="dsc-4">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="other-conditions-1" class="col-sm-2 control-label">Otras condiciones</label>
+                      <label for="dscom-4" class="col-sm-2 control-label">DSCom</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="other-conditions-1">
+                        <input type="text" class="form-control" id="dscom-4">
                       </div>
-                      <!-- label for="women-age-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <label for="dsa-4" class="col-sm-2 control-label">DSA</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
-                      </div -->
+                        <input type="text" class="form-control" id="dsa-4">
+                      </div>
                     </div>
 
+                    <div class="form-group row">
+                      <label for="tdah-4" class="col-sm-2 control-label">TDAH</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tdah-4">
+                      </div>
+                      <label for="extraordinary-4" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="extraordinary-4">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="other-conditions-4" class="col-sm-2 control-label">Otras condiciones</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="other-conditions-4">
+                      </div>
+                    </div>
                   </div>
+
                   <h3>Grado 5o</h3>
                   <div>
                     <div class="form-group row">
-                      <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="men-age-1">
+                      <label for="men-age-5" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="men-age-5">
                       </div>
-                      <label for="women-age-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
+                      <label for="women-age-5" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="women-age-5">
                       </div>
-                    </div>
-
-                    <div class="form-group row">
-                      <label for="language-speakers-1" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="language-speakers-1">
-                      </div>
-                      <label for="foreigner-1" class="col-sm-2 control-label">Nacidos fuera México</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="foreigner-1">
+                      <label for="total-age-5" class="col-sm-2 control-label">Total</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="total-age-5" disabled="disabled" value="0">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="disability-1" class="col-sm-2 control-label">Con discapacidad</label>
+                      <label for="language-speakers-5" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="disability-1">
+                        <input type="text" class="form-control" id="language-speakers-5">
                       </div>
-                      <label for="dsc-1" class="col-sm-2 control-label">DCS</label>
+                      <label for="foreigner-5" class="col-sm-2 control-label">Nacidos fuera México</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dsc-1">
-                      </div>
-                    </div>
-
-                    <div class="form-group row">
-                      <label for="dscom-1" class="col-sm-2 control-label">DSCom</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dscom-1">
-                      </div>
-                      <label for="dsa-1" class="col-sm-2 control-label">DSA</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dsa-1">
+                        <input type="text" class="form-control" id="foreigner-5">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="tdah-1" class="col-sm-2 control-label">TDAH</label>
+                      <label for="disability-5" class="col-sm-2 control-label">Con discapacidad</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="tdah-1">
+                        <input type="text" class="form-control" id="disability-5">
                       </div>
-                      <label for="extraordinary-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <label for="dsc-5" class="col-sm-2 control-label">DCS</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="extraordinary-1">
+                        <input type="text" class="form-control" id="dsc-5">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="other-conditions-1" class="col-sm-2 control-label">Otras condiciones</label>
+                      <label for="dscom-5" class="col-sm-2 control-label">DSCom</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="other-conditions-1">
+                        <input type="text" class="form-control" id="dscom-5">
                       </div>
-                      <!-- label for="women-age-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <label for="dsa-5" class="col-sm-2 control-label">DSA</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
-                      </div -->
+                        <input type="text" class="form-control" id="dsa-5">
+                      </div>
                     </div>
 
+                    <div class="form-group row">
+                      <label for="tdah-5" class="col-sm-2 control-label">TDAH</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tdah-5">
+                      </div>
+                      <label for="extraordinary-5" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="extraordinary-5">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="other-conditions-5" class="col-sm-2 control-label">Otras condiciones</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="other-conditions-5">
+                      </div>
+                    </div>
                   </div>
+
                   <h3>Grado 6o</h3>
                   <div>
                     <div class="form-group row">
-                      <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="men-age-1">
+                      <label for="men-age-6" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="men-age-6">
                       </div>
-                      <label for="women-age-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
+                      <label for="women-age-6" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="women-age-6">
                       </div>
-                    </div>
-
-                    <div class="form-group row">
-                      <label for="language-speakers-1" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="language-speakers-1">
-                      </div>
-                      <label for="foreigner-1" class="col-sm-2 control-label">Nacidos fuera México</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="foreigner-1">
+                      <label for="total-age-6" class="col-sm-2 control-label">Total</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="total-age-6" disabled="disabled" value="0">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="disability-1" class="col-sm-2 control-label">Con discapacidad</label>
+                      <label for="language-speakers-6" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="disability-1">
+                        <input type="text" class="form-control" id="language-speakers-6">
                       </div>
-                      <label for="dsc-1" class="col-sm-2 control-label">DCS</label>
+                      <label for="foreigner-6" class="col-sm-2 control-label">Nacidos fuera México</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dsc-1">
-                      </div>
-                    </div>
-
-                    <div class="form-group row">
-                      <label for="dscom-1" class="col-sm-2 control-label">DSCom</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dscom-1">
-                      </div>
-                      <label for="dsa-1" class="col-sm-2 control-label">DSA</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dsa-1">
+                        <input type="text" class="form-control" id="foreigner-6">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="tdah-1" class="col-sm-2 control-label">TDAH</label>
+                      <label for="disability-6" class="col-sm-2 control-label">Con discapacidad</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="tdah-1">
+                        <input type="text" class="form-control" id="disability-6">
                       </div>
-                      <label for="extraordinary-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <label for="dsc-6" class="col-sm-2 control-label">DCS</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="extraordinary-1">
+                        <input type="text" class="form-control" id="dsc-6">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="other-conditions-1" class="col-sm-2 control-label">Otras condiciones</label>
+                      <label for="dscom-6" class="col-sm-2 control-label">DSCom</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="other-conditions-1">
+                        <input type="text" class="form-control" id="dscom-6">
                       </div>
-                      <!-- label for="women-age-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <label for="dsa-6" class="col-sm-2 control-label">DSA</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
-                      </div -->
+                        <input type="text" class="form-control" id="dsa-6">
+                      </div>
                     </div>
 
+                    <div class="form-group row">
+                      <label for="tdah-6" class="col-sm-2 control-label">TDAH</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tdah-6">
+                      </div>
+                      <label for="extraordinary-6" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="extraordinary-6">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="other-conditions-6" class="col-sm-2 control-label">Otras condiciones</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="other-conditions-6">
+                      </div>
+                    </div>
                   </div>
+
+                  <h3>TOTALES</h3>
+                  <div id="existencia-promovidos-1-totales">
+                    <div class="form-group row">
+                      <label for="men-age-total" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="men-age-total" disabled="disabled" value="0">
+                      </div>
+                      <label for="women-age-total" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="women-age-total" disabled="disabled" value="0">
+                      </div>
+                      <label for="total-age-total" class="col-sm-2 control-label">Total</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="total-age-total" disabled="disabled" value="0">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="language-speakers-total" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="language-speakers-total" disabled="disabled" value="0">
+                      </div>
+                      <label for="foreigner-total" class="col-sm-2 control-label">Nacidos fuera México</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="foreigner-total" disabled="disabled" value="0">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="disability-total" class="col-sm-2 control-label">Con discapacidad</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="disability-total" disabled="disabled" value="0">
+                      </div>
+                      <label for="dsc-total" class="col-sm-2 control-label">DCS</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsc-total" disabled="disabled" value="0">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="dscom-total" class="col-sm-2 control-label">DSCom</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dscom-total" disabled="disabled" value="0">
+                      </div>
+                      <label for="dsa-total" class="col-sm-2 control-label">DSA</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsa-total" disabled="disabled" value="0">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="tdah-total" class="col-sm-2 control-label">TDAH</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tdah-total" disabled="disabled" value="0">
+                      </div>
+                      <label for="extraordinary-total" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="extraordinary-total" disabled="disabled" value="0">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="other-conditions-total" class="col-sm-2 control-label">Otras condiciones</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="other-conditions-total" disabled="disabled" value="0">
+                      </div>
+                    </div>
+                  </div>
+
                 </div> 
                 
                 <br><br>
@@ -693,15 +768,19 @@
                   <div>
                     <div class="form-group row">
                       <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="men-age-1">
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="men-age-1">
                       </div>
                       <label for="women-age-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="women-age-1">
+                      </div>
+                      <label for="total-age-1" class="col-sm-2 control-label">Total</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="total-age-1" disabled="disabled" value="0">
                       </div>
                     </div>
-
+  
                     <div class="form-group row">
                       <label for="language-speakers-1" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
                       <div class="col-sm-4">
@@ -751,23 +830,23 @@
                       <div class="col-sm-4">
                         <input type="text" class="form-control" id="other-conditions-1">
                       </div>
-                      <!-- label for="women-age-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
-                      </div -->
                     </div>
-
                   </div>
+
                   <h3>Grado 2o</h3>
                   <div>
                     <div class="form-group row">
                       <label for="men-age-2" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="men-age-2">
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="men-age-2">
                       </div>
                       <label for="women-age-2" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-2">
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="women-age-2">
+                      </div>
+                      <label for="total-age-2" class="col-sm-2 control-label">Total</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="total-age-2" disabled="disabled" value="0">
                       </div>
                     </div>
 
@@ -820,23 +899,23 @@
                       <div class="col-sm-4">
                         <input type="text" class="form-control" id="other-conditions-2">
                       </div>
-                      <!-- label for="women-age-2" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-2">
-                      </div -->
                     </div>
-
                   </div>
+
                   <h3>Grado 3o</h3>
                   <div>
                     <div class="form-group row">
                       <label for="men-age-3" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="men-age-3">
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="men-age-3">
                       </div>
                       <label for="women-age-3" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-3">
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="women-age-3">
+                      </div>
+                      <label for="total-age-3" class="col-sm-2 control-label">Total</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="total-age-3" disabled="disabled" value="0">
                       </div>
                     </div>
 
@@ -889,221 +968,286 @@
                       <div class="col-sm-4">
                         <input type="text" class="form-control" id="other-conditions-3">
                       </div>
-                      <!-- label for="women-age-3" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-3">
-                      </div -->
                     </div>
-
                   </div>
+
                   <h3>Grado 4o</h3>
                   <div>
                     <div class="form-group row">
-                      <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="men-age-1">
+                      <label for="men-age-4" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="men-age-4">
                       </div>
-                      <label for="women-age-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
+                      <label for="women-age-4" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="women-age-4">
                       </div>
-                    </div>
-
-                    <div class="form-group row">
-                      <label for="language-speakers-1" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="language-speakers-1">
-                      </div>
-                      <label for="foreigner-1" class="col-sm-2 control-label">Nacidos fuera México</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="foreigner-1">
+                      <label for="total-age-4" class="col-sm-2 control-label">Total</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="total-age-4" disabled="disabled" value="0">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="disability-1" class="col-sm-2 control-label">Con discapacidad</label>
+                      <label for="language-speakers-4" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="disability-1">
+                        <input type="text" class="form-control" id="language-speakers-4">
                       </div>
-                      <label for="dsc-1" class="col-sm-2 control-label">DCS</label>
+                      <label for="foreigner-4" class="col-sm-2 control-label">Nacidos fuera México</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dsc-1">
-                      </div>
-                    </div>
-
-                    <div class="form-group row">
-                      <label for="dscom-1" class="col-sm-2 control-label">DSCom</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dscom-1">
-                      </div>
-                      <label for="dsa-1" class="col-sm-2 control-label">DSA</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dsa-1">
+                        <input type="text" class="form-control" id="foreigner-4">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="tdah-1" class="col-sm-2 control-label">TDAH</label>
+                      <label for="disability-4" class="col-sm-2 control-label">Con discapacidad</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="tdah-1">
+                        <input type="text" class="form-control" id="disability-4">
                       </div>
-                      <label for="extraordinary-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <label for="dsc-4" class="col-sm-2 control-label">DCS</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="extraordinary-1">
+                        <input type="text" class="form-control" id="dsc-4">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="other-conditions-1" class="col-sm-2 control-label">Otras condiciones</label>
+                      <label for="dscom-4" class="col-sm-2 control-label">DSCom</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="other-conditions-1">
+                        <input type="text" class="form-control" id="dscom-4">
                       </div>
-                      <!-- label for="women-age-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <label for="dsa-4" class="col-sm-2 control-label">DSA</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
-                      </div -->
+                        <input type="text" class="form-control" id="dsa-4">
+                      </div>
                     </div>
 
+                    <div class="form-group row">
+                      <label for="tdah-4" class="col-sm-2 control-label">TDAH</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tdah-4">
+                      </div>
+                      <label for="extraordinary-4" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="extraordinary-4">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="other-conditions-4" class="col-sm-2 control-label">Otras condiciones</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="other-conditions-4">
+                      </div>
+                    </div>
                   </div>
+
                   <h3>Grado 5o</h3>
                   <div>
                     <div class="form-group row">
-                      <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="men-age-1">
+                      <label for="men-age-5" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="men-age-5">
                       </div>
-                      <label for="women-age-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
+                      <label for="women-age-5" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="women-age-5">
                       </div>
-                    </div>
-
-                    <div class="form-group row">
-                      <label for="language-speakers-1" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="language-speakers-1">
-                      </div>
-                      <label for="foreigner-1" class="col-sm-2 control-label">Nacidos fuera México</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="foreigner-1">
+                      <label for="total-age-5" class="col-sm-2 control-label">Total</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="total-age-5" disabled="disabled" value="0">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="disability-1" class="col-sm-2 control-label">Con discapacidad</label>
+                      <label for="language-speakers-5" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="disability-1">
+                        <input type="text" class="form-control" id="language-speakers-5">
                       </div>
-                      <label for="dsc-1" class="col-sm-2 control-label">DCS</label>
+                      <label for="foreigner-5" class="col-sm-2 control-label">Nacidos fuera México</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dsc-1">
-                      </div>
-                    </div>
-
-                    <div class="form-group row">
-                      <label for="dscom-1" class="col-sm-2 control-label">DSCom</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dscom-1">
-                      </div>
-                      <label for="dsa-1" class="col-sm-2 control-label">DSA</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dsa-1">
+                        <input type="text" class="form-control" id="foreigner-5">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="tdah-1" class="col-sm-2 control-label">TDAH</label>
+                      <label for="disability-5" class="col-sm-2 control-label">Con discapacidad</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="tdah-1">
+                        <input type="text" class="form-control" id="disability-5">
                       </div>
-                      <label for="extraordinary-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <label for="dsc-5" class="col-sm-2 control-label">DCS</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="extraordinary-1">
+                        <input type="text" class="form-control" id="dsc-5">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="other-conditions-1" class="col-sm-2 control-label">Otras condiciones</label>
+                      <label for="dscom-5" class="col-sm-2 control-label">DSCom</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="other-conditions-1">
+                        <input type="text" class="form-control" id="dscom-5">
                       </div>
-                      <!-- label for="women-age-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <label for="dsa-5" class="col-sm-2 control-label">DSA</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
-                      </div -->
+                        <input type="text" class="form-control" id="dsa-5">
+                      </div>
                     </div>
 
+                    <div class="form-group row">
+                      <label for="tdah-5" class="col-sm-2 control-label">TDAH</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tdah-5">
+                      </div>
+                      <label for="extraordinary-5" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="extraordinary-5">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="other-conditions-5" class="col-sm-2 control-label">Otras condiciones</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="other-conditions-5">
+                      </div>
+                    </div>
                   </div>
+
                   <h3>Grado 6o</h3>
                   <div>
                     <div class="form-group row">
-                      <label for="men-age-1" class="col-sm-2 control-label">Hombres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="men-age-1">
+                      <label for="men-age-6" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="men-age-6">
                       </div>
-                      <label for="women-age-1" class="col-sm-2 control-label">Mujeres</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
+                      <label for="women-age-6" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-2">
+                        <input type="number" class="form-control" id="women-age-6">
                       </div>
-                    </div>
-
-                    <div class="form-group row">
-                      <label for="language-speakers-1" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="language-speakers-1">
-                      </div>
-                      <label for="foreigner-1" class="col-sm-2 control-label">Nacidos fuera México</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="foreigner-1">
+                      <label for="total-age-6" class="col-sm-2 control-label">Total</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="total-age-6" disabled="disabled" value="0">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="disability-1" class="col-sm-2 control-label">Con discapacidad</label>
+                      <label for="language-speakers-6" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="disability-1">
+                        <input type="text" class="form-control" id="language-speakers-6">
                       </div>
-                      <label for="dsc-1" class="col-sm-2 control-label">DCS</label>
+                      <label for="foreigner-6" class="col-sm-2 control-label">Nacidos fuera México</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dsc-1">
-                      </div>
-                    </div>
-
-                    <div class="form-group row">
-                      <label for="dscom-1" class="col-sm-2 control-label">DSCom</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dscom-1">
-                      </div>
-                      <label for="dsa-1" class="col-sm-2 control-label">DSA</label>
-                      <div class="col-sm-4">
-                        <input type="text" class="form-control" id="dsa-1">
+                        <input type="text" class="form-control" id="foreigner-6">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="tdah-1" class="col-sm-2 control-label">TDAH</label>
+                      <label for="disability-6" class="col-sm-2 control-label">Con discapacidad</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="tdah-1">
+                        <input type="text" class="form-control" id="disability-6">
                       </div>
-                      <label for="extraordinary-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <label for="dsc-6" class="col-sm-2 control-label">DCS</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="extraordinary-1">
+                        <input type="text" class="form-control" id="dsc-6">
                       </div>
                     </div>
 
                     <div class="form-group row">
-                      <label for="other-conditions-1" class="col-sm-2 control-label">Otras condiciones</label>
+                      <label for="dscom-6" class="col-sm-2 control-label">DSCom</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="other-conditions-1">
+                        <input type="text" class="form-control" id="dscom-6">
                       </div>
-                      <!-- label for="women-age-1" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <label for="dsa-6" class="col-sm-2 control-label">DSA</label>
                       <div class="col-sm-4">
-                        <input type="text" class="form-control" id="women-age-1">
-                      </div -->
+                        <input type="text" class="form-control" id="dsa-6">
+                      </div>
                     </div>
 
+                    <div class="form-group row">
+                      <label for="tdah-6" class="col-sm-2 control-label">TDAH</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tdah-6">
+                      </div>
+                      <label for="extraordinary-6" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="extraordinary-6">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="other-conditions-6" class="col-sm-2 control-label">Otras condiciones</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="other-conditions-6">
+                      </div>
+                    </div>
                   </div>
-                </div>
+
+                  <h3>TOTALES</h3>
+                  <div id="existencia-promovidos-2-totales">
+                    <div class="form-group row">
+                      <label for="men-age-total" class="col-sm-2 control-label">Hombres</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="men-age-total" disabled="disabled" value="0">
+                      </div>
+                      <label for="women-age-total" class="col-sm-2 control-label">Mujeres</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="women-age-total" disabled="disabled" value="0">
+                      </div>
+                      <label for="total-age-total" class="col-sm-2 control-label">Total</label>
+                      <div class="col-sm-2">
+                        <input type="text" class="form-control" id="total-age-total" disabled="disabled" value="0">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="language-speakers-total" class="col-sm-2 control-label">Hablantes lenguas indígenas</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="language-speakers-total" disabled="disabled" value="0">
+                      </div>
+                      <label for="foreigner-total" class="col-sm-2 control-label">Nacidos fuera México</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="foreigner-total" disabled="disabled" value="0">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="disability-total" class="col-sm-2 control-label">Con discapacidad</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="disability-total" disabled="disabled" value="0">
+                      </div>
+                      <label for="dsc-total" class="col-sm-2 control-label">DCS</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsc-total" disabled="disabled" value="0">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="dscom-total" class="col-sm-2 control-label">DSCom</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dscom-total" disabled="disabled" value="0">
+                      </div>
+                      <label for="dsa-total" class="col-sm-2 control-label">DSA</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="dsa-total" disabled="disabled" value="0">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="tdah-total" class="col-sm-2 control-label">TDAH</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="tdah-total" disabled="disabled" value="0">
+                      </div>
+                      <label for="extraordinary-total" class="col-sm-2 control-label">Aptitudes sobresalientes</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="extraordinary-total" disabled="disabled" value="0">
+                      </div>
+                    </div>
+
+                    <div class="form-group row">
+                      <label for="other-conditions-total" class="col-sm-2 control-label">Otras condiciones</label>
+                      <div class="col-sm-4">
+                        <input type="text" class="form-control" id="other-conditions-total" disabled="disabled" value="0">
+                      </div>
+                    </div>
+                  </div>
+
+                </div> 
               
               </div>
               
