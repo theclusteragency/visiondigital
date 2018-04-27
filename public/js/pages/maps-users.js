@@ -9,110 +9,25 @@ $(document).ready(function(){
           center: myLatLng
         });
 
-        showLoader("Cargando Escuelas...")
+        showLoader("Cargando usuarios...")
 
-        var locations = [];
-        var markers = [];
-
-
-        jQuery.getJSON("/js/cct15.json", function(json) {
-          //console.log(json);
-          var itemsProcessed = 0;
-
-          cct15 = json;
-          cct15.forEach(function(item,index){
-            //console.log(item.clavecct);
-
-            var dot = 'red-dot.png';
-
-            lt = parseFloat(item.latitud);
-            lg = parseFloat(item.longitud);
-
-            tmp = { lat:lt,  lng:lg };
-
-            locations.push(tmp);
-
-            var contentString = 
-              '<div id="content">'+
-                '<div>'+
-                  '<h2 id="firstHeading" class="firstHeading">Nombre:' + item.nombrecct + '</h2>'+
-                  '<h3 class="firstHeading">CCT: ' + item.clavecct + '</h3>'+
-                  '<div id="bodyContent">'+
-                      '<p><b>Domicilio:  </b>' + item.domicilio + '</p>'+
-                      '<p><b>Turno:  </b>' + item.nturno + '</p>'+
-                      '<p><b>Nivel:  </b>' + item.nnivel + '</p>'+
-                  '</div>'+
-                '</div>'+
-              '</div>';
-
-            var infowindow = new google.maps.InfoWindow({
-              content: contentString
-            });
-
-            var marker = new google.maps.Marker({
-              icon: 'http://maps.google.com/mapfiles/ms/icons/'+dot,
-              //icon: 'images/map-school-32x32.png',
-              position: tmp,
-              map: map,
-              title: item.nombrecct
-            });
-
-            marker.addListener('click', function() {
-              infowindow.open(map, marker);
-            });
-
-
-            markers.push(marker);
-
-            itemsProcessed++;
-            if(itemsProcessed === cct15.length) {
-              callback();
-            }
-            
-          });
-          
-        });
-
-        function callback () { 
-          // Add a marker clusterer to manage the markers.
-          var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-        }
-
-
-        //getUsers(handleUsers);
+        getUsers(handleUsers);
 
         function handleUsers(response){
 
-            console.log(response);
+            totalUsers = 0;
+            i = 0;
 
             response.forEach(function(item,index){
 
+                i++;
+
                 //Sólo muestra usuarios activos y con coordenadas conocidas
-                if( item.es_activo == 0 || item.latitud == null || item.longitud == null ){
-                    return;
+                if( item.es_activo == 0 || item.latitud == '' || item.longitud == '' ){
+                  return;
                 }
 
-                
-
-                var dot = 'red-dot.png';
-
-                /*switch ( item.id_estatus ) {
-                    //Programado
-                    case 2:
-                        dot = 'blue-dot.png';
-                        break;
-                    //Iniciado
-                    case 3:
-                        dot = 'green-dot.png';
-                        break;
-                    //Finalizado
-                    case 4:
-                        dot = 'red-dot.png';
-                        break;
-                    default:
-                        dot = 'yellow-dot.png';
-                }*/
+                totalUsers++;
 
                 lt = parseFloat(item.latitud);
                 lg = parseFloat(item.longitud);
@@ -140,27 +55,28 @@ $(document).ready(function(){
                     '</div>';
 
                 var infowindow = new google.maps.InfoWindow({
-                    content: contentString
+                  content: contentString
                 });
 
                 var marker = new google.maps.Marker({
                   //icon: 'http://maps.google.com/mapfiles/ms/icons/'+dot,
-                  icon: 'images/map-school-32x32.png',
+                  icon: 'images/map-person-32x32.png',
                   position: tmp,
                   map: map,
                   title: item.direccion
                 });
 
                 marker.addListener('click', function() {
-                    infowindow.open(map, marker);
+                  infowindow.open(map, marker);
                 });
 
+                if(i = response.length) {
+                  jQuery('#total-users').html(totalUsers.toLocaleString('en'));
+                }
+
             });
-
         }
-      
     }
-
 });
 
 // Regresa el listado de usuarios

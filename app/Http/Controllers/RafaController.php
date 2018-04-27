@@ -58,7 +58,17 @@ class RafaController extends Controller
      */
     public function user_map()
     {
-        return view('user-map');
+        return view('map-user');
+    }
+
+    /**
+     * Página del Mapa de Escuelas.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function school_map()
+    {
+        return view('map-school');
     }
 
     /**

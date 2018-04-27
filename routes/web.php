@@ -37,7 +37,8 @@ Route::group(['middleware' => 'is-admin'], function(){
 	Route::get('/calendario', 'RafaController@calendar')->name('calendar');
 	Route::get('/mapa-eventos', 'RafaController@map')->name('map');
 	Route::get('/mapa-usuarios', 'RafaController@user_map')->name('usermap');
-	Route::get('/evento', 'RafaController@event')->name('event');
+  Route::get('/mapa-escuelas', 'RafaController@school_map')->name('schoolmap');
+  Route::get('/evento', 'RafaController@event')->name('event');
 
 
 	Route::get('/usuarios', 'RafaController@users')->name('users');
