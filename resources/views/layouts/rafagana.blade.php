@@ -59,14 +59,14 @@
     <div class="wrapper">
         <header class="main-header">
             <!-- Logo -->
-            <a href="{{ route('map') }}" class="logo">
+            <a href="{{ route('map') }}" class="logo" style="background-color:#b5261e">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
                 <span class="logo-mini">Visión Digital</span>
                 <!-- logo for regular state and mobile devices -->
                 <span class="logo-lg"><b>Visión Digital</b></span>
             </a>
             <!-- Header Navbar: style can be found in header.less -->
-            <nav class="navbar navbar-static-top">
+            <nav class="navbar navbar-static-top" style="background-color:#b5261e">
                 <!-- Sidebar toggle button-->
                 <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
                     <span class="sr-only">Toggle navigation</span>
@@ -129,7 +129,7 @@
                 <!-- Sidebar user panel -->
                 <div class="user-panel">
                     <div class="image">
-                      <img src="{{ Auth::user()->URLAVATAR }}" class="rounded-circle" alt="User Image">
+                      <img src="/images/provitec/logo_morena.png" class="rounded-circle" alt="User Image">
                     </div>
                     <div class="info">
                       <p>{{ Auth::user()->NOMBRE }}</p>
